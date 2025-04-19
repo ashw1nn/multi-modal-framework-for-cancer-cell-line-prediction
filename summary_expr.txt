@@ -1,0 +1,2618 @@
+ X22RV1_PROSTATE  X2313287_STOMACH X253JBV_URINARY_TRACT X253J_URINARY_TRACT
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000        Min.   : 0.0000    
+ 1st Qu.: 1.257   1st Qu.: 0.774   1st Qu.: 1.084        1st Qu.: 0.8953    
+ Median : 3.383   Median : 3.257   Median : 3.118        Median : 2.8560    
+ Mean   : 3.327   Mean   : 3.190   Mean   : 3.164        Mean   : 2.9632    
+ 3rd Qu.: 5.031   3rd Qu.: 5.009   3rd Qu.: 4.792        3rd Qu.: 4.5254    
+ Max.   :15.590   Max.   :15.464   Max.   :15.231        Max.   :16.1468    
+ X42MGBA_CENTRAL_NERVOUS_SYSTEM X5637_URINARY_TRACT   X59M_OVARY     
+ Min.   : 0.0000                Min.   : 0.0000     Min.   : 0.0000  
+ 1st Qu.: 0.9782                1st Qu.: 0.9782     1st Qu.: 0.9709  
+ Median : 3.1309                Median : 3.0824     Median : 2.8359  
+ Mean   : 3.2003                Mean   : 3.1871     Mean   : 3.0203  
+ 3rd Qu.: 4.9343                3rd Qu.: 4.8980     3rd Qu.: 4.5862  
+ Max.   :15.3827                Max.   :14.6619     Max.   :15.3494  
+ X639V_URINARY_TRACT X647V_URINARY_TRACT
+ Min.   : 0.000      Min.   : 0.0000    
+ 1st Qu.: 1.151      1st Qu.: 0.8797    
+ Median : 3.254      Median : 2.9449    
+ Mean   : 3.285      Mean   : 3.0812    
+ 3rd Qu.: 4.979      3rd Qu.: 4.7331    
+ Max.   :14.932      Max.   :15.1891    
+ X697_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  X769P_KIDNEY      X786O_KIDNEY    
+ Min.   : 0.0000                         Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 0.5656                         1st Qu.: 0.7655   1st Qu.: 0.7655  
+ Median : 2.8758                         Median : 2.8875   Median : 3.0790  
+ Mean   : 2.9512                         Mean   : 3.0342   Mean   : 3.1598  
+ 3rd Qu.: 4.6450                         3rd Qu.: 4.7557   3rd Qu.: 4.9662  
+ Max.   :15.5829                         Max.   :15.7512   Max.   :15.2197  
+ X8305C_THYROID   X8505C_THYROID   X8MGBA_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000               
+ 1st Qu.: 1.134   1st Qu.: 1.029   1st Qu.: 1.526               
+ Median : 3.220   Median : 3.154   Median : 3.425               
+ Mean   : 3.260   Mean   : 3.242   Mean   : 3.444               
+ 3rd Qu.: 4.941   3rd Qu.: 4.986   3rd Qu.: 5.016               
+ Max.   :14.872   Max.   :14.465   Max.   :15.740               
+   A101D_SKIN     A1207_CENTRAL_NERVOUS_SYSTEM A172_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000   Min.   : 0.000               Min.   : 0.000             
+ 1st Qu.: 1.183   1st Qu.: 1.050               1st Qu.: 1.220             
+ Median : 3.230   Median : 3.154               Median : 3.398             
+ Mean   : 3.278   Mean   : 3.216               Mean   : 3.367             
+ 3rd Qu.: 4.934   3rd Qu.: 4.918               3rd Qu.: 5.082             
+ Max.   :15.723   Max.   :15.795               Max.   :15.791             
+ A204_SOFT_TISSUE    A2058_SKIN     A253_SALIVARY_GLAND  A2780_OVARY     
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000      Min.   : 0.0000  
+ 1st Qu.: 0.9855   1st Qu.: 1.189   1st Qu.: 1.233      1st Qu.: 0.8718  
+ Median : 3.1027   Median : 3.305   Median : 3.138      Median : 3.0824  
+ Mean   : 3.1670   Mean   : 3.305   Mean   : 3.202      Mean   : 3.1237  
+ 3rd Qu.: 4.8437   3rd Qu.: 5.031   3rd Qu.: 4.764      3rd Qu.: 4.8465  
+ Max.   :15.4869   Max.   :15.847   Max.   :15.745      Max.   :16.1177  
+   A375_SKIN      A3KAW_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE   A427_LUNG      
+ Min.   : 0.000   Min.   : 0.0000                          Min.   : 0.0000  
+ 1st Qu.: 1.214   1st Qu.: 0.8074                          1st Qu.: 0.9928  
+ Median : 3.191   Median : 3.0144                          Median : 2.9873  
+ Mean   : 3.246   Mean   : 3.0475                          Mean   : 3.0860  
+ 3rd Qu.: 4.849   3rd Qu.: 4.7134                          3rd Qu.: 4.7474  
+ Max.   :16.059   Max.   :14.7257                          Max.   :16.2963  
+  A498_KIDNEY      A4FUK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE   A549_LUNG      
+ Min.   : 0.0000   Min.   : 0.000                           Min.   : 0.0000  
+ 1st Qu.: 0.9782   1st Qu.: 0.926                           1st Qu.: 0.8718  
+ Median : 2.8797   Median : 3.016                           Median : 2.8600  
+ Mean   : 3.0178   Mean   : 3.128                           Mean   : 3.0154  
+ 3rd Qu.: 4.5832   3rd Qu.: 4.831                           3rd Qu.: 4.6545  
+ Max.   :16.1861   Max.   :15.008                           Max.   :15.5477  
+   A673_BONE       A704_KIDNEY        ABC1_LUNG       ACCMESO1_PLEURA 
+ Min.   : 0.000   Min.   : 0.0000   Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 1.293   1st Qu.: 0.9635   1st Qu.: 0.8074   1st Qu.: 0.840  
+ Median : 3.381   Median : 2.6064   Median : 3.0409   Median : 2.799  
+ Mean   : 3.365   Mean   : 2.8138   Mean   : 3.1159   Mean   : 2.975  
+ 3rd Qu.: 5.069   3rd Qu.: 4.1953   3rd Qu.: 4.8600   3rd Qu.: 4.523  
+ Max.   :15.519   Max.   :14.3240   Max.   :15.5286   Max.   :14.069  
+  ACHN_KIDNEY      AGS_STOMACH      ALLSIL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000   Min.   : 0.0000   Min.   : 0.0000                          
+ 1st Qu.: 1.077   1st Qu.: 0.7613   1st Qu.: 0.3448                          
+ Median : 3.203   Median : 3.3132   Median : 3.0108                          
+ Mean   : 3.222   Mean   : 3.2452   Mean   : 3.0568                          
+ 3rd Qu.: 4.918   3rd Qu.: 5.1167   3rd Qu.: 4.9787                          
+ Max.   :16.303   Max.   :15.2040   Max.   :15.6386                          
+ AM38_CENTRAL_NERVOUS_SYSTEM AML193_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000              Min.   : 0.0000                          
+ 1st Qu.: 1.118              1st Qu.: 0.7398                          
+ Median : 3.225              Median : 3.0548                          
+ Mean   : 3.275              Mean   : 3.1567                          
+ 3rd Qu.: 4.972              3rd Qu.: 4.9844                          
+ Max.   :14.949              Max.   :14.7647                          
+ AMO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE AN3CA_ENDOMETRIUM ASPC1_PANCREAS   
+ Min.   : 0.0000                         Min.   : 0.000    Min.   : 0.0000  
+ 1st Qu.: 0.6135                         1st Qu.: 1.036    1st Qu.: 0.9486  
+ Median : 2.6508                         Median : 3.374    Median : 3.1160  
+ Mean   : 2.8500                         Mean   : 3.264    Mean   : 3.1160  
+ 3rd Qu.: 4.4883                         3rd Qu.: 4.982    3rd Qu.: 4.7921  
+ Max.   :15.0258                         Max.   :15.639    Max.   :15.9901  
+  AU565_BREAST     BC3C_URINARY_TRACT BCP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000   Min.   : 0.000     Min.   : 0.0000                        
+ 1st Qu.: 0.8319   1st Qu.: 1.098     1st Qu.: 0.4957                        
+ Median : 3.0755   Median : 3.168     Median : 2.9635                        
+ Mean   : 3.1394   Mean   : 3.228     Mean   : 2.9953                        
+ 3rd Qu.: 4.9016   3rd Qu.: 4.885     3rd Qu.: 4.7690                        
+ Max.   :15.4197   Max.   :15.495     Max.   :16.0309                        
+ BCPAP_THYROID    BDCM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE    BEN_LUNG     
+ Min.   : 0.000   Min.   : 0.0000                         Min.   : 0.000  
+ 1st Qu.: 1.480   1st Qu.: 0.5945                         1st Qu.: 1.316  
+ Median : 3.268   Median : 2.7761                         Median : 3.089  
+ Mean   : 3.327   Mean   : 2.8842                         Mean   : 3.157  
+ 3rd Qu.: 4.865   3rd Qu.: 4.5735                         3rd Qu.: 4.665  
+ Max.   :14.575   Max.   :16.2790                         Max.   :16.799  
+ BFTC905_URINARY_TRACT BFTC909_KIDNEY   BHT101_THYROID  
+ Min.   : 0.000        Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.310        1st Qu.: 1.151   1st Qu.: 1.316  
+ Median : 3.263        Median : 3.222   Median : 3.256  
+ Mean   : 3.270        Mean   : 3.234   Mean   : 3.264  
+ 3rd Qu.: 4.837        3rd Qu.: 4.880   3rd Qu.: 4.848  
+ Max.   :15.413        Max.   :15.159   Max.   :15.562  
+ BHY_UPPER_AERODIGESTIVE_TRACT BICR16_UPPER_AERODIGESTIVE_TRACT
+ Min.   : 0.000                Min.   : 0.000                  
+ 1st Qu.: 1.628                1st Qu.: 1.014                  
+ Median : 3.484                Median : 2.683                  
+ Mean   : 3.434                Mean   : 2.863                  
+ 3rd Qu.: 5.015                3rd Qu.: 4.259                  
+ Max.   :16.167                Max.   :16.688                  
+ BICR18_UPPER_AERODIGESTIVE_TRACT BICR22_UPPER_AERODIGESTIVE_TRACT
+ Min.   : 0.000                   Min.   : 0.0000                 
+ 1st Qu.: 1.356                   1st Qu.: 0.6229                 
+ Median : 3.141                   Median : 2.2957                 
+ Mean   : 3.221                   Mean   : 2.5188                 
+ 3rd Qu.: 4.719                   3rd Qu.: 3.8914                 
+ Max.   :16.175                   Max.   :16.9492                 
+ BICR31_UPPER_AERODIGESTIVE_TRACT BICR56_UPPER_AERODIGESTIVE_TRACT
+ Min.   : 0.000                   Min.   : 0.0000                 
+ 1st Qu.: 1.454                   1st Qu.: 0.6508                 
+ Median : 3.251                   Median : 2.2839                 
+ Mean   : 3.320                   Mean   : 2.5067                 
+ 3rd Qu.: 4.848                   3rd Qu.: 3.8679                 
+ Max.   :16.046                   Max.   :17.0866                 
+ BICR6_UPPER_AERODIGESTIVE_TRACT BL41_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                  Min.   : 0.0000                        
+ 1st Qu.: 0.696                  1st Qu.: 0.3785                        
+ Median : 2.074                  Median : 2.7093                        
+ Mean   : 2.356                  Mean   : 2.9107                        
+ 3rd Qu.: 3.583                  3rd Qu.: 4.7189                        
+ Max.   :17.197                  Max.   :15.9295                        
+ BL70_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE BT12_SOFT_TISSUE   BT20_BREAST    
+ Min.   : 0.000                          Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 0.275                          1st Qu.: 0.4957   1st Qu.: 1.227  
+ Median : 2.592                          Median : 2.5311   Median : 3.329  
+ Mean   : 2.797                          Mean   : 2.7569   Mean   : 3.330  
+ 3rd Qu.: 4.570                          3rd Qu.: 4.3992   3rd Qu.: 5.047  
+ Max.   :15.513                          Max.   :17.1234   Max.   :15.712  
+  BT474_BREAST      BT483_BREAST     BT549_BREAST    
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 0.8953   1st Qu.: 1.356   1st Qu.: 0.9561  
+ Median : 3.0126   Median : 3.369   Median : 3.1424  
+ Mean   : 3.0736   Mean   : 3.338   Mean   : 3.2087  
+ 3rd Qu.: 4.7522   3rd Qu.: 4.974   3rd Qu.: 4.9444  
+ Max.   :16.1902   Max.   :16.319   Max.   :15.3619  
+ BV173_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE BXPC3_PANCREAS   
+ Min.   : 0.000                           Min.   : 0.0000  
+ 1st Qu.: 0.263                           1st Qu.: 0.9635  
+ Median : 2.660                           Median : 3.0514  
+ Mean   : 2.830                           Mean   : 3.1365  
+ 3rd Qu.: 4.695                           3rd Qu.: 4.7613  
+ Max.   :14.101                           Max.   :15.6145  
+ C2BBE1_LARGE_INTESTINE    C32_SKIN     
+ Min.   : 0.0000        Min.   : 0.000  
+ 1st Qu.: 0.9782        1st Qu.: 1.118  
+ Median : 3.2540        Median : 3.374  
+ Mean   : 3.2478        Mean   : 3.343  
+ 3rd Qu.: 5.0266        3rd Qu.: 5.087  
+ Max.   :15.5603        Max.   :14.890  
+ C8166_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         
+ 1st Qu.: 0.4751                         
+ Median : 2.8580                         
+ Mean   : 2.9368                         
+ 3rd Qu.: 4.7246                         
+ Max.   :15.3800                         
+ CA46_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE CACO2_LARGE_INTESTINE  CADOES1_BONE   
+ Min.   : 0.000                          Min.   : 0.000        Min.   : 0.000  
+ 1st Qu.: 0.774                          1st Qu.: 1.050        1st Qu.: 1.263  
+ Median : 3.391                          Median : 2.978        Median : 3.303  
+ Mean   : 3.239                          Mean   : 3.098        Mean   : 3.265  
+ 3rd Qu.: 5.062                          3rd Qu.: 4.700        3rd Qu.: 4.877  
+ Max.   :15.355                          Max.   :16.669        Max.   :14.029  
+  CAKI1_KIDNEY      CAKI2_KIDNEY    CAL120_BREAST     CAL12T_LUNG    
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.9107   1st Qu.: 1.441   1st Qu.: 1.118   1st Qu.: 1.077  
+ Median : 2.7225   Median : 3.310   Median : 3.147   Median : 3.141  
+ Mean   : 2.9761   Mean   : 3.334   Mean   : 3.196   Mean   : 3.209  
+ 3rd Qu.: 4.5261   3rd Qu.: 4.915   3rd Qu.: 4.803   3rd Qu.: 4.887  
+ Max.   :14.4023   Max.   :16.035   Max.   :14.669   Max.   :15.358  
+ CAL148_BREAST     CAL27_UPPER_AERODIGESTIVE_TRACT CAL29_URINARY_TRACT
+ Min.   : 0.0000   Min.   : 0.000                  Min.   : 0.000     
+ 1st Qu.: 0.8875   1st Qu.: 1.007                  1st Qu.: 1.170     
+ Median : 3.1391   Median : 2.978                  Median : 3.108     
+ Mean   : 3.1538   Mean   : 3.057                  Mean   : 3.186     
+ 3rd Qu.: 4.8792   3rd Qu.: 4.621                  3rd Qu.: 4.768     
+ Max.   :15.5000   Max.   :16.506                  Max.   :16.369     
+ CAL33_UPPER_AERODIGESTIVE_TRACT  CAL51_BREAST     CAL54_KIDNEY   
+ Min.   : 0.000                  Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.260                  1st Qu.: 1.496   1st Qu.: 1.428  
+ Median : 3.307                  Median : 3.632   Median : 3.239  
+ Mean   : 3.295                  Mean   : 3.491   Mean   : 3.244  
+ 3rd Qu.: 4.965                  3rd Qu.: 5.168   3rd Qu.: 4.782  
+ Max.   :16.141                  Max.   :15.998   Max.   :16.496  
+ CAL62_THYROID       CAL78_BONE     CAL851_BREAST       CALU1_LUNG    
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 0.9964   1st Qu.: 1.506   1st Qu.: 0.8797   1st Qu.: 1.098  
+ Median : 3.1177   Median : 3.601   Median : 2.6041   Median : 3.352  
+ Mean   : 3.1508   Mean   : 3.547   Mean   : 2.8027   Mean   : 3.339  
+ 3rd Qu.: 4.8359   3rd Qu.: 5.256   3rd Qu.: 4.2532   3rd Qu.: 5.116  
+ Max.   :15.9048   Max.   :14.300   Max.   :16.9273   Max.   :14.298  
+   CALU3_LUNG       CALU6_LUNG      CAMA1_BREAST     CAOV3_OVARY    
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.014   1st Qu.: 1.114   1st Qu.: 1.070   1st Qu.: 1.411  
+ Median : 2.722   Median : 3.018   Median : 3.328   Median : 3.239  
+ Mean   : 2.871   Mean   : 3.092   Mean   : 3.263   Mean   : 3.324  
+ 3rd Qu.: 4.303   3rd Qu.: 4.664   3rd Qu.: 5.010   3rd Qu.: 4.869  
+ Max.   :16.872   Max.   :16.064   Max.   :16.198   Max.   :15.565  
+  CAOV4_OVARY     CAPAN1_PANCREAS  CAPAN2_PANCREAS  CAS1_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000             
+ 1st Qu.: 1.496   1st Qu.: 1.590   1st Qu.: 1.350   1st Qu.: 1.151             
+ Median : 3.183   Median : 3.307   Median : 3.306   Median : 3.041             
+ Mean   : 3.230   Mean   : 3.353   Mean   : 3.332   Mean   : 3.071             
+ 3rd Qu.: 4.680   3rd Qu.: 4.881   3rd Qu.: 4.945   3rd Qu.: 4.620             
+ Max.   :16.700   Max.   :15.680   Max.   :15.633   Max.   :17.143             
+ CCFSTTG1_CENTRAL_NERVOUS_SYSTEM CCK81_LARGE_INTESTINE CFPAC1_PANCREAS 
+ Min.   : 0.0000                 Min.   : 0.0000       Min.   : 0.000  
+ 1st Qu.: 0.9855                 1st Qu.: 0.9411       1st Qu.: 1.345  
+ Median : 3.3060                 Median : 3.0303       Median : 3.133  
+ Mean   : 3.3032                 Mean   : 3.0949       Mean   : 3.178  
+ 3rd Qu.: 5.1008                 3rd Qu.: 4.7840       3rd Qu.: 4.667  
+ Max.   :14.8407                 Max.   :16.4865       Max.   :16.425  
+ CH157MN_CENTRAL_NERVOUS_SYSTEM  CHAGOK1_LUNG    CHP126_AUTONOMIC_GANGLIA
+ Min.   : 0.0000                Min.   : 0.000   Min.   : 0.000          
+ 1st Qu.: 0.9411                1st Qu.: 1.287   1st Qu.: 1.183          
+ Median : 3.0426                Median : 3.076   Median : 3.363          
+ Mean   : 3.1371                Mean   : 3.124   Mean   : 3.265          
+ 3rd Qu.: 4.8334                3rd Qu.: 4.649   3rd Qu.: 4.871          
+ Max.   :15.9715                Max.   :16.581   Max.   :15.040          
+ CHP212_AUTONOMIC_GANGLIA CI1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000           Min.   : 0.0000                       
+ 1st Qu.: 1.183           1st Qu.: 0.3561                       
+ Median : 3.436           Median : 2.8400                       
+ Mean   : 3.343           Mean   : 2.9722                       
+ 3rd Qu.: 5.044           3rd Qu.: 4.8306                       
+ Max.   :15.231           Max.   :15.5784                       
+    CJM_SKIN      CL11_LARGE_INTESTINE CL14_LARGE_INTESTINE
+ Min.   : 0.000   Min.   : 0.000       Min.   : 0.000      
+ 1st Qu.: 1.170   1st Qu.: 1.287       1st Qu.: 1.242      
+ Median : 3.342   Median : 3.312       Median : 3.141      
+ Mean   : 3.330   Mean   : 3.317       Mean   : 3.222      
+ 3rd Qu.: 5.054   3rd Qu.: 4.955       3rd Qu.: 4.828      
+ Max.   :15.362   Max.   :15.546       Max.   :15.797      
+ CL34_LARGE_INTESTINE CL40_LARGE_INTESTINE
+ Min.   : 0.000       Min.   : 0.0000     
+ 1st Qu.: 1.242       1st Qu.: 0.7398     
+ Median : 3.262       Median : 2.8032     
+ Mean   : 3.230       Mean   : 2.9272     
+ 3rd Qu.: 4.824       3rd Qu.: 4.5289     
+ Max.   :15.784       Max.   :16.1995     
+ CMK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                        
+ 1st Qu.: 0.926                        
+ Median : 3.242                        
+ Mean   : 3.212                        
+ 3rd Qu.: 4.963                        
+ Max.   :14.904                        
+ CMLT1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE COLO201_LARGE_INTESTINE
+ Min.   : 0.000                           Min.   : 0.000         
+ 1st Qu.: 1.230                           1st Qu.: 1.208         
+ Median : 3.448                           Median : 3.410         
+ Mean   : 3.351                           Mean   : 3.356         
+ 3rd Qu.: 5.068                           3rd Qu.: 5.086         
+ Max.   :14.210                           Max.   :15.589         
+ COLO320_LARGE_INTESTINE  COLO668_LUNG    COLO678_LARGE_INTESTINE
+ Min.   : 0.000          Min.   : 0.000   Min.   : 0.000         
+ 1st Qu.: 1.043          1st Qu.: 1.406   1st Qu.: 1.299         
+ Median : 3.240          Median : 3.470   Median : 3.457         
+ Mean   : 3.197          Mean   : 3.383   Mean   : 3.359         
+ 3rd Qu.: 4.855          3rd Qu.: 5.023   3rd Qu.: 5.037         
+ Max.   :15.477          Max.   :15.765   Max.   :15.528         
+  COLO679_SKIN    COLO680N_OESOPHAGUS COLO684_ENDOMETRIUM  COLO741_SKIN    
+ Min.   : 0.000   Min.   : 0.000      Min.   : 0.000      Min.   : 0.0000  
+ 1st Qu.: 1.057   1st Qu.: 1.731      1st Qu.: 1.438      1st Qu.: 0.9336  
+ Median : 3.149   Median : 3.513      Median : 3.436      Median : 2.9982  
+ Mean   : 3.200   Mean   : 3.494      Mean   : 3.369      Mean   : 3.0931  
+ 3rd Qu.: 4.868   3rd Qu.: 5.025      3rd Qu.: 4.960      3rd Qu.: 4.7663  
+ Max.   :16.148   Max.   :15.572      Max.   :15.681      Max.   :16.6125  
+  COLO783_SKIN     COLO792_SKIN      COLO800_SKIN     COLO829_SKIN   
+ Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.257   1st Qu.: 0.7137   1st Qu.: 1.050   1st Qu.: 1.104  
+ Median : 3.494   Median : 2.8400   Median : 3.149   Median : 3.211  
+ Mean   : 3.411   Mean   : 3.0144   Mean   : 3.216   Mean   : 3.234  
+ 3rd Qu.: 5.127   3rd Qu.: 4.7538   3rd Qu.: 4.891   3rd Qu.: 4.887  
+ Max.   :16.037   Max.   :16.2300   Max.   :15.621   Max.   :15.943  
+  CORL105_LUNG     CORL23_LUNG       CORL24_LUNG      CORL279_LUNG   
+ Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.251   1st Qu.: 0.9486   1st Qu.: 1.803   1st Qu.: 1.694  
+ Median : 3.131   Median : 3.0233   Median : 3.823   Median : 3.670  
+ Mean   : 3.176   Mean   : 3.1019   Mean   : 3.632   Mean   : 3.558  
+ 3rd Qu.: 4.704   3rd Qu.: 4.7600   3rd Qu.: 5.244   3rd Qu.: 5.175  
+ Max.   :16.133   Max.   :15.8243   Max.   :14.520   Max.   :15.420  
+  CORL311_LUNG     CORL47_LUNG      CORL88_LUNG      CORL95_LUNG    
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.111   1st Qu.: 1.384   1st Qu.: 1.480   1st Qu.: 1.628  
+ Median : 3.387   Median : 3.474   Median : 3.572   Median : 3.654  
+ Mean   : 3.287   Mean   : 3.429   Mean   : 3.493   Mean   : 3.552  
+ 3rd Qu.: 4.995   3rd Qu.: 5.124   3rd Qu.: 5.198   3rd Qu.: 5.189  
+ Max.   :15.670   Max.   :15.105   Max.   :15.380   Max.   :15.514  
+  COV318_OVARY     COV362_OVARY     COV434_OVARY      COV644_OVARY   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 1.021   1st Qu.: 1.233   1st Qu.: 0.7398   1st Qu.: 1.114  
+ Median : 2.683   Median : 3.014   Median : 2.9279   Median : 3.192  
+ Mean   : 2.829   Mean   : 3.151   Mean   : 2.9819   Mean   : 3.193  
+ 3rd Qu.: 4.222   3rd Qu.: 4.666   3rd Qu.: 4.6496   3rd Qu.: 4.817  
+ Max.   :16.797   Max.   :15.294   Max.   :15.8053   Max.   :16.112  
+ CW2_LARGE_INTESTINE D283MED_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000      Min.   : 0.000                
+ 1st Qu.: 1.070      1st Qu.: 1.138                
+ Median : 3.208      Median : 3.136                
+ Mean   : 3.233      Mean   : 3.165                
+ 3rd Qu.: 4.893      3rd Qu.: 4.758                
+ Max.   :14.902      Max.   :14.566                
+ D341MED_CENTRAL_NERVOUS_SYSTEM DANG_PANCREAS    DAOY_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.0000                Min.   : 0.000   Min.   : 0.000             
+ 1st Qu.: 0.8156                1st Qu.: 1.118   1st Qu.: 1.417             
+ Median : 2.9946                Median : 3.138   Median : 3.360             
+ Mean   : 2.9905                Mean   : 3.203   Mean   : 3.392             
+ 3rd Qu.: 4.5841                3rd Qu.: 4.870   3rd Qu.: 5.010             
+ Max.   :15.1817                Max.   :16.792   Max.   :15.212             
+ DAUDI_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE DBTRG05MG_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.0000                          Min.   : 0.000                  
+ 1st Qu.: 0.4751                          1st Qu.: 1.163                  
+ Median : 2.9745                          Median : 3.176                  
+ Mean   : 2.9843                          Mean   : 3.224                  
+ 3rd Qu.: 4.7616                          3rd Qu.: 4.814                  
+ Max.   :15.3383                          Max.   :15.808                  
+ DB_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE DEL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                       Min.   : 0.0000                       
+ 1st Qu.: 0.2869                       1st Qu.: 0.8237                       
+ Median : 2.9241                       Median : 3.2234                       
+ Mean   : 2.9806                       Mean   : 3.1484                       
+ 3rd Qu.: 4.9752                       3rd Qu.: 4.8552                       
+ Max.   :15.2417                       Max.   :15.1135                       
+ DETROIT562_UPPER_AERODIGESTIVE_TRACT DKMG_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000                       Min.   : 0.000             
+ 1st Qu.: 0.856                       1st Qu.: 1.263             
+ Median : 2.753                       Median : 3.429             
+ Mean   : 2.937                       Mean   : 3.382             
+ 3rd Qu.: 4.516                       3rd Qu.: 5.071             
+ Max.   :16.057                       Max.   :15.223             
+ DM3_FIBROBLAST     DMS114_LUNG      DMS153_LUNG      DMS273_LUNG    
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.7824   1st Qu.: 1.428   1st Qu.: 1.705   1st Qu.: 1.021  
+ Median : 2.9709   Median : 3.590   Median : 3.816   Median : 3.011  
+ Mean   : 3.0773   Mean   : 3.499   Mean   : 3.663   Mean   : 3.061  
+ 3rd Qu.: 4.7538   3rd Qu.: 5.220   3rd Qu.: 5.357   3rd Qu.: 4.597  
+ Max.   :15.1299   Max.   :14.784   Max.   :14.942   Max.   :15.307  
+  DMS454_LUNG       DMS53_LUNG       DMS79_LUNG    
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.331   1st Qu.: 1.561   1st Qu.: 1.731  
+ Median : 3.409   Median : 3.603   Median : 3.878  
+ Mean   : 3.364   Mean   : 3.532   Mean   : 3.689  
+ 3rd Qu.: 5.037   3rd Qu.: 5.207   3rd Qu.: 5.377  
+ Max.   :16.058   Max.   :15.243   Max.   :15.186  
+ DND41_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                          
+ 1st Qu.: 0.546                          
+ Median : 3.202                          
+ Mean   : 3.164                          
+ 3rd Qu.: 5.031                          
+ Max.   :14.428                          
+ DOHH2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE DU145_PROSTATE   DU4475_BREAST   
+ Min.   : 0.000                           Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.546                           1st Qu.: 1.356   1st Qu.: 1.036  
+ Median : 2.757                           Median : 3.228   Median : 3.206  
+ Mean   : 2.871                           Mean   : 3.329   Mean   : 3.196  
+ 3rd Qu.: 4.556                           3rd Qu.: 4.927   3rd Qu.: 4.883  
+ Max.   :15.535                           Max.   :15.111   Max.   :16.147  
+   DV90_LUNG      EB1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE   EBC1_LUNG     
+ Min.   : 0.000   Min.   : 0.0000                        Min.   : 0.000  
+ 1st Qu.: 1.070   1st Qu.: 0.5945                        1st Qu.: 1.087  
+ Median : 3.279   Median : 3.2327                        Median : 3.281  
+ Mean   : 3.234   Mean   : 3.1439                        Mean   : 3.323  
+ 3rd Qu.: 4.902   3rd Qu.: 5.0356                        3rd Qu.: 5.087  
+ Max.   :16.154   Max.   :14.6846                        Max.   :14.160  
+ ECC10_STOMACH    ECC12_STOMACH    ECGI10_OESOPHAGUS EFE184_ENDOMETRIUM
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000    Min.   : 0.0000   
+ 1st Qu.: 1.561   1st Qu.: 1.257   1st Qu.: 1.465    1st Qu.: 0.9782   
+ Median : 3.527   Median : 3.445   Median : 3.173    Median : 2.6531   
+ Mean   : 3.409   Mean   : 3.364   Mean   : 3.230    Mean   : 2.8311   
+ 3rd Qu.: 5.000   3rd Qu.: 5.067   3rd Qu.: 4.694    3rd Qu.: 4.2388   
+ Max.   :15.837   Max.   :15.594   Max.   :15.215    Max.   :16.2070   
+ EFM192A_BREAST    EFM19_BREAST      EFO21_OVARY      EFO27_OVARY    
+ Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.077   1st Qu.: 0.9561   1st Qu.: 1.478   1st Qu.: 1.367  
+ Median : 2.975   Median : 3.0374   Median : 3.479   Median : 3.268  
+ Mean   : 3.085   Mean   : 3.0697   Mean   : 3.482   Mean   : 3.232  
+ 3rd Qu.: 4.666   3rd Qu.: 4.6834   3rd Qu.: 5.158   3rd Qu.: 4.760  
+ Max.   :16.226   Max.   :16.2667   Max.   :14.741   Max.   :16.254  
+ EHEB_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE EJM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         Min.   : 0.0000                       
+ 1st Qu.: 0.9222                         1st Qu.: 0.7398                       
+ Median : 2.9855                         Median : 2.8679                       
+ Mean   : 3.0622                         Mean   : 2.9877                       
+ 3rd Qu.: 4.7211                         3rd Qu.: 4.7123                       
+ Max.   :15.3659                         Max.   :16.8095                       
+   EKVX_LUNG      EM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE EN_ENDOMETRIUM  
+ Min.   : 0.000   Min.   : 0.0000                        Min.   : 0.000  
+ 1st Qu.: 1.257   1st Qu.: 0.5753                        1st Qu.: 1.475  
+ Median : 3.234   Median : 2.9635                        Median : 3.417  
+ Mean   : 3.265   Mean   : 3.0300                        Mean   : 3.388  
+ 3rd Qu.: 4.874   3rd Qu.: 4.8181                        3rd Qu.: 4.995  
+ Max.   :16.591   Max.   :15.7433                        Max.   :15.283  
+ EOL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE EPLC272H_LUNG      ES2_OVARY     
+ Min.   : 0.000                          Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.585                          1st Qu.: 1.144   1st Qu.: 0.774  
+ Median : 2.960                          Median : 3.077   Median : 2.824  
+ Mean   : 2.985                          Mean   : 3.159   Mean   : 2.965  
+ 3rd Qu.: 4.713                          3rd Qu.: 4.760   3rd Qu.: 4.586  
+ Max.   :15.047                          Max.   :16.021   Max.   :15.773  
+ ESS1_ENDOMETRIUM    EW8_BONE       EWS502_BONE    
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.208   1st Qu.: 1.064   1st Qu.: 1.057  
+ Median : 3.338   Median : 2.950   Median : 3.208  
+ Mean   : 3.322   Mean   : 3.056   Mean   : 3.237  
+ 3rd Qu.: 5.040   3rd Qu.: 4.614   3rd Qu.: 4.946  
+ Max.   :15.751   Max.   :16.769   Max.   :15.704  
+ F36P_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE FADU_UPPER_AERODIGESTIVE_TRACT
+ Min.   : 0.0000                         Min.   : 0.000                
+ 1st Qu.: 0.6415                         1st Qu.: 1.118                
+ Median : 2.8359                         Median : 3.139                
+ Mean   : 2.9639                         Mean   : 3.209                
+ 3rd Qu.: 4.6467                         3rd Qu.: 4.878                
+ Max.   :14.6719                         Max.   :16.132                
+ FTC133_THYROID   FTC238_THYROID    FU97_STOMACH      FUOV1_OVARY    
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 1.111   1st Qu.: 1.257   1st Qu.: 0.7991   1st Qu.: 1.064  
+ Median : 3.186   Median : 3.315   Median : 3.0909   Median : 3.032  
+ Mean   : 3.268   Mean   : 3.342   Mean   : 3.1326   Mean   : 3.120  
+ 3rd Qu.: 4.922   3rd Qu.: 5.012   3rd Qu.: 4.8515   3rd Qu.: 4.730  
+ Max.   :15.049   Max.   :15.828   Max.   :14.9478   Max.   :15.682  
+ G292CLONEA141B1_BONE   G361_SKIN       G401_SOFT_TISSUE G402_SOFT_TISSUE 
+ Min.   : 0.000       Min.   : 0.0000   Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 1.029       1st Qu.: 0.9782   1st Qu.: 0.903   1st Qu.: 0.7225  
+ Median : 3.300       Median : 3.2645   Median : 3.338   Median : 3.0704  
+ Mean   : 3.334       Mean   : 3.2590   Mean   : 3.269   Mean   : 3.0847  
+ 3rd Qu.: 5.156       3rd Qu.: 5.0383   3rd Qu.: 5.091   3rd Qu.: 4.8230  
+ Max.   :14.135       Max.   :15.4193   Max.   :15.125   Max.   :15.9979  
+ GA10_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE GAMG_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.0000                         Min.   : 0.000             
+ 1st Qu.: 0.3674                         1st Qu.: 1.305             
+ Median : 2.7655                         Median : 3.390             
+ Mean   : 2.9065                         Mean   : 3.408             
+ 3rd Qu.: 4.7054                         3rd Qu.: 5.121             
+ Max.   :15.5163                         Max.   :15.547             
+ GB1_CENTRAL_NERVOUS_SYSTEM  GCIY_STOMACH    GCT_SOFT_TISSUE 
+ Min.   : 0.000             Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.091             1st Qu.: 1.674   1st Qu.: 1.180  
+ Median : 3.290             Median : 3.907   Median : 3.198  
+ Mean   : 3.305             Mean   : 3.661   Mean   : 3.264  
+ 3rd Qu.: 5.071             3rd Qu.: 5.371   3rd Qu.: 4.946  
+ Max.   :14.684             Max.   :16.177   Max.   :15.054  
+ GDM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE GI1_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.0000                         Min.   : 0.000            
+ 1st Qu.: 0.8718                         1st Qu.: 1.124            
+ Median : 3.2630                         Median : 3.263            
+ Mean   : 3.1860                         Mean   : 3.265            
+ 3rd Qu.: 4.9333                         3rd Qu.: 4.961            
+ Max.   :15.7084                         Max.   :15.696            
+ GMS10_CENTRAL_NERVOUS_SYSTEM GOS3_CENTRAL_NERVOUS_SYSTEM GP2D_LARGE_INTESTINE
+ Min.   : 0.000               Min.   : 0.000              Min.   : 0.000      
+ 1st Qu.: 1.417               1st Qu.: 1.373              1st Qu.: 1.176      
+ Median : 3.585               Median : 3.489              Median : 3.410      
+ Mean   : 3.502               Mean   : 3.412              Mean   : 3.325      
+ 3rd Qu.: 5.216               3rd Qu.: 5.078              3rd Qu.: 5.062      
+ Max.   :15.199               Max.   :15.665              Max.   :15.366      
+ GRANTA519_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  GSS_STOMACH     
+ Min.   : 0.0000                              Min.   : 0.0000  
+ 1st Qu.: 0.9486                              1st Qu.: 0.9635  
+ Median : 3.1538                              Median : 3.2157  
+ Mean   : 3.1714                              Mean   : 3.1924  
+ 3rd Qu.: 4.8841                              3rd Qu.: 4.9042  
+ Max.   :15.1101                              Max.   :14.2414  
+  GSU_STOMACH      H4_CENTRAL_NERVOUS_SYSTEM   HARA_LUNG      HCC1143_BREAST  
+ Min.   : 0.0000   Min.   : 0.000            Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.6041   1st Qu.: 1.531            1st Qu.: 1.151   1st Qu.: 1.506  
+ Median : 2.7970   Median : 3.429            Median : 3.159   Median : 3.494  
+ Mean   : 2.8850   Mean   : 3.434            Mean   : 3.246   Mean   : 3.444  
+ 3rd Qu.: 4.5610   3rd Qu.: 5.011            3rd Qu.: 4.923   3rd Qu.: 5.118  
+ Max.   :16.1005   Max.   :14.986            Max.   :15.256   Max.   :16.045  
+  HCC1171_LUNG    HCC1187_BREAST    HCC1195_LUNG     HCC1359_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.811   1st Qu.: 1.333   1st Qu.: 1.021   1st Qu.: 1.220  
+ Median : 3.580   Median : 3.352   Median : 3.013   Median : 3.242  
+ Mean   : 3.564   Mean   : 3.342   Mean   : 3.125   Mean   : 3.313  
+ 3rd Qu.: 5.096   3rd Qu.: 4.974   3rd Qu.: 4.761   3rd Qu.: 4.982  
+ Max.   :15.519   Max.   :15.852   Max.   :16.044   Max.   :14.428  
+ HCC1395_BREAST   HCC1419_BREAST   HCC1428_BREAST    HCC1438_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.305   1st Qu.: 0.848   1st Qu.: 1.310   1st Qu.: 1.281  
+ Median : 3.300   Median : 3.069   Median : 3.282   Median : 3.428  
+ Mean   : 3.335   Mean   : 3.116   Mean   : 3.334   Mean   : 3.381  
+ 3rd Qu.: 5.000   3rd Qu.: 4.841   3rd Qu.: 4.996   3rd Qu.: 5.076  
+ Max.   :15.221   Max.   :16.285   Max.   :15.146   Max.   :14.816  
+ HCC1500_BREAST   HCC1569_BREAST    HCC1588_LUNG     HCC1599_BREAST  
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 1.411   1st Qu.: 1.227   1st Qu.: 0.7137   1st Qu.: 1.176  
+ Median : 3.497   Median : 3.274   Median : 2.7677   Median : 3.074  
+ Mean   : 3.423   Mean   : 3.309   Mean   : 2.8616   Mean   : 3.158  
+ 3rd Qu.: 5.091   3rd Qu.: 4.987   3rd Qu.: 4.4242   3rd Qu.: 4.745  
+ Max.   :15.283   Max.   :15.697   Max.   :16.4340   Max.   :13.900  
+   HCC15_LUNG     HCC1806_BREAST    HCC1833_LUNG    HCC1937_BREAST  
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.014   1st Qu.: 1.214   1st Qu.: 1.195   1st Qu.: 1.526  
+ Median : 3.237   Median : 2.799   Median : 3.417   Median : 3.429  
+ Mean   : 3.257   Mean   : 2.899   Mean   : 3.394   Mean   : 3.442  
+ 3rd Qu.: 5.007   3rd Qu.: 4.256   3rd Qu.: 5.159   3rd Qu.: 5.046  
+ Max.   :14.861   Max.   :16.864   Max.   :15.246   Max.   :15.916  
+ HCC1954_BREAST   HCC202_BREAST      HCC2108_LUNG    HCC2157_BREAST  
+ Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.208   1st Qu.: 0.9635   1st Qu.: 1.124   1st Qu.: 1.029  
+ Median : 3.444   Median : 3.1827   Median : 3.309   Median : 3.029  
+ Mean   : 3.391   Mean   : 3.1880   Mean   : 3.313   Mean   : 3.103  
+ 3rd Qu.: 5.122   3rd Qu.: 4.8980   3rd Qu.: 5.012   3rd Qu.: 4.723  
+ Max.   :15.358   Max.   :16.8025   Max.   :14.654   Max.   :15.806  
+ HCC2218_BREAST     HCC2279_LUNG     HCC2429_LUNG     HCC2450_LUNG   
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.5945   1st Qu.: 1.000   1st Qu.: 0.774   1st Qu.: 1.124  
+ Median : 2.5110   Median : 3.060   Median : 2.901   Median : 3.134  
+ Mean   : 2.7492   Mean   : 3.187   Mean   : 3.000   Mean   : 3.181  
+ 3rd Qu.: 4.3023   3rd Qu.: 4.894   3rd Qu.: 4.678   3rd Qu.: 4.802  
+ Max.   :16.5252   Max.   :15.568   Max.   :16.147   Max.   :16.504  
+  HCC2814_LUNG     HCC2935_LUNG      HCC33_LUNG      HCC364_LUNG    
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.138   1st Qu.: 1.438   1st Qu.: 1.328   1st Qu.: 1.043  
+ Median : 3.151   Median : 3.525   Median : 3.662   Median : 3.057  
+ Mean   : 3.234   Mean   : 3.463   Mean   : 3.484   Mean   : 3.176  
+ 3rd Qu.: 4.888   3rd Qu.: 5.145   3rd Qu.: 5.231   3rd Qu.: 4.847  
+ Max.   :16.123   Max.   :15.989   Max.   :15.107   Max.   :15.968  
+  HCC366_LUNG      HCC38_BREAST     HCC4006_LUNG      HCC44_LUNG     
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 1.362   1st Qu.: 1.687   1st Qu.: 1.485   1st Qu.: 0.7225  
+ Median : 3.442   Median : 3.672   Median : 3.491   Median : 2.5534  
+ Mean   : 3.459   Mean   : 3.613   Mean   : 3.465   Mean   : 2.7249  
+ 3rd Qu.: 5.176   3rd Qu.: 5.271   3rd Qu.: 5.097   3rd Qu.: 4.2095  
+ Max.   :13.555   Max.   :15.091   Max.   :15.821   Max.   :16.4323  
+  HCC461_LUNG       HCC515_LUNG      HCC56_LARGE_INTESTINE  HCC70_BREAST   
+ Min.   : 0.0000   Min.   : 0.0000   Min.   : 0.0000       Min.   : 0.000  
+ 1st Qu.: 0.9745   1st Qu.: 0.9635   1st Qu.: 0.9709       1st Qu.: 1.170  
+ Median : 3.0479   Median : 2.9241   Median : 2.9616       Median : 3.374  
+ Mean   : 3.1590   Mean   : 3.0265   Mean   : 3.0361       Mean   : 3.352  
+ 3rd Qu.: 4.8629   3rd Qu.: 4.6138   3rd Qu.: 4.6375       3rd Qu.: 5.098  
+ Max.   :15.6833   Max.   :16.8510   Max.   :16.5828       Max.   :15.827  
+   HCC78_LUNG     HCC827GR5_LUNG    HCC827_LUNG       HCC95_LUNG    
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.118   1st Qu.: 1.070   1st Qu.: 1.189   1st Qu.: 1.227  
+ Median : 3.101   Median : 3.046   Median : 3.124   Median : 3.123  
+ Mean   : 3.171   Mean   : 3.097   Mean   : 3.193   Mean   : 3.228  
+ 3rd Qu.: 4.810   3rd Qu.: 4.682   3rd Qu.: 4.788   3rd Qu.: 4.833  
+ Max.   :15.567   Max.   :16.290   Max.   :15.479   Max.   :15.625  
+ HCT116_LARGE_INTESTINE HCT15_LARGE_INTESTINE
+ Min.   : 0.0000        Min.   : 0.000       
+ 1st Qu.: 0.9635        1st Qu.: 0.840       
+ Median : 3.2188        Median : 3.202       
+ Mean   : 3.2349        Mean   : 3.194       
+ 3rd Qu.: 5.0239        3rd Qu.: 5.020       
+ Max.   :15.2739        Max.   :15.016       
+ HDLM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         
+ 1st Qu.: 0.7991                         
+ Median : 3.3590                         
+ Mean   : 3.2495                         
+ 3rd Qu.: 5.0811                         
+ Max.   :14.9573                         
+ HDMYZ_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  HDQP1_BREAST    HEC108_ENDOMETRIUM
+ Min.   : 0.0000                          Min.   : 0.000   Min.   : 0.000    
+ 1st Qu.: 0.9855                          1st Qu.: 1.208   1st Qu.: 1.195    
+ Median : 3.1667                          Median : 2.840   Median : 3.527    
+ Mean   : 3.1864                          Mean   : 2.948   Mean   : 3.331    
+ 3rd Qu.: 4.8567                          3rd Qu.: 4.324   3rd Qu.: 5.005    
+ Max.   :15.4952                          Max.   :16.607   Max.   :16.088    
+ HEC151_ENDOMETRIUM HEC1A_ENDOMETRIUM HEC1B_ENDOMETRIUM HEC251_ENDOMETRIUM
+ Min.   : 0.0000    Min.   : 0.000    Min.   : 0.000    Min.   : 0.000    
+ 1st Qu.: 0.8953    1st Qu.: 1.043    1st Qu.: 1.050    1st Qu.: 1.287    
+ Median : 2.9127    Median : 3.279    Median : 3.051    Median : 3.144    
+ Mean   : 2.9858    Mean   : 3.276    Mean   : 3.094    Mean   : 3.185    
+ 3rd Qu.: 4.5883    3rd Qu.: 5.040    3rd Qu.: 4.700    3rd Qu.: 4.747    
+ Max.   :16.7616    Max.   :15.401    Max.   :16.349    Max.   :15.995    
+ HEC265_ENDOMETRIUM HEC50B_ENDOMETRIUM HEC59_ENDOMETRIUM HEC6_ENDOMETRIUM
+ Min.   : 0.0000    Min.   : 0.000     Min.   : 0.000    Min.   : 0.000  
+ 1st Qu.: 0.9561    1st Qu.: 1.074     1st Qu.: 1.287    1st Qu.: 1.176  
+ Median : 3.2203    Median : 3.146     Median : 3.475    Median : 3.707  
+ Mean   : 3.1832    Mean   : 3.193     Mean   : 3.406    Mean   : 3.519  
+ 3rd Qu.: 4.9105    3rd Qu.: 4.869     3rd Qu.: 5.126    3rd Qu.: 5.410  
+ Max.   :15.8237    Max.   :15.929     Max.   :15.200    Max.   :15.640  
+  HEKTE_KIDNEY    HEL9217_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  HELA_CERVIX     
+ Min.   : 0.000   Min.   : 0.0000                            Min.   : 0.0000  
+ 1st Qu.: 1.163   1st Qu.: 0.8156                            1st Qu.: 0.9222  
+ Median : 3.070   Median : 3.2373                            Median : 2.9030  
+ Mean   : 3.144   Mean   : 3.2401                            Mean   : 3.0503  
+ 3rd Qu.: 4.711   3rd Qu.: 5.1223                            3rd Qu.: 4.6899  
+ Max.   :16.854   Max.   :14.5328                            Max.   :16.1836  
+ HEL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE HEP3B217_LIVER     HEPG2_LIVER     
+ Min.   : 0.0000                        Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 0.8718                        1st Qu.: 0.9855   1st Qu.: 0.6041  
+ Median : 3.1027                        Median : 3.1473   Median : 2.6960  
+ Mean   : 3.1620                        Mean   : 3.2228   Mean   : 2.8500  
+ 3rd Qu.: 4.9430                        3rd Qu.: 4.9679   3rd Qu.: 4.4967  
+ Max.   :14.8064                        Max.   :15.6468   Max.   :16.6184  
+  HEYA8_OVARY      HGC27_STOMACH    HH_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.0000                      
+ 1st Qu.: 0.7398   1st Qu.: 0.856   1st Qu.: 0.3785                      
+ Median : 2.7334   Median : 2.905   Median : 2.8053                      
+ Mean   : 2.9509   Mean   : 3.006   Mean   : 2.9576                      
+ 3rd Qu.: 4.6165   3rd Qu.: 4.630   3rd Qu.: 4.8192                      
+ Max.   :15.0471   Max.   :15.092   Max.   :15.1505                      
+ HL60_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE HLFA_FIBROBLAST     HLF_LIVER      
+ Min.   : 0.000                          Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 0.275                          1st Qu.: 0.8718   1st Qu.: 0.9709  
+ Median : 2.029                          Median : 3.0339   Median : 3.2063  
+ Mean   : 2.475                          Mean   : 3.1224   Mean   : 3.2317  
+ 3rd Qu.: 4.045                          3rd Qu.: 4.7952   3rd Qu.: 4.9612  
+ Max.   :15.853                          Max.   :15.3735   Max.   :15.7051  
+  HMC18_BREAST       HMCB_SKIN       HMEL_BREAST    
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.5261   1st Qu.: 1.131   1st Qu.: 1.401  
+ Median : 2.6826   Median : 3.310   Median : 3.346  
+ Mean   : 2.8703   Mean   : 3.312   Mean   : 3.316  
+ 3rd Qu.: 4.5975   3rd Qu.: 5.037   3rd Qu.: 4.903  
+ Max.   :15.7912   Max.   :15.433   Max.   :16.766  
+ HNT34_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE   HOP62_LUNG       HOP92_LUNG    
+ Min.   : 0.0000                          Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.5261                          1st Qu.: 1.281   1st Qu.: 1.014  
+ Median : 3.0144                          Median : 3.233   Median : 2.943  
+ Mean   : 2.9770                          Mean   : 3.289   Mean   : 3.053  
+ 3rd Qu.: 4.7415                          3rd Qu.: 4.890   3rd Qu.: 4.598  
+ Max.   :15.8359                          Max.   :15.747   Max.   :16.111  
+    HOS_BONE      HPAC_PANCREAS    HPAFII_PANCREAS  
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 1.163   1st Qu.: 1.000   1st Qu.: 0.9782  
+ Median : 3.094   Median : 2.895   Median : 3.0000  
+ Mean   : 3.184   Mean   : 2.931   Mean   : 3.0809  
+ 3rd Qu.: 4.767   3rd Qu.: 4.434   3rd Qu.: 4.6854  
+ Max.   :15.787   Max.   :16.736   Max.   :16.2655  
+ HPBALL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE HS172T_FIBROBLAST HS229T_FIBROBLAST
+ Min.   : 0.0000                           Min.   : 0.000    Min.   : 0.000   
+ 1st Qu.: 0.6508                           1st Qu.: 1.021    1st Qu.: 1.050   
+ Median : 3.1293                           Median : 3.155    Median : 3.159   
+ Mean   : 3.1113                           Mean   : 3.196    Mean   : 3.231   
+ 3rd Qu.: 4.9227                           3rd Qu.: 4.873    3rd Qu.: 4.925   
+ Max.   :14.9400                           Max.   :16.631    Max.   :13.992   
+ HS255T_FIBROBLAST HS274T_FIBROBLAST HS281T_FIBROBLAST  HS294T_SKIN    
+ Min.   : 0.000    Min.   : 0.000    Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 1.124    1st Qu.: 1.007    1st Qu.: 0.9782   1st Qu.: 1.401  
+ Median : 3.072    Median : 3.278    Median : 3.1260   Median : 3.352  
+ Mean   : 3.131    Mean   : 3.276    Mean   : 3.1890   Mean   : 3.388  
+ 3rd Qu.: 4.697    3rd Qu.: 5.013    3rd Qu.: 4.8667   3rd Qu.: 5.022  
+ Max.   :16.130    Max.   :13.986    Max.   :14.8696   Max.   :15.788  
+ HS343T_FIBROBLAST HS578T_BREAST     HS600T_FIBROBLAST HS606T_FIBROBLAST
+ Min.   : 0.0000   Min.   : 0.0000   Min.   : 0.000    Min.   : 0.000   
+ 1st Qu.: 0.9411   1st Qu.: 0.8953   1st Qu.: 1.077    1st Qu.: 1.050   
+ Median : 3.1538   Median : 3.1043   Median : 3.209    Median : 3.128   
+ Mean   : 3.1935   Mean   : 3.1724   Mean   : 3.253    Mean   : 3.181   
+ 3rd Qu.: 4.8943   3rd Qu.: 4.8955   3rd Qu.: 4.931    3rd Qu.: 4.797   
+ Max.   :14.9022   Max.   :14.9344   Max.   :14.777    Max.   :15.276   
+ HS611T_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE HS616T_FIBROBLAST HS618T_FIBROBLAST
+ Min.   : 0.0000                           Min.   : 0.000    Min.   : 0.0000  
+ 1st Qu.: 0.7613                           1st Qu.: 1.091    1st Qu.: 0.9107  
+ Median : 3.0755                           Median : 3.163    Median : 3.1177  
+ Mean   : 3.1157                           Mean   : 3.244    Mean   : 3.1538  
+ 3rd Qu.: 4.9241                           3rd Qu.: 4.899    3rd Qu.: 4.8622  
+ Max.   :15.4107                           Max.   :14.520    Max.   :15.9281  
+ HS675T_FIBROBLAST HS683_CENTRAL_NERVOUS_SYSTEM HS688AT_FIBROBLAST
+ Min.   : 0.000    Min.   : 0.000               Min.   : 0.0000   
+ 1st Qu.: 1.021    1st Qu.: 1.433               1st Qu.: 0.9855   
+ Median : 3.162    Median : 3.440               Median : 3.0687   
+ Mean   : 3.211    Mean   : 3.446               Mean   : 3.1418   
+ 3rd Qu.: 4.878    3rd Qu.: 5.108               3rd Qu.: 4.7708   
+ Max.   :15.129    Max.   :15.229               Max.   :15.0324   
+  HS695T_SKIN     HS698T_FIBROBLAST  HS706T_BONE     HS729_SOFT_TISSUE
+ Min.   : 0.000   Min.   : 0.000    Min.   : 0.000   Min.   : 0.000   
+ 1st Qu.: 1.373   1st Qu.: 1.021    1st Qu.: 1.220   1st Qu.: 1.561   
+ Median : 3.234   Median : 3.136    Median : 3.376   Median : 3.513   
+ Mean   : 3.302   Mean   : 3.161    Mean   : 3.358   Mean   : 3.516   
+ 3rd Qu.: 4.870   3rd Qu.: 4.804    3rd Qu.: 5.037   3rd Qu.: 5.176   
+ Max.   :15.869   Max.   :15.750    Max.   :15.057   Max.   :14.351   
+ HS737T_FIBROBLAST HS739T_FIBROBLAST HS742T_FIBROBLAST HS746T_STOMACH  
+ Min.   : 0.000    Min.   : 0.000    Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 1.007    1st Qu.: 1.141    1st Qu.: 0.6229   1st Qu.: 1.251  
+ Median : 3.081    Median : 3.209    Median : 2.4168   Median : 3.599  
+ Mean   : 3.161    Mean   : 3.225    Mean   : 2.7080   Mean   : 3.486  
+ 3rd Qu.: 4.793    3rd Qu.: 4.839    3rd Qu.: 4.1771   3rd Qu.: 5.319  
+ Max.   :14.819    Max.   :15.290    Max.   :16.1555   Max.   :14.264  
+ HS751T_FIBROBLAST HS766T_PANCREAS  HS819T_FIBROBLAST HS821T_FIBROBLAST
+ Min.   : 0.000    Min.   : 0.000   Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 1.070    1st Qu.: 1.151   1st Qu.: 0.9184   1st Qu.: 0.9928  
+ Median : 3.302    Median : 3.260   Median : 2.9819   Median : 3.1342  
+ Mean   : 3.287    Mean   : 3.281   Mean   : 3.0914   Mean   : 3.1951  
+ 3rd Qu.: 4.980    3rd Qu.: 4.974   3rd Qu.: 4.7186   3rd Qu.: 4.8644  
+ Max.   :14.645    Max.   :15.060   Max.   :15.1599   Max.   :15.1183  
+ HS822T_FIBROBLAST HS834T_FIBROBLAST HS839T_FIBROBLAST HS840T_FIBROBLAST
+ Min.   : 0.0000   Min.   : 0.0000   Min.   : 0.000    Min.   : 0.0000  
+ 1st Qu.: 0.9709   1st Qu.: 0.9928   1st Qu.: 1.070    1st Qu.: 0.9184  
+ Median : 2.9579   Median : 3.0548   Median : 3.240    Median : 3.1538  
+ Mean   : 3.0953   Mean   : 3.1499   Mean   : 3.257    Mean   : 3.1978  
+ 3rd Qu.: 4.6938   3rd Qu.: 4.7921   3rd Qu.: 4.954    3rd Qu.: 4.9215  
+ Max.   :15.2173   Max.   :15.3176   Max.   :14.617    Max.   :15.0212  
+  HS852T_SKIN     HS863T_FIBROBLAST HS870T_FIBROBLAST HS888T_FIBROBLAST
+ Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000    Min.   : 0.000   
+ 1st Qu.: 1.157   1st Qu.: 0.9709   1st Qu.: 1.050    1st Qu.: 1.151   
+ Median : 3.285   Median : 3.1375   Median : 3.131    Median : 3.299   
+ Mean   : 3.309   Mean   : 3.2132   Mean   : 3.212    Mean   : 3.296   
+ 3rd Qu.: 5.013   3rd Qu.: 4.9231   3rd Qu.: 4.874    3rd Qu.: 4.957   
+ Max.   :15.381   Max.   :14.0654   Max.   :13.967    Max.   :15.157   
+ HS895T_FIBROBLAST HS934T_FIBROBLAST  HS936T_SKIN      HS939T_SKIN    
+ Min.   : 0.0000   Min.   : 0.000    Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.9635   1st Qu.: 1.077    1st Qu.: 1.000   1st Qu.: 1.263  
+ Median : 2.9317   Median : 3.256    Median : 3.230   Median : 3.437  
+ Mean   : 3.0698   Mean   : 3.264    Mean   : 3.217   Mean   : 3.427  
+ 3rd Qu.: 4.6337   3rd Qu.: 4.940    3rd Qu.: 4.911   3rd Qu.: 5.159  
+ Max.   :14.5308   Max.   :14.822    Max.   :16.046   Max.   :13.933  
+ HS940T_FIBROBLAST  HS944T_SKIN     HSC2_UPPER_AERODIGESTIVE_TRACT
+ Min.   : 0.000    Min.   : 0.000   Min.   : 0.0000               
+ 1st Qu.: 1.114    1st Qu.: 1.287   1st Qu.: 0.8074               
+ Median : 3.118    Median : 3.260   Median : 2.4803               
+ Mean   : 3.209    Mean   : 3.319   Mean   : 2.6637               
+ 3rd Qu.: 4.817    3rd Qu.: 4.930   3rd Qu.: 4.0670               
+ Max.   :15.281    Max.   :14.603   Max.   :16.3405               
+ HSC3_UPPER_AERODIGESTIVE_TRACT HSC4_UPPER_AERODIGESTIVE_TRACT
+ Min.   : 0.000                 Min.   : 0.000                
+ 1st Qu.: 0.696                 1st Qu.: 1.433                
+ Median : 2.895                 Median : 3.217                
+ Mean   : 3.032                 Mean   : 3.210                
+ 3rd Qu.: 4.784                 3rd Qu.: 4.697                
+ Max.   :15.264                 Max.   :16.521                
+ HT1080_SOFT_TISSUE HT115_LARGE_INTESTINE HT1197_URINARY_TRACT
+ Min.   : 0.000     Min.   : 0.0000       Min.   : 0.0000     
+ 1st Qu.: 1.050     1st Qu.: 0.7655       1st Qu.: 0.8074     
+ Median : 3.131     Median : 2.8012       Median : 3.0321     
+ Mean   : 3.211     Mean   : 2.9302       Mean   : 3.1119     
+ 3rd Qu.: 4.909     3rd Qu.: 4.5686       3rd Qu.: 4.8283     
+ Max.   :15.318     Max.   :16.9543       Max.   :15.1536     
+ HT1376_URINARY_TRACT   HT144_SKIN     HT29_LARGE_INTESTINE
+ Min.   : 0.000       Min.   : 0.000   Min.   : 0.0000     
+ 1st Qu.: 1.036       1st Qu.: 1.183   1st Qu.: 0.8639     
+ Median : 3.296       Median : 3.252   Median : 2.9928     
+ Mean   : 3.276       Mean   : 3.288   Mean   : 3.0566     
+ 3rd Qu.: 4.997       3rd Qu.: 4.937   3rd Qu.: 4.7325     
+ Max.   :15.878       Max.   :15.361   Max.   :16.3830     
+ HT55_LARGE_INTESTINE HT_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000       Min.   : 0.000                       
+ 1st Qu.: 0.774       1st Qu.: 0.433                       
+ Median : 2.811       Median : 2.969                       
+ Mean   : 2.928       Mean   : 3.044                       
+ 3rd Qu.: 4.552       3rd Qu.: 4.964                       
+ Max.   :16.543       Max.   :15.418                       
+ HUCCT1_BILIARY_TRACT HUG1N_STOMACH       HUH1_LIVER      HUH28_BILIARY_TRACT
+ Min.   : 0.000       Min.   : 0.0000   Min.   : 0.0000   Min.   : 0.000     
+ 1st Qu.: 0.546       1st Qu.: 0.9107   1st Qu.: 0.9184   1st Qu.: 1.000     
+ Median : 2.411       Median : 3.1194   Median : 2.8718   Median : 3.089     
+ Mean   : 2.758       Mean   : 3.1685   Mean   : 2.9948   Mean   : 3.165     
+ 3rd Qu.: 4.335       3rd Qu.: 4.9241   3rd Qu.: 4.5601   3rd Qu.: 4.810     
+ Max.   :14.414       Max.   :15.6573   Max.   :15.8117   Max.   :15.309     
+   HUH6_LIVER        HUH7_LIVER     HUNS1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.0000                         
+ 1st Qu.: 0.9411   1st Qu.: 1.084   1st Qu.: 0.3561                         
+ Median : 2.8115   Median : 3.082   Median : 2.8298                         
+ Mean   : 2.9475   Mean   : 3.175   Mean   : 2.9207                         
+ 3rd Qu.: 4.4970   3rd Qu.: 4.818   3rd Qu.: 4.7282                         
+ Max.   :16.0559   Max.   :15.891   Max.   :15.5006                         
+ HUPT3_PANCREAS   HUPT4_PANCREAS    HUT102_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000   Min.   : 0.0000   Min.   : 0.0000                          
+ 1st Qu.: 1.157   1st Qu.: 0.7824   1st Qu.: 0.8319                          
+ Median : 3.020   Median : 2.7355   Median : 3.1603                          
+ Mean   : 3.113   Mean   : 2.9073   Mean   : 3.1430                          
+ 3rd Qu.: 4.668   3rd Qu.: 4.5385   3rd Qu.: 4.9076                          
+ Max.   :15.473   Max.   :16.6512   Max.   :15.6409                          
+ HUT78_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE HUTU80_SMALL_INTESTINE
+ Min.   : 0.000                           Min.   : 0.000        
+ 1st Qu.: 1.084                           1st Qu.: 1.014        
+ Median : 3.249                           Median : 3.225        
+ Mean   : 3.293                           Mean   : 3.207        
+ 3rd Qu.: 5.077                           3rd Qu.: 4.945        
+ Max.   :14.909                           Max.   :15.720        
+   IALM_LUNG         IGR1_SKIN        IGR37_SKIN        IGR39_SKIN    
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 0.9928   1st Qu.: 1.043   1st Qu.: 0.8953   1st Qu.: 1.350  
+ Median : 3.0687   Median : 3.099   Median : 3.1763   Median : 3.332  
+ Mean   : 3.1353   Mean   : 3.155   Mean   : 3.2112   Mean   : 3.328  
+ 3rd Qu.: 4.7973   3rd Qu.: 4.829   3rd Qu.: 4.9914   3rd Qu.: 4.939  
+ Max.   :14.8717   Max.   :16.238   Max.   :15.2399   Max.   :15.515  
+  IGROV1_OVARY     IM95_STOMACH     IMR32_AUTONOMIC_GANGLIA
+ Min.   : 0.000   Min.   : 0.0000   Min.   : 0.0000        
+ 1st Qu.: 1.036   1st Qu.: 0.9107   1st Qu.: 0.9782        
+ Median : 3.103   Median : 3.1715   Median : 3.1795        
+ Mean   : 3.155   Mean   : 3.1229   Mean   : 3.1372        
+ 3rd Qu.: 4.806   3rd Qu.: 4.8181   3rd Qu.: 4.7769        
+ Max.   :15.945   Max.   :15.5154   Max.   :15.4600        
+ INA6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE IOMMLEE_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000                          Min.   : 0.0000               
+ 1st Qu.: 0.585                          1st Qu.: 0.7655               
+ Median : 2.960                          Median : 3.0179               
+ Mean   : 3.008                          Mean   : 3.0620               
+ 3rd Qu.: 4.817                          3rd Qu.: 4.7798               
+ Max.   :15.791                          Max.   :16.0281               
+  IPC298_SKIN      ISHIKAWAHERAKLIO02ER_ENDOMETRIUM ISTMES1_PLEURA   
+ Min.   : 0.0000   Min.   : 0.000                   Min.   : 0.0000  
+ 1st Qu.: 0.8639   1st Qu.: 1.414                   1st Qu.: 0.9561  
+ Median : 3.0179   Median : 3.315                   Median : 3.0976  
+ Mean   : 3.0864   Mean   : 3.318                   Mean   : 3.2027  
+ 3rd Qu.: 4.7610   3rd Qu.: 4.893                   3rd Qu.: 4.9322  
+ Max.   :16.4371   Max.   :15.748                   Max.   :14.4722  
+ ISTMES2_PLEURA    J82_URINARY_TRACT JEKO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000   Min.   : 0.000    Min.   : 0.0000                         
+ 1st Qu.: 0.9411   1st Qu.: 1.036    1st Qu.: 0.7312                         
+ Median : 3.1457   Median : 3.126    Median : 2.7845                         
+ Mean   : 3.2171   Mean   : 3.239    Mean   : 2.9586                         
+ 3rd Qu.: 4.9959   3rd Qu.: 4.964    3rd Qu.: 4.6302                         
+ Max.   :15.2954   Max.   :15.179    Max.   :14.3944                         
+ JHESOAD1_OESOPHAGUS   JHH1_LIVER       JHH2_LIVER       JHH4_LIVER    
+ Min.   : 0.000      Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.163      1st Qu.: 1.029   1st Qu.: 1.029   1st Qu.: 1.144  
+ Median : 3.123      Median : 2.975   Median : 3.155   Median : 3.111  
+ Mean   : 3.192      Mean   : 3.060   Mean   : 3.224   Mean   : 3.150  
+ 3rd Qu.: 4.792      3rd Qu.: 4.651   3rd Qu.: 4.921   3rd Qu.: 4.756  
+ Max.   :15.389      Max.   :16.302   Max.   :15.240   Max.   :16.139  
+   JHH5_LIVER        JHH6_LIVER       JHH7_LIVER      JHOC5_OVARY     
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 0.9928   1st Qu.: 1.151   1st Qu.: 1.036   1st Qu.: 0.9709  
+ Median : 3.0356   Median : 3.195   Median : 3.231   Median : 3.1683  
+ Mean   : 3.1030   Mean   : 3.210   Mean   : 3.253   Mean   : 3.1914  
+ 3rd Qu.: 4.7388   3rd Qu.: 4.845   3rd Qu.: 4.971   3rd Qu.: 4.8953  
+ Max.   :15.7913   Max.   :15.489   Max.   :15.477   Max.   :15.2115  
+  JHOM1_OVARY      JHOM2B_OVARY     JHOS2_OVARY      JHOS4_OVARY    
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.333   1st Qu.: 1.433   1st Qu.: 1.287   1st Qu.: 1.362  
+ Median : 3.329   Median : 3.550   Median : 3.050   Median : 3.288  
+ Mean   : 3.338   Mean   : 3.442   Mean   : 3.157   Mean   : 3.348  
+ 3rd Qu.: 4.945   3rd Qu.: 5.093   3rd Qu.: 4.636   3rd Qu.: 4.991  
+ Max.   :15.210   Max.   :15.336   Max.   :13.945   Max.   :15.080  
+ JHUEM1_ENDOMETRIUM JHUEM2_ENDOMETRIUM JHUEM3_ENDOMETRIUM JHUEM7_ENDOMETRIUM
+ Min.   : 0.000     Min.   : 0.0000    Min.   : 0.000     Min.   : 0.0000   
+ 1st Qu.: 1.043     1st Qu.: 0.9107    1st Qu.: 1.700     1st Qu.: 0.7655   
+ Median : 3.082     Median : 3.2869    Median : 3.515     Median : 2.6713   
+ Mean   : 3.131     Mean   : 3.2365    Mean   : 3.534     Mean   : 2.7890   
+ 3rd Qu.: 4.775     3rd Qu.: 5.0141    3rd Qu.: 5.056     3rd Qu.: 4.3169   
+ Max.   :15.288     Max.   :15.6832    Max.   :14.741     Max.   :17.0445   
+  JIMT1_BREAST    JJN3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000   Min.   : 0.0000                        
+ 1st Qu.: 1.021   1st Qu.: 0.7655                        
+ Median : 3.134   Median : 3.0652                        
+ Mean   : 3.176   Mean   : 3.0839                        
+ 3rd Qu.: 4.816   3rd Qu.: 4.8120                        
+ Max.   :15.936   Max.   :15.0837                        
+ JK1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE   JL1_PLEURA    
+ Min.   : 0.0000                        Min.   : 0.000  
+ 1st Qu.: 0.4647                        1st Qu.: 0.848  
+ Median : 2.6439                        Median : 2.939  
+ Mean   : 2.8024                        Mean   : 3.093  
+ 3rd Qu.: 4.4995                        3rd Qu.: 4.794  
+ Max.   :16.7331                        Max.   :15.024  
+ JM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE JMSU1_URINARY_TRACT
+ Min.   : 0.000                         Min.   : 0.0000    
+ 1st Qu.: 0.585                         1st Qu.: 0.9184    
+ Median : 2.911                         Median : 3.1326    
+ Mean   : 3.027                         Mean   : 3.2341    
+ 3rd Qu.: 4.851                         3rd Qu.: 5.0475    
+ Max.   :14.439                         Max.   :14.6639    
+ JURKAT_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                           
+ 1st Qu.: 1.195                           
+ Median : 3.503                           
+ Mean   : 3.349                           
+ 3rd Qu.: 5.068                           
+ Max.   :14.762                           
+ JURLMK1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                           
+ 1st Qu.: 0.9107                           
+ Median : 3.0704                           
+ Mean   : 3.0956                           
+ 3rd Qu.: 4.7608                           
+ Max.   :15.2079                           
+ JVM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                        
+ 1st Qu.: 0.7655                        
+ Median : 3.0409                        
+ Mean   : 3.0812                        
+ 3rd Qu.: 4.8354                        
+ Max.   :14.8787                        
+ JVM3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  K029AX_SKIN    
+ Min.   : 0.0000                         Min.   : 0.000  
+ 1st Qu.: 0.8115                         1st Qu.: 1.070  
+ Median : 2.9745                         Median : 3.108  
+ Mean   : 3.0178                         Mean   : 3.191  
+ 3rd Qu.: 4.7015                         3rd Qu.: 4.847  
+ Max.   :14.6679                         Max.   :16.035  
+ K562_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE KALS1_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000                          Min.   : 0.000              
+ 1st Qu.: 0.856                          1st Qu.: 1.452              
+ Median : 3.194                          Median : 3.446              
+ Mean   : 3.178                          Mean   : 3.425              
+ 3rd Qu.: 4.927                          3rd Qu.: 5.030              
+ Max.   :15.460                          Max.   :15.235              
+ KARPAS299_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                             
+ 1st Qu.: 0.7049                             
+ Median : 3.0824                             
+ Mean   : 3.0973                             
+ 3rd Qu.: 4.8846                             
+ Max.   :15.7992                             
+ KARPAS422_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                             
+ 1st Qu.: 0.4751                             
+ Median : 3.2824                             
+ Mean   : 3.2348                             
+ 3rd Qu.: 5.2998                             
+ Max.   :13.8518                             
+ KARPAS620_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                             
+ 1st Qu.: 0.7824                             
+ Median : 2.8992                             
+ Mean   : 2.9925                             
+ 3rd Qu.: 4.6809                             
+ Max.   :15.7481                             
+ KASUMI1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                           
+ 1st Qu.: 0.6135                           
+ Median : 2.8777                           
+ Mean   : 2.9323                           
+ 3rd Qu.: 4.6138                           
+ Max.   :15.2808                           
+ KASUMI2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                            
+ 1st Qu.: 0.757                            
+ Median : 3.223                            
+ Mean   : 3.162                            
+ 3rd Qu.: 4.958                            
+ Max.   :14.987                            
+ KASUMI6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE KATOIII_STOMACH  
+ Min.   : 0.0000                            Min.   : 0.0000  
+ 1st Qu.: 0.6871                            1st Qu.: 0.6781  
+ Median : 3.2001                            Median : 3.1843  
+ Mean   : 3.1085                            Mean   : 3.1604  
+ 3rd Qu.: 4.8602                            3rd Qu.: 4.9830  
+ Max.   :15.6481                            Max.   :15.0468  
+ KCL22_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE KD_SOFT_TISSUE   
+ Min.   : 0.0000                          Min.   : 0.0000  
+ 1st Qu.: 0.9107                          1st Qu.: 0.7398  
+ Median : 3.3045                          Median : 3.0409  
+ Mean   : 3.2408                          Mean   : 3.0615  
+ 3rd Qu.: 5.0148                          3rd Qu.: 4.7903  
+ Max.   :14.7139                          Max.   :16.0196  
+ KE37_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  KE39_STOMACH    
+ Min.   : 0.000                          Min.   : 0.0000  
+ 1st Qu.: 0.926                          1st Qu.: 0.8156  
+ Median : 3.310                          Median : 3.0841  
+ Mean   : 3.231                          Mean   : 3.0658  
+ 3rd Qu.: 4.989                          3rd Qu.: 4.7785  
+ Max.   :15.454                          Max.   :16.3257  
+ KE97_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE KELLY_AUTONOMIC_GANGLIA
+ Min.   : 0.0000                         Min.   : 0.000         
+ 1st Qu.: 0.4751                         1st Qu.: 1.057         
+ Median : 2.7506                         Median : 3.186         
+ Mean   : 2.8882                         Mean   : 3.172         
+ 3rd Qu.: 4.6413                         3rd Qu.: 4.811         
+ Max.   :15.2681                         Max.   :16.214         
+ KG1C_CENTRAL_NERVOUS_SYSTEM KG1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000              Min.   : 0.000                        
+ 1st Qu.: 1.345              1st Qu.: 0.848                        
+ Median : 3.417              Median : 3.328                        
+ Mean   : 3.378              Mean   : 3.263                        
+ 3rd Qu.: 5.042              3rd Qu.: 5.149                        
+ Max.   :15.045              Max.   :15.259                        
+ KHM1B_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                          
+ 1st Qu.: 0.275                          
+ Median : 2.454                          
+ Mean   : 2.640                          
+ 3rd Qu.: 4.319                          
+ Max.   :16.350                          
+ KIJK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE KLE_ENDOMETRIUM  KM12_LARGE_INTESTINE
+ Min.   : 0.0000                         Min.   : 0.000   Min.   : 0.0000     
+ 1st Qu.: 0.3896                         1st Qu.: 1.144   1st Qu.: 0.8953     
+ Median : 2.7420                         Median : 2.916   Median : 2.9598     
+ Mean   : 2.8717                         Mean   : 3.095   Mean   : 3.0036     
+ 3rd Qu.: 4.6582                         3rd Qu.: 4.598   3rd Qu.: 4.5823     
+ Max.   :15.1527                         Max.   :15.484   Max.   :14.5159     
+ KMBC2_URINARY_TRACT KMH2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000      Min.   : 0.0000                        
+ 1st Qu.: 1.411      1st Qu.: 0.6781                        
+ Median : 3.547      Median : 2.9579                        
+ Mean   : 3.472      Mean   : 2.9915                        
+ 3rd Qu.: 5.187      3rd Qu.: 4.6943                        
+ Max.   :14.564      Max.   :14.9862                        
+ KMM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  KMRC1_KIDNEY     KMRC20_KIDNEY   
+ Min.   : 0.0000                         Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 0.7485                         1st Qu.: 0.6041   1st Qu.: 1.118  
+ Median : 3.1683                         Median : 2.2987   Median : 3.181  
+ Mean   : 3.1670                         Mean   : 2.6984   Mean   : 3.247  
+ 3rd Qu.: 4.9491                         3rd Qu.: 4.1875   3rd Qu.: 4.950  
+ Max.   :16.0371                         Max.   :15.5255   Max.   :15.838  
+  KMRC2_KIDNEY      KMRC3_KIDNEY    KMS11_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.0000                         
+ 1st Qu.: 0.6041   1st Qu.: 1.428   1st Qu.: 0.7908                         
+ Median : 2.4931   Median : 3.480   Median : 3.1127                         
+ Mean   : 2.7351   Mean   : 3.462   Mean   : 3.1361                         
+ 3rd Qu.: 4.2810   3rd Qu.: 5.123   3rd Qu.: 4.9229                         
+ Max.   :15.8560   Max.   :15.142   Max.   :14.9545                         
+ KMS12BM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                           
+ 1st Qu.: 0.5705                           
+ Median : 2.9355                           
+ Mean   : 2.9959                           
+ 3rd Qu.: 4.7506                           
+ Max.   :16.2277                           
+ KMS18_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         
+ 1st Qu.: 0.4957                         
+ Median : 2.3978                         
+ Mean   : 2.5873                         
+ 3rd Qu.: 4.0635                         
+ Max.   :16.8829                         
+ KMS20_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                          
+ 1st Qu.: 1.124                          
+ Median : 3.307                          
+ Mean   : 3.283                          
+ 3rd Qu.: 5.023                          
+ Max.   :14.737                          
+ KMS21BM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                           
+ 1st Qu.: 0.6041                           
+ Median : 2.6758                           
+ Mean   : 2.8428                           
+ 3rd Qu.: 4.4634                           
+ Max.   :16.1093                           
+ KMS26_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         
+ 1st Qu.: 0.6599                         
+ Median : 3.0993                         
+ Mean   : 3.1289                         
+ 3rd Qu.: 4.9416                         
+ Max.   :15.4374                         
+ KMS27_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                          
+ 1st Qu.: 0.433                          
+ Median : 2.483                          
+ Mean   : 2.683                          
+ 3rd Qu.: 4.312                          
+ Max.   :16.948                          
+ KMS28BM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                           
+ 1st Qu.: 0.7312                           
+ Median : 2.8718                           
+ Mean   : 3.0038                           
+ 3rd Qu.: 4.7268                           
+ Max.   :15.1914                           
+ KMS34_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE KNS42_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.0000                          Min.   : 0.000              
+ 1st Qu.: 0.7004                          1st Qu.: 1.257              
+ Median : 2.8758                          Median : 3.529              
+ Mean   : 3.0326                          Mean   : 3.440              
+ 3rd Qu.: 4.7787                          3rd Qu.: 5.226              
+ Max.   :14.6283                          Max.   :15.135              
+ KNS60_CENTRAL_NERVOUS_SYSTEM   KNS62_LUNG      KNS81_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000               Min.   : 0.0000   Min.   : 0.000              
+ 1st Qu.: 1.563               1st Qu.: 0.7137   1st Qu.: 1.470              
+ Median : 3.483               Median : 2.4222   Median : 3.530              
+ Mean   : 3.456               Mean   : 2.6266   Mean   : 3.479              
+ 3rd Qu.: 5.055               3rd Qu.: 4.0622   3rd Qu.: 5.127              
+ Max.   :15.479               Max.   :17.0651   Max.   :15.055              
+ KO52_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                        
+ 1st Qu.: 0.9336                        
+ Median : 3.1127                        
+ Mean   : 3.0943                        
+ 3rd Qu.: 4.7371                        
+ Max.   :14.7256                        
+ KOPN8_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  KP2_PANCREAS     KP3_PANCREAS   
+ Min.   : 0.0000                          Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.3785                          1st Qu.: 1.189   1st Qu.: 1.131  
+ Median : 2.7634                          Median : 3.074   Median : 3.192  
+ Mean   : 2.9481                          Mean   : 3.130   Mean   : 3.229  
+ 3rd Qu.: 4.8329                          3rd Qu.: 4.672   3rd Qu.: 4.892  
+ Max.   :14.3682                          Max.   :16.023   Max.   :14.978  
+  KP4_PANCREAS     KPL1_BREAST     KPMRTRY_SOFT_TISSUE
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000    
+ 1st Qu.: 1.195   1st Qu.: 1.064   1st Qu.: 0.6871    
+ Median : 3.183   Median : 3.067   Median : 3.1309    
+ Mean   : 3.213   Mean   : 3.147   Mean   : 3.1176    
+ 3rd Qu.: 4.838   3rd Qu.: 4.788   3rd Qu.: 4.9298    
+ Max.   :15.648   Max.   :15.467   Max.   :14.7792    
+ KPNRTBM1_AUTONOMIC_GANGLIA KPNSI9S_AUTONOMIC_GANGLIA KPNYN_AUTONOMIC_GANGLIA
+ Min.   : 0.000             Min.   : 0.000            Min.   : 0.000         
+ 1st Qu.: 1.305             1st Qu.: 1.501            1st Qu.: 1.170         
+ Median : 3.664             Median : 3.291            Median : 3.374         
+ Mean   : 3.476             Mean   : 3.332            Mean   : 3.282         
+ 3rd Qu.: 5.232             3rd Qu.: 4.841            3rd Qu.: 4.946         
+ Max.   :15.439             Max.   :15.237            Max.   :15.375         
+ KS1_CENTRAL_NERVOUS_SYSTEM KU1919_URINARY_TRACT
+ Min.   : 0.0000            Min.   : 0.000      
+ 1st Qu.: 0.9486            1st Qu.: 1.333      
+ Median : 3.2555            Median : 3.062      
+ Mean   : 3.2265            Mean   : 3.155      
+ 3rd Qu.: 4.9925            3rd Qu.: 4.629      
+ Max.   :15.7200            Max.   :16.071      
+ KU812_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE KURAMOCHI_OVARY  KYM1_SOFT_TISSUE
+ Min.   : 0.000                           Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.840                           1st Qu.: 1.217   1st Qu.: 0.903  
+ Median : 3.057                           Median : 3.114   Median : 3.279  
+ Mean   : 3.107                           Mean   : 3.141   Mean   : 3.217  
+ 3rd Qu.: 4.848                           3rd Qu.: 4.676   3rd Qu.: 4.988  
+ Max.   :14.648                           Max.   :16.831   Max.   :15.521  
+ KYO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE KYSE140_OESOPHAGUS KYSE150_OESOPHAGUS
+ Min.   : 0.0000                         Min.   : 0.000     Min.   : 0.0000   
+ 1st Qu.: 0.6508                         1st Qu.: 1.104     1st Qu.: 0.8237   
+ Median : 2.5656                         Median : 2.969     Median : 3.2048   
+ Mean   : 2.7829                         Mean   : 3.046     Mean   : 3.1510   
+ 3rd Qu.: 4.3572                         3rd Qu.: 4.571     3rd Qu.: 4.9129   
+ Max.   :15.5254                         Max.   :16.370     Max.   :16.2368   
+ KYSE180_OESOPHAGUS KYSE270_OESOPHAGUS KYSE30_OESOPHAGUS KYSE410_OESOPHAGUS
+ Min.   : 0.0000    Min.   : 0.000     Min.   : 0.000    Min.   : 0.000    
+ 1st Qu.: 0.8319    1st Qu.: 1.287     1st Qu.: 1.163    1st Qu.: 0.856    
+ Median : 2.8620    Median : 2.842     Median : 3.126    Median : 2.891    
+ Mean   : 2.9858    Mean   : 2.957     Mean   : 3.136    Mean   : 2.977    
+ 3rd Qu.: 4.6366    3rd Qu.: 4.291     3rd Qu.: 4.698    3rd Qu.: 4.602    
+ Max.   :16.0157    Max.   :17.080     Max.   :16.211    Max.   :16.420    
+ KYSE450_OESOPHAGUS KYSE510_OESOPHAGUS KYSE520_OESOPHAGUS KYSE70_OESOPHAGUS
+ Min.   : 0.000     Min.   : 0.0000    Min.   : 0.000     Min.   : 0.0000  
+ 1st Qu.: 1.104     1st Qu.: 0.9891    1st Qu.: 1.322     1st Qu.: 0.9222  
+ Median : 3.131     Median : 2.9598    Median : 3.077     Median : 2.9373  
+ Mean   : 3.213     Mean   : 3.0332    Mean   : 3.144     Mean   : 3.0057  
+ 3rd Qu.: 4.872     3rd Qu.: 4.6002    3rd Qu.: 4.644     3rd Qu.: 4.6082  
+ Max.   :15.000     Max.   :17.1057    Max.   :16.535     Max.   :15.5710  
+ L1236_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  L33_PANCREAS   
+ Min.   : 0.0000                          Min.   : 0.000  
+ 1st Qu.: 0.9891                          1st Qu.: 1.339  
+ Median : 3.1683                          Median : 3.084  
+ Mean   : 3.2056                          Mean   : 3.142  
+ 3rd Qu.: 4.9395                          3rd Qu.: 4.607  
+ Max.   :15.1454                          Max.   :16.742  
+ L363_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                        
+ 1st Qu.: 0.6229                        
+ Median : 3.1635                        
+ Mean   : 3.1701                        
+ 3rd Qu.: 5.0661                        
+ Max.   :15.0984                        
+ L428_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                        
+ 1st Qu.: 0.5059                        
+ Median : 2.6690                        
+ Mean   : 2.8634                        
+ 3rd Qu.: 4.6035                        
+ Max.   :15.5313                        
+ L540_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                        
+ 1st Qu.: 0.4436                        
+ Median : 2.9837                        
+ Mean   : 2.9959                        
+ 3rd Qu.: 4.8253                        
+ Max.   :15.6317                        
+ LAMA84_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE   LC1F_LUNG      LCLC103H_LUNG   
+ Min.   : 0.0000                           Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.7908                           1st Qu.: 1.118   1st Qu.: 1.333  
+ Median : 2.8856                           Median : 3.162   Median : 3.293  
+ Mean   : 2.9688                           Mean   : 3.191   Mean   : 3.319  
+ 3rd Qu.: 4.5975                           3rd Qu.: 4.820   3rd Qu.: 4.943  
+ Max.   :15.2200                           Max.   :15.980   Max.   :16.107  
+ LCLC97TM1_LUNG     LI7_LIVER         LK2_LUNG        LMSU_STOMACH    
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 1.084   1st Qu.: 1.124   1st Qu.: 0.9184   1st Qu.: 0.8953  
+ Median : 3.139   Median : 3.276   Median : 3.0409   Median : 3.0635  
+ Mean   : 3.159   Mean   : 3.258   Mean   : 3.1191   Mean   : 3.1551  
+ 3rd Qu.: 4.783   3rd Qu.: 4.901   3rd Qu.: 4.7918   3rd Qu.: 4.9122  
+ Max.   :14.902   Max.   :15.764   Max.   :14.4845   Max.   :15.3677  
+ LN18_CENTRAL_NERVOUS_SYSTEM LN215_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000              Min.   : 0.000              
+ 1st Qu.: 1.251              1st Qu.: 1.459              
+ Median : 3.365              Median : 3.474              
+ Mean   : 3.378              Mean   : 3.432              
+ 3rd Qu.: 5.134              3rd Qu.: 5.079              
+ Max.   :14.901              Max.   :16.437              
+ LN229_CENTRAL_NERVOUS_SYSTEM LN235_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000               Min.   : 0.000              
+ 1st Qu.: 1.313               1st Qu.: 1.202              
+ Median : 3.493               Median : 3.367              
+ Mean   : 3.413               Mean   : 3.347              
+ 3rd Qu.: 5.093               3rd Qu.: 5.043              
+ Max.   :15.564               Max.   :15.590              
+ LN319_CENTRAL_NERVOUS_SYSTEM LN340_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000               Min.   : 0.000              
+ 1st Qu.: 1.263               1st Qu.: 1.217              
+ Median : 3.358               Median : 3.374              
+ Mean   : 3.319               Mean   : 3.368              
+ 3rd Qu.: 5.012               3rd Qu.: 5.099              
+ Max.   :16.808               Max.   :15.797              
+ LN382_CENTRAL_NERVOUS_SYSTEM LN428_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000               Min.   : 0.000              
+ 1st Qu.: 1.131               1st Qu.: 1.134              
+ Median : 3.313               Median : 2.943              
+ Mean   : 3.292               Mean   : 3.019              
+ 3rd Qu.: 5.013               3rd Qu.: 4.520              
+ Max.   :16.124               Max.   :17.277              
+ LN443_CENTRAL_NERVOUS_SYSTEM LN464_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000               Min.   : 0.0000             
+ 1st Qu.: 1.057               1st Qu.: 0.9561             
+ Median : 3.290               Median : 3.1227             
+ Mean   : 3.297               Mean   : 3.1687             
+ 3rd Qu.: 5.096               3rd Qu.: 4.8817             
+ Max.   :15.868               Max.   :15.8252             
+ LNCAPCLONEFGC_PROSTATE LNZ308_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000         Min.   : 0.0000              
+ 1st Qu.: 1.163         1st Qu.: 0.8797              
+ Median : 3.284         Median : 3.1538              
+ Mean   : 3.261         Mean   : 3.1700              
+ 3rd Qu.: 4.932         3rd Qu.: 4.9170              
+ Max.   :15.172         Max.   :16.3049              
+ LOUCY_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  LOUNH91_LUNG    LOVO_LARGE_INTESTINE
+ Min.   : 0.0000                          Min.   : 0.000   Min.   : 0.000      
+ 1st Qu.: 0.9561                          1st Qu.: 1.157   1st Qu.: 1.287      
+ Median : 3.4995                          Median : 3.329   Median : 3.222      
+ Mean   : 3.3806                          Mean   : 3.304   Mean   : 3.201      
+ 3rd Qu.: 5.2632                          3rd Qu.: 4.988   3rd Qu.: 4.748      
+ Max.   :15.0889                          Max.   :15.665   Max.   :15.723      
+  LOXIMVI_SKIN     LP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000   Min.   : 0.0000                       
+ 1st Qu.: 0.6415   1st Qu.: 0.7485                       
+ Median : 2.9373   Median : 3.0790                       
+ Mean   : 3.0008   Mean   : 3.1207                       
+ 3rd Qu.: 4.7631   3rd Qu.: 4.9310                       
+ Max.   :15.5821   Max.   :14.7513                       
+ LS1034_LARGE_INTESTINE LS123_LARGE_INTESTINE LS180_LARGE_INTESTINE
+ Min.   : 0.000         Min.   : 0.000        Min.   : 0.000       
+ 1st Qu.: 1.064         1st Qu.: 1.014        1st Qu.: 1.050       
+ Median : 3.144         Median : 2.858        Median : 3.236       
+ Mean   : 3.179         Mean   : 2.974        Mean   : 3.194       
+ 3rd Qu.: 4.843         3rd Qu.: 4.467        3rd Qu.: 4.863       
+ Max.   :15.640         Max.   :16.771        Max.   :16.342       
+ LS411N_LARGE_INTESTINE LS513_LARGE_INTESTINE   LU65_LUNG      
+ Min.   : 0.000         Min.   : 0.0000       Min.   : 0.0000  
+ 1st Qu.: 1.029         1st Qu.: 0.8359       1st Qu.: 0.8319  
+ Median : 3.178         Median : 2.9709       Median : 3.0496  
+ Mean   : 3.133         Mean   : 3.0069       Mean   : 3.1311  
+ 3rd Qu.: 4.752         3rd Qu.: 4.6511       3rd Qu.: 4.8590  
+ Max.   :16.194         Max.   :16.5595       Max.   :15.3861  
+   LU99_LUNG        LUDLU1_LUNG      LXF289_LUNG    
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.9928   1st Qu.: 1.189   1st Qu.: 1.551  
+ Median : 2.9709   Median : 3.109   Median : 3.470  
+ Mean   : 3.1207   Mean   : 3.198   Mean   : 3.428  
+ 3rd Qu.: 4.7727   3rd Qu.: 4.804   3rd Qu.: 5.031  
+ Max.   :14.3894   Max.   :15.750   Max.   :15.541  
+ M059K_CENTRAL_NERVOUS_SYSTEM M07E_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000               Min.   : 0.0000                        
+ 1st Qu.: 1.098               1st Qu.: 0.6135                        
+ Median : 3.293               Median : 3.0303                        
+ Mean   : 3.297               Mean   : 3.0462                        
+ 3rd Qu.: 4.997               3rd Qu.: 4.8557                        
+ Max.   :15.608               Max.   :15.5022                        
+  MALME3M_SKIN    MC116_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE   MCAS_OVARY     
+ Min.   : 0.000   Min.   : 0.0000                          Min.   : 0.0000  
+ 1st Qu.: 1.138   1st Qu.: 0.2987                          1st Qu.: 0.7655  
+ Median : 3.300   Median : 2.6893                          Median : 2.8156  
+ Mean   : 3.263   Mean   : 2.8499                          Mean   : 2.9452  
+ 3rd Qu.: 4.921   3rd Qu.: 4.6668                          3rd Qu.: 4.5934  
+ Max.   :16.119   Max.   :15.0974                          Max.   :15.9265  
+  MCF7_BREAST      MDAMB134VI_BREAST MDAMB157_BREAST  MDAMB175VII_BREAST
+ Min.   : 0.0000   Min.   : 0.000    Min.   : 0.000   Min.   : 0.000    
+ 1st Qu.: 0.8953   1st Qu.: 1.275    1st Qu.: 1.459   1st Qu.: 1.183    
+ Median : 2.9317   Median : 3.325    Median : 3.320   Median : 3.101    
+ Mean   : 3.0534   Mean   : 3.297    Mean   : 3.355   Mean   : 3.170    
+ 3rd Qu.: 4.6929   3rd Qu.: 4.926    3rd Qu.: 4.909   3rd Qu.: 4.771    
+ Max.   :15.8693   Max.   :13.965    Max.   :14.465   Max.   :16.449    
+ MDAMB231_BREAST  MDAMB361_BREAST  MDAMB415_BREAST  MDAMB435S_SKIN  
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.043   1st Qu.: 1.536   1st Qu.: 1.014   1st Qu.: 1.316  
+ Median : 3.134   Median : 3.469   Median : 3.009   Median : 3.362  
+ Mean   : 3.199   Mean   : 3.486   Mean   : 3.111   Mean   : 3.324  
+ 3rd Qu.: 4.891   3rd Qu.: 5.116   3rd Qu.: 4.749   3rd Qu.: 4.939  
+ Max.   :15.928   Max.   :15.046   Max.   :16.218   Max.   :14.255  
+ MDAMB436_BREAST  MDAMB453_BREAST   MDAMB468_BREAST  MDAPCA2B_PROSTATE
+ Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 1.239   1st Qu.: 0.5753   1st Qu.: 1.281   1st Qu.: 0.9184  
+ Median : 3.239   Median : 2.8992   Median : 3.356   Median : 3.3363  
+ Mean   : 3.307   Mean   : 3.0143   Mean   : 3.341   Mean   : 3.2748  
+ 3rd Qu.: 4.983   3rd Qu.: 4.8319   3rd Qu.: 4.986   3rd Qu.: 5.0736  
+ Max.   :15.351   Max.   :16.3637   Max.   :15.812   Max.   :15.4360  
+ MDST8_LARGE_INTESTINE ME1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000       Min.   : 0.0000                       
+ 1st Qu.: 0.7485       1st Qu.: 0.3561                       
+ Median : 2.9505       Median : 2.5922                       
+ Mean   : 3.0770       Mean   : 2.7455                       
+ 3rd Qu.: 4.8174       3rd Qu.: 4.4529                       
+ Max.   :15.3521       Max.   :14.6931                       
+ MEC1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                        
+ 1st Qu.: 0.6415                        
+ Median : 2.9107                        
+ Mean   : 2.9861                        
+ 3rd Qu.: 4.7271                        
+ Max.   :16.0350                        
+ MEG01_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE   MELHO_SKIN      MELJUSO_SKIN    
+ Min.   : 0.0000                          Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 0.7485                          1st Qu.: 0.757   1st Qu.: 0.8639  
+ Median : 2.7761                          Median : 2.905   Median : 3.0268  
+ Mean   : 2.9289                          Mean   : 3.039   Mean   : 3.1247  
+ 3rd Qu.: 4.5759                          3rd Qu.: 4.762   3rd Qu.: 4.8410  
+ Max.   :16.4393                          Max.   :16.030   Max.   :15.6390  
+ MESSA_SOFT_TISSUE   MEWO_SKIN       MFE280_ENDOMETRIUM MFE296_ENDOMETRIUM
+ Min.   : 0.0000   Min.   : 0.0000   Min.   : 0.000     Min.   : 0.000    
+ 1st Qu.: 0.7655   1st Qu.: 0.8875   1st Qu.: 1.566     1st Qu.: 1.151    
+ Median : 3.0548   Median : 3.1699   Median : 3.281     Median : 3.349    
+ Mean   : 3.0861   Mean   : 3.1866   Mean   : 3.326     Mean   : 3.303    
+ 3rd Qu.: 4.8455   3rd Qu.: 4.9519   3rd Qu.: 4.824     3rd Qu.: 5.027    
+ Max.   :15.2293   Max.   :15.4099   Max.   :16.223     Max.   :15.953    
+ MFE319_ENDOMETRIUM   MG63_BONE      
+ Min.   : 0.000     Min.   : 0.0000  
+ 1st Qu.: 1.070     1st Qu.: 0.9928  
+ Median : 3.208     Median : 2.9764  
+ Mean   : 3.207     Mean   : 3.1043  
+ 3rd Qu.: 4.864     3rd Qu.: 4.7271  
+ Max.   :16.438     Max.   :15.6678  
+ MHHCALL2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                            
+ 1st Qu.: 0.8836                            
+ Median : 3.3462                            
+ Mean   : 3.2373                            
+ 3rd Qu.: 5.0396                            
+ Max.   :15.0620                            
+ MHHCALL3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                            
+ 1st Qu.: 0.8639                            
+ Median : 3.4101                            
+ Mean   : 3.3081                            
+ 3rd Qu.: 5.1759                            
+ Max.   :14.7968                            
+ MHHCALL4_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  MHHES1_BONE    
+ Min.   : 0.0000                             Min.   : 0.000  
+ 1st Qu.: 0.6229                             1st Qu.: 1.322  
+ Median : 3.2630                             Median : 3.349  
+ Mean   : 3.1973                             Mean   : 3.325  
+ 3rd Qu.: 5.0777                             3rd Qu.: 4.961  
+ Max.   :14.9760                             Max.   :14.827  
+ MHHNB11_AUTONOMIC_GANGLIA MIAPACA2_PANCREAS
+ Min.   : 0.0000           Min.   : 0.0000  
+ 1st Qu.: 0.9336           1st Qu.: 0.7181  
+ Median : 3.2928           Median : 2.7377  
+ Mean   : 3.1988           Mean   : 2.9436  
+ 3rd Qu.: 4.9006           3rd Qu.: 4.5783  
+ Max.   :13.7936           Max.   :14.4891  
+ MINO_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE MJ_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         Min.   : 0.0000                      
+ 1st Qu.: 0.6041                         1st Qu.: 0.7398                      
+ Median : 2.9873                         Median : 3.0566                      
+ Mean   : 3.0469                         Mean   : 3.1314                      
+ 3rd Qu.: 4.8334                         3rd Qu.: 4.9642                      
+ Max.   :15.3591                         Max.   :14.6883                      
+  MKN1_STOMACH    MKN45_STOMACH    MKN74_STOMACH     MKN7_STOMACH   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.595   1st Qu.: 1.111   1st Qu.: 1.050   1st Qu.: 1.064  
+ Median : 3.434   Median : 3.236   Median : 3.541   Median : 2.987  
+ Mean   : 3.456   Mean   : 3.254   Mean   : 3.441   Mean   : 3.122  
+ 3rd Qu.: 4.991   3rd Qu.: 4.950   3rd Qu.: 5.323   3rd Qu.: 4.723  
+ Max.   :14.897   Max.   :14.835   Max.   :14.566   Max.   :15.726  
+  ML1_THYROID     MM1S_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000   Min.   : 0.0000                        
+ 1st Qu.: 1.551   1st Qu.: 0.6415                        
+ Median : 3.394   Median : 2.8420                        
+ Mean   : 3.430   Mean   : 3.0011                        
+ 3rd Qu.: 4.991   3rd Qu.: 4.8037                        
+ Max.   :15.383   Max.   :15.5607                        
+ MOLM13_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                          
+ 1st Qu.: 0.4854                          
+ Median : 2.6713                          
+ Mean   : 2.8474                          
+ 3rd Qu.: 4.5583                          
+ Max.   :15.3196                          
+ MOLM16_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                           
+ 1st Qu.: 0.757                           
+ Median : 3.072                           
+ Mean   : 3.105                           
+ 3rd Qu.: 4.884                           
+ Max.   :15.795                           
+ MOLM6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                          
+ 1st Qu.: 0.774                          
+ Median : 2.903                          
+ Mean   : 2.922                          
+ 3rd Qu.: 4.517                          
+ Max.   :15.177                          
+ MOLP2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         
+ 1st Qu.: 0.7485                         
+ Median : 2.6508                         
+ Mean   : 2.7734                         
+ 3rd Qu.: 4.2917                         
+ Max.   :17.1299                         
+ MOLP8_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         
+ 1st Qu.: 0.7398                         
+ Median : 2.8679                         
+ Mean   : 2.9933                         
+ 3rd Qu.: 4.6887                         
+ Max.   :14.6471                         
+ MOLT13_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                           
+ 1st Qu.: 1.104                           
+ Median : 3.336                           
+ Mean   : 3.311                           
+ 3rd Qu.: 5.067                           
+ Max.   :15.338                           
+ MOLT16_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                          
+ 1st Qu.: 0.7312                          
+ Median : 3.2479                          
+ Mean   : 3.1675                          
+ 3rd Qu.: 4.9878                          
+ Max.   :15.0195                          
+ MOLT3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         
+ 1st Qu.: 0.6369                         
+ Median : 3.0824                         
+ Mean   : 3.0768                         
+ 3rd Qu.: 4.8714                         
+ Max.   :15.0886                         
+ MONOMAC1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                             
+ 1st Qu.: 0.848                             
+ Median : 3.103                             
+ Mean   : 3.112                             
+ 3rd Qu.: 4.827                             
+ Max.   :15.292                             
+ MONOMAC6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE MON_SOFT_TISSUE  
+ Min.   : 0.0000                             Min.   : 0.0000  
+ 1st Qu.: 0.8797                             1st Qu.: 0.6508  
+ Median : 3.2555                             Median : 3.1811  
+ Mean   : 3.2394                             Mean   : 3.1435  
+ 3rd Qu.: 5.0766                             3rd Qu.: 4.9873  
+ Max.   :15.0181                             Max.   :15.4996  
+  MORCPR_LUNG       MPP89_PLEURA    MSTO211H_PLEURA  
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 0.8718   1st Qu.: 1.501   1st Qu.: 0.9928  
+ Median : 2.8278   Median : 3.399   Median : 3.2016  
+ Mean   : 2.9164   Mean   : 3.435   Mean   : 3.2121  
+ 3rd Qu.: 4.4670   3rd Qu.: 5.015   3rd Qu.: 4.9212  
+ Max.   :16.3397   Max.   :14.024   Max.   :15.3886  
+ MUTZ3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         
+ 1st Qu.: 0.9635                         
+ Median : 3.6323                         
+ Mean   : 3.3762                         
+ 3rd Qu.: 5.1916                         
+ Max.   :15.3269                         
+ MUTZ5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         
+ 1st Qu.: 0.6135                         
+ Median : 2.9946                         
+ Mean   : 3.0130                         
+ 3rd Qu.: 4.7695                         
+ Max.   :15.1554                         
+ MV411_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                          
+ 1st Qu.: 0.546                          
+ Median : 2.609                          
+ Mean   : 2.837                          
+ 3rd Qu.: 4.519                          
+ Max.   :16.166                          
+ NALM19_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                          
+ 1st Qu.: 0.6508                          
+ Median : 3.1603                          
+ Mean   : 3.1635                          
+ 3rd Qu.: 5.0407                          
+ Max.   :14.9743                          
+ NALM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         
+ 1st Qu.: 0.7485                         
+ Median : 3.2016                         
+ Mean   : 3.1337                         
+ 3rd Qu.: 4.9035                         
+ Max.   :14.9367                         
+ NALM6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         
+ 1st Qu.: 0.5656                         
+ Median : 3.1827                         
+ Mean   : 3.0917                         
+ 3rd Qu.: 4.9115                         
+ Max.   :15.9502                         
+ NAMALWA_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE NB1_AUTONOMIC_GANGLIA
+ Min.   : 0.0000                            Min.   : 0.0000      
+ 1st Qu.: 0.5656                            1st Qu.: 0.8718      
+ Median : 2.9203                            Median : 3.0426      
+ Mean   : 3.0103                            Mean   : 3.1082      
+ 3rd Qu.: 4.7882                            3rd Qu.: 4.7983      
+ Max.   :15.3209                            Max.   :16.1082      
+ NB4_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE NCCSTCK140_STOMACH NCIH1048_LUNG   
+ Min.   : 0.0000                        Min.   : 0.000     Min.   : 0.000  
+ 1st Qu.: 0.5656                        1st Qu.: 1.623     1st Qu.: 1.556  
+ Median : 2.7949                        Median : 3.543     Median : 3.647  
+ Mean   : 2.9689                        Mean   : 3.499     Mean   : 3.509  
+ 3rd Qu.: 4.7350                        3rd Qu.: 5.098     3rd Qu.: 5.151  
+ Max.   :15.3786                        Max.   :14.742     Max.   :15.808  
+ NCIH1092_LUNG    NCIH1105_LUNG    NCIH1155_LUNG    NCIH1184_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.692   1st Qu.: 1.644   1st Qu.: 1.599   1st Qu.: 1.551  
+ Median : 3.703   Median : 3.876   Median : 3.727   Median : 3.686  
+ Mean   : 3.593   Mean   : 3.692   Mean   : 3.606   Mean   : 3.534  
+ 3rd Qu.: 5.279   3rd Qu.: 5.474   3rd Qu.: 5.301   3rd Qu.: 5.214  
+ Max.   :15.823   Max.   :15.165   Max.   :14.153   Max.   :15.954  
+ NCIH1299_LUNG    NCIH1339_LUNG    NCIH1341_LUNG    NCIH1355_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.084   1st Qu.: 1.316   1st Qu.: 1.345   1st Qu.: 1.333  
+ Median : 3.005   Median : 3.424   Median : 3.525   Median : 3.345  
+ Mean   : 3.098   Mean   : 3.375   Mean   : 3.428   Mean   : 3.326  
+ 3rd Qu.: 4.693   3rd Qu.: 5.027   3rd Qu.: 5.143   3rd Qu.: 4.976  
+ Max.   :16.065   Max.   :16.206   Max.   :15.584   Max.   :15.400  
+ NCIH1373_LUNG    NCIH1385_LUNG    NCIH1395_LUNG    NCIH1435_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.239   1st Qu.: 1.233   1st Qu.: 0.840   1st Qu.: 1.014  
+ Median : 3.191   Median : 3.172   Median : 2.563   Median : 3.233  
+ Mean   : 3.206   Mean   : 3.229   Mean   : 2.791   Mean   : 3.249  
+ 3rd Qu.: 4.830   3rd Qu.: 4.853   3rd Qu.: 4.218   3rd Qu.: 4.974  
+ Max.   :16.267   Max.   :16.316   Max.   :16.654   Max.   :16.172  
+ NCIH1436_LUNG    NCIH1437_LUNG     NCIH146_LUNG    NCIH1563_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.604   1st Qu.: 1.170   1st Qu.: 1.227   1st Qu.: 1.157  
+ Median : 3.802   Median : 3.123   Median : 3.459   Median : 3.178  
+ Mean   : 3.600   Mean   : 3.170   Mean   : 3.391   Mean   : 3.240  
+ 3rd Qu.: 5.292   3rd Qu.: 4.751   3rd Qu.: 5.118   3rd Qu.: 4.880  
+ Max.   :15.313   Max.   :16.018   Max.   :16.036   Max.   :15.680  
+ NCIH1568_LUNG    NCIH1573_LUNG    NCIH1581_LUNG    NCIH1618_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.287   1st Qu.: 1.637   1st Qu.: 1.202   1st Qu.: 1.616  
+ Median : 3.369   Median : 3.506   Median : 3.128   Median : 3.801  
+ Mean   : 3.356   Mean   : 3.466   Mean   : 3.207   Mean   : 3.636  
+ 3rd Qu.: 5.037   3rd Qu.: 5.043   3rd Qu.: 4.845   3rd Qu.: 5.351  
+ Max.   :15.925   Max.   :15.649   Max.   :16.224   Max.   :15.404  
+ NCIH1623_LUNG    NCIH1648_LUNG    NCIH1650_LUNG    NCIH1651_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.293   1st Qu.: 1.496   1st Qu.: 1.406   1st Qu.: 1.438  
+ Median : 3.124   Median : 3.335   Median : 3.390   Median : 3.489  
+ Mean   : 3.184   Mean   : 3.364   Mean   : 3.394   Mean   : 3.463  
+ 3rd Qu.: 4.746   3rd Qu.: 4.918   3rd Qu.: 5.027   3rd Qu.: 5.107  
+ Max.   :16.381   Max.   :15.774   Max.   :15.854   Max.   :15.805  
+ NCIH1666_LUNG    NCIH1693_LUNG    NCIH1694_LUNG    NCIH1703_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.043   1st Qu.: 1.322   1st Qu.: 1.498   1st Qu.: 1.057  
+ Median : 2.967   Median : 3.141   Median : 3.763   Median : 3.141  
+ Mean   : 3.049   Mean   : 3.233   Mean   : 3.577   Mean   : 3.211  
+ 3rd Qu.: 4.615   3rd Qu.: 4.787   3rd Qu.: 5.333   3rd Qu.: 4.938  
+ Max.   :15.874   Max.   :14.747   Max.   :15.523   Max.   :15.756  
+ NCIH1734_LUNG    NCIH1755_LUNG    NCIH1781_LUNG    NCIH1792_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.637   1st Qu.: 1.333   1st Qu.: 1.104   1st Qu.: 1.316  
+ Median : 3.548   Median : 3.325   Median : 3.366   Median : 3.381  
+ Mean   : 3.552   Mean   : 3.346   Mean   : 3.319   Mean   : 3.364  
+ 3rd Qu.: 5.172   3rd Qu.: 4.996   3rd Qu.: 5.079   3rd Qu.: 5.003  
+ Max.   :15.543   Max.   :15.720   Max.   :15.687   Max.   :15.393  
+ NCIH1793_LUNG    NCIH1819_LUNG    NCIH1836_LUNG    NCIH1838_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.438   1st Qu.: 1.211   1st Qu.: 1.339   1st Qu.: 1.275  
+ Median : 3.315   Median : 3.217   Median : 3.632   Median : 3.300  
+ Mean   : 3.302   Mean   : 3.285   Mean   : 3.492   Mean   : 3.318  
+ 3rd Qu.: 4.839   3rd Qu.: 4.957   3rd Qu.: 5.263   3rd Qu.: 4.964  
+ Max.   :16.145   Max.   :16.090   Max.   :15.469   Max.   :15.554  
+ NCIH1869_LUNG     NCIH1876_LUNG    NCIH1915_LUNG    NCIH1930_LUNG   
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.8237   1st Qu.: 1.692   1st Qu.: 1.138   1st Qu.: 1.707  
+ Median : 2.7004   Median : 3.775   Median : 3.048   Median : 3.775  
+ Mean   : 2.9565   Mean   : 3.624   Mean   : 3.155   Mean   : 3.624  
+ 3rd Qu.: 4.5521   3rd Qu.: 5.291   3rd Qu.: 4.716   3rd Qu.: 5.287  
+ Max.   :15.1277   Max.   :15.700   Max.   :14.058   Max.   :15.817  
+ NCIH1944_LUNG    NCIH1963_LUNG     NCIH196_LUNG    NCIH1975_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.257   1st Qu.: 1.384   1st Qu.: 1.124   1st Qu.: 1.333  
+ Median : 3.098   Median : 3.681   Median : 3.521   Median : 3.320  
+ Mean   : 3.196   Mean   : 3.540   Mean   : 3.434   Mean   : 3.312  
+ 3rd Qu.: 4.755   3rd Qu.: 5.315   3rd Qu.: 5.262   3rd Qu.: 4.920  
+ Max.   :14.674   Max.   :15.469   Max.   :14.951   Max.   :15.755  
+ NCIH2004RT_SOFT_TISSUE NCIH2009_LUNG    NCIH2023_LUNG    NCIH2029_LUNG   
+ Min.   : 0.0000        Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.8074        1st Qu.: 1.233   1st Qu.: 1.362   1st Qu.: 1.287  
+ Median : 2.9449        Median : 3.254   Median : 3.225   Median : 3.480  
+ Mean   : 3.0145        Mean   : 3.290   Mean   : 3.279   Mean   : 3.393  
+ 3rd Qu.: 4.6943        3rd Qu.: 4.899   3rd Qu.: 4.835   3rd Qu.: 5.146  
+ Max.   :15.9669        Max.   :15.562   Max.   :15.922   Max.   :16.394  
+ NCIH2030_LUNG    NCIH2052_PLEURA  NCIH2066_LUNG    NCIH2073_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.313   1st Qu.: 1.333   1st Qu.: 1.506   1st Qu.: 1.025  
+ Median : 3.313   Median : 3.409   Median : 3.597   Median : 2.658  
+ Mean   : 3.332   Mean   : 3.401   Mean   : 3.495   Mean   : 2.821  
+ 3rd Qu.: 5.005   3rd Qu.: 5.088   3rd Qu.: 5.184   3rd Qu.: 4.223  
+ Max.   :15.444   Max.   :13.509   Max.   :16.144   Max.   :16.738  
+ NCIH2077_LUNG    NCIH2081_LUNG    NCIH2085_LUNG    NCIH2087_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.084   1st Qu.: 1.727   1st Qu.: 1.328   1st Qu.: 1.384  
+ Median : 3.062   Median : 3.616   Median : 3.249   Median : 3.309  
+ Mean   : 3.129   Mean   : 3.547   Mean   : 3.273   Mean   : 3.343  
+ 3rd Qu.: 4.755   3rd Qu.: 5.135   3rd Qu.: 4.867   3rd Qu.: 4.954  
+ Max.   :16.496   Max.   :15.526   Max.   :16.049   Max.   :15.314  
+  NCIH209_LUNG    NCIH2106_LUNG    NCIH2110_LUNG     NCIH211_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.470   1st Qu.: 2.004   1st Qu.: 1.138   1st Qu.: 1.064  
+ Median : 3.699   Median : 4.029   Median : 3.251   Median : 3.222  
+ Mean   : 3.557   Mean   : 3.827   Mean   : 3.233   Mean   : 3.247  
+ 3rd Qu.: 5.288   3rd Qu.: 5.557   3rd Qu.: 4.890   3rd Qu.: 4.999  
+ Max.   :15.366   Max.   :14.722   Max.   :16.080   Max.   :15.947  
+ NCIH2122_LUNG    NCIH2126_LUNG    NCIH2170_LUNG     NCIH2171_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 0.926   1st Qu.: 1.316   1st Qu.: 0.9107   1st Qu.: 1.422  
+ Median : 2.820   Median : 3.336   Median : 2.9260   Median : 3.445  
+ Mean   : 2.967   Mean   : 3.341   Mean   : 3.0363   Mean   : 3.390  
+ 3rd Qu.: 4.502   3rd Qu.: 4.992   3rd Qu.: 4.6441   3rd Qu.: 5.022  
+ Max.   :16.484   Max.   :15.140   Max.   :16.2246   Max.   :15.848  
+ NCIH2172_LUNG    NCIH2196_LUNG    NCIH2227_LUNG    NCIH2228_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.070   1st Qu.: 1.799   1st Qu.: 1.722   1st Qu.: 1.411  
+ Median : 3.208   Median : 3.809   Median : 3.758   Median : 3.444  
+ Mean   : 3.218   Mean   : 3.620   Mean   : 3.618   Mean   : 3.463  
+ 3rd Qu.: 4.879   3rd Qu.: 5.282   3rd Qu.: 5.304   3rd Qu.: 5.152  
+ Max.   :15.752   Max.   :16.457   Max.   :15.574   Max.   :14.851  
+  NCIH226_LUNG    NCIH2286_LUNG    NCIH2291_LUNG    NCIH2342_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.848   1st Qu.: 1.189   1st Qu.: 1.220   1st Qu.: 1.111  
+ Median : 2.971   Median : 3.325   Median : 3.200   Median : 3.155  
+ Mean   : 3.106   Mean   : 3.368   Mean   : 3.258   Mean   : 3.214  
+ 3rd Qu.: 4.815   3rd Qu.: 5.127   3rd Qu.: 4.879   3rd Qu.: 4.868  
+ Max.   :13.791   Max.   :15.099   Max.   :15.256   Max.   :15.832  
+ NCIH2347_LUNG     NCIH23_LUNG     NCIH2405_LUNG    NCIH2444_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.144   1st Qu.: 1.007   1st Qu.: 1.546   1st Qu.: 1.287  
+ Median : 3.134   Median : 2.793   Median : 3.487   Median : 2.996  
+ Mean   : 3.223   Mean   : 2.998   Mean   : 3.478   Mean   : 3.148  
+ 3rd Qu.: 4.862   3rd Qu.: 4.562   3rd Qu.: 5.091   3rd Qu.: 4.607  
+ Max.   :15.065   Max.   :16.529   Max.   :15.220   Max.   :15.687  
+ NCIH2452_PLEURA  NCIH2882_LUNG    NCIH2887_LUNG    NCIH28_PLEURA   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.064   1st Qu.: 1.036   1st Qu.: 1.014   1st Qu.: 0.926  
+ Median : 3.208   Median : 2.993   Median : 2.963   Median : 2.920  
+ Mean   : 3.265   Mean   : 3.136   Mean   : 3.100   Mean   : 3.040  
+ 3rd Qu.: 5.026   3rd Qu.: 4.811   3rd Qu.: 4.729   3rd Qu.: 4.672  
+ Max.   :15.269   Max.   :15.596   Max.   :16.611   Max.   :16.134  
+  NCIH292_LUNG    NCIH3122_LUNG      NCIH322_LUNG     NCIH3255_LUNG   
+ Min.   : 0.000   Min.   : 0.0000   Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 1.176   1st Qu.: 0.9486   1st Qu.: 0.9709   1st Qu.: 1.422  
+ Median : 3.050   Median : 2.7761   Median : 2.9982   Median : 3.433  
+ Mean   : 3.092   Mean   : 2.9619   Mean   : 3.0971   Mean   : 3.426  
+ 3rd Qu.: 4.615   3rd Qu.: 4.5295   3rd Qu.: 4.7645   3rd Qu.: 5.085  
+ Max.   :16.764   Max.   :16.5274   Max.   :15.9461   Max.   :15.308  
+  NCIH358_LUNG     NCIH441_LUNG     NCIH446_LUNG     NCIH460_LUNG    
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 1.390   1st Qu.: 1.272   1st Qu.: 1.084   1st Qu.: 0.7908  
+ Median : 3.263   Median : 3.506   Median : 3.407   Median : 2.7203  
+ Mean   : 3.302   Mean   : 3.381   Mean   : 3.303   Mean   : 2.9514  
+ 3rd Qu.: 4.923   3rd Qu.: 5.118   3rd Qu.: 5.023   3rd Qu.: 4.5607  
+ Max.   :15.700   Max.   :15.359   Max.   :15.857   Max.   :15.4646  
+ NCIH508_LARGE_INTESTINE  NCIH510_LUNG     NCIH520_LUNG     NCIH522_LUNG   
+ Min.   : 0.0000         Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.9782         1st Qu.: 1.700   1st Qu.: 1.233   1st Qu.: 1.183  
+ Median : 2.8972         Median : 3.664   Median : 3.309   Median : 3.463  
+ Mean   : 2.9504         Mean   : 3.558   Mean   : 3.342   Mean   : 3.354  
+ 3rd Qu.: 4.4947         3rd Qu.: 5.190   3rd Qu.: 5.061   3rd Qu.: 5.090  
+ Max.   :16.6209         Max.   :15.526   Max.   :14.964   Max.   :14.495  
+  NCIH524_LUNG     NCIH526_LUNG     NCIH596_LUNG     NCIH647_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.401   1st Qu.: 1.491   1st Qu.: 1.580   1st Qu.: 1.183  
+ Median : 3.355   Median : 3.616   Median : 3.545   Median : 3.111  
+ Mean   : 3.344   Mean   : 3.532   Mean   : 3.516   Mean   : 3.195  
+ 3rd Qu.: 4.958   3rd Qu.: 5.218   3rd Qu.: 5.132   3rd Qu.: 4.797  
+ Max.   :15.449   Max.   :15.116   Max.   :14.898   Max.   :15.603  
+  NCIH650_LUNG    NCIH660_PROSTATE  NCIH661_LUNG    NCIH684_LIVER   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.406   1st Qu.: 1.868   1st Qu.: 1.390   1st Qu.: 1.043  
+ Median : 3.437   Median : 3.788   Median : 3.446   Median : 3.251  
+ Mean   : 3.375   Mean   : 3.640   Mean   : 3.406   Mean   : 3.257  
+ 3rd Qu.: 4.987   3rd Qu.: 5.241   3rd Qu.: 5.051   3rd Qu.: 4.990  
+ Max.   :14.817   Max.   :15.848   Max.   :15.422   Max.   :15.470  
+  NCIH69_LUNG     NCIH716_LARGE_INTESTINE  NCIH727_LUNG   
+ Min.   : 0.000   Min.   : 0.0000         Min.   : 0.000  
+ 1st Qu.: 1.436   1st Qu.: 0.9855         1st Qu.: 1.511  
+ Median : 3.640   Median : 3.2570         Median : 3.465  
+ Mean   : 3.516   Mean   : 3.2135         Mean   : 3.454  
+ 3rd Qu.: 5.248   3rd Qu.: 4.9103         3rd Qu.: 5.075  
+ Max.   :15.760   Max.   :15.9283         Max.   :15.436  
+ NCIH747_LARGE_INTESTINE  NCIH810_LUNG     NCIH82_LUNG       NCIH838_LUNG    
+ Min.   : 0.000          Min.   : 0.000   Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 1.163          1st Qu.: 1.189   1st Qu.: 0.9855   1st Qu.: 0.9184  
+ Median : 3.216          Median : 3.373   Median : 3.1985   Median : 2.8639  
+ Mean   : 3.244          Mean   : 3.345   Mean   : 3.2212   Mean   : 3.0241  
+ 3rd Qu.: 4.909          3rd Qu.: 5.081   3rd Qu.: 4.9556   3rd Qu.: 4.6061  
+ Max.   :16.094          Max.   :15.690   Max.   :15.4279   Max.   :14.6749  
+  NCIH841_LUNG     NCIH854_LUNG      NCIH889_LUNG   
+ Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 1.263   1st Qu.: 0.9486   1st Qu.: 1.417  
+ Median : 3.299   Median : 3.0479   Median : 3.458  
+ Mean   : 3.257   Mean   : 3.1170   Mean   : 3.375  
+ 3rd Qu.: 4.860   3rd Qu.: 4.7856   3rd Qu.: 4.993  
+ Max.   :16.615   Max.   :15.8316   Max.   :16.107  
+ NCIH929_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE NCIN87_STOMACH  
+ Min.   : 0.000                             Min.   : 0.000  
+ 1st Qu.: 0.774                             1st Qu.: 1.293  
+ Median : 2.664                             Median : 3.254  
+ Mean   : 2.881                             Mean   : 3.246  
+ 3rd Qu.: 4.466                             3rd Qu.: 4.820  
+ Max.   :14.612                             Max.   :15.920  
+ NCO2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE NH6_AUTONOMIC_GANGLIA
+ Min.   : 0.000                          Min.   : 0.000       
+ 1st Qu.: 0.774                          1st Qu.: 1.687       
+ Median : 3.055                          Median : 3.879       
+ Mean   : 3.084                          Mean   : 3.637       
+ 3rd Qu.: 4.839                          3rd Qu.: 5.319       
+ Max.   :15.188                          Max.   :15.215       
+ NHAHTDD_CENTRAL_NERVOUS_SYSTEM NIHOVCAR3_OVARY  NMCG1_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000                 Min.   : 0.000   Min.   : 0.000              
+ 1st Qu.: 1.091                 1st Qu.: 1.508   1st Qu.: 1.214              
+ Median : 3.305                 Median : 3.316   Median : 3.358              
+ Mean   : 3.283                 Mean   : 3.361   Mean   : 3.351              
+ 3rd Qu.: 4.993                 3rd Qu.: 4.931   3rd Qu.: 5.033              
+ Max.   :15.876                 Max.   :16.234   Max.   :15.175              
+ NOMO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         
+ 1st Qu.: 0.9486                         
+ Median : 2.9782                         
+ Mean   : 3.0707                         
+ 3rd Qu.: 4.7096                         
+ Max.   :15.6629                         
+ NUDHL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                          
+ 1st Qu.: 0.4222                          
+ Median : 2.6182                          
+ Mean   : 2.7933                          
+ 3rd Qu.: 4.5211                          
+ Max.   :14.8921                          
+ NUDUL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE NUGC2_STOMACH    NUGC3_STOMACH    
+ Min.   : 0.0000                           Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 0.4854                           1st Qu.: 1.293   1st Qu.: 0.8875  
+ Median : 2.9184                           Median : 3.234   Median : 2.8738  
+ Mean   : 2.9899                           Mean   : 3.344   Mean   : 3.0038  
+ 3rd Qu.: 4.7827                           3rd Qu.: 5.016   3rd Qu.: 4.6129  
+ Max.   :15.3357                           Max.   :14.268   Max.   :15.8226  
+ NUGC4_STOMACH      OAW28_OVARY      OAW42_OVARY       OC314_OVARY    
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 0.7908   1st Qu.: 1.470   1st Qu.: 0.7137   1st Qu.: 1.350  
+ Median : 2.8500   Median : 3.385   Median : 2.8074   Median : 3.155  
+ Mean   : 2.9487   Mean   : 3.426   Mean   : 2.9870   Mean   : 3.199  
+ 3rd Qu.: 4.5804   3rd Qu.: 5.065   3rd Qu.: 4.6611   3rd Qu.: 4.736  
+ Max.   :16.4193   Max.   :15.191   Max.   :15.4309   Max.   :16.808  
+ OCIAML2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                           
+ 1st Qu.: 0.7137                           
+ Median : 3.1043                           
+ Mean   : 3.0775                           
+ 3rd Qu.: 4.8359                           
+ Max.   :14.4583                           
+ OCIAML3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                           
+ 1st Qu.: 0.5753                           
+ Median : 2.5361                           
+ Mean   : 2.7802                           
+ 3rd Qu.: 4.4148                           
+ Max.   :14.5247                           
+ OCIAML5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                            
+ 1st Qu.: 0.903                            
+ Median : 3.050                            
+ Mean   : 3.081                            
+ 3rd Qu.: 4.758                            
+ Max.   :14.755                            
+ OCILY19_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                           
+ 1st Qu.: 0.4751                           
+ Median : 2.7420                           
+ Mean   : 2.8702                           
+ 3rd Qu.: 4.6041                           
+ Max.   :13.8656                           
+ OCILY3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                          
+ 1st Qu.: 0.5945                          
+ Median : 2.8359                          
+ Mean   : 2.9441                          
+ 3rd Qu.: 4.6778                          
+ Max.   :15.7690                          
+ OCIM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                         
+ 1st Qu.: 0.6041                         
+ Median : 2.8580                         
+ Mean   : 2.9753                         
+ 3rd Qu.: 4.7350                         
+ Max.   :15.4809                         
+ OCIMY5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                          
+ 1st Qu.: 0.5059                          
+ Median : 2.5705                          
+ Mean   : 2.7432                          
+ 3rd Qu.: 4.3844                          
+ Max.   :16.5536                          
+ OCIMY7_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE OCUM1_STOMACH     OE19_OESOPHAGUS  
+ Min.   : 0.0000                           Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 0.5361                           1st Qu.: 0.9069   1st Qu.: 0.9107  
+ Median : 2.4033                           Median : 3.0738   Median : 3.0321  
+ Mean   : 2.5996                           Mean   : 3.0987   Mean   : 3.0665  
+ 3rd Qu.: 4.0712                           3rd Qu.: 4.7740   3rd Qu.: 4.7167  
+ Max.   :16.9082                           Max.   :15.7995   Max.   :15.6002  
+ OE21_OESOPHAGUS   OE33_OESOPHAGUS     OELE_OVARY     ONCODG1_OVARY   
+ Min.   : 0.0000   Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.5753   1st Qu.: 0.9411   1st Qu.: 1.390   1st Qu.: 1.379  
+ Median : 2.1177   Median : 3.1457   Median : 3.369   Median : 3.079  
+ Mean   : 2.4261   Mean   : 3.1592   Mean   : 3.358   Mean   : 3.191  
+ 3rd Qu.: 3.7420   3rd Qu.: 4.8716   3rd Qu.: 4.970   3rd Qu.: 4.679  
+ Max.   :17.0500   Max.   :15.7521   Max.   :16.139   Max.   :16.453  
+ ONS76_CENTRAL_NERVOUS_SYSTEM OPM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000               Min.   : 0.000                         
+ 1st Qu.: 1.310               1st Qu.: 0.516                         
+ Median : 3.192               Median : 2.848                         
+ Mean   : 3.217               Mean   : 2.945                         
+ 3rd Qu.: 4.755               3rd Qu.: 4.706                         
+ Max.   :16.306               Max.   :16.414                         
+ OPM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  OSRC2_KIDNEY   
+ Min.   : 0.000                          Min.   : 0.000  
+ 1st Qu.: 0.669                          1st Qu.: 1.287  
+ Median : 2.909                          Median : 3.339  
+ Mean   : 2.996                          Mean   : 3.329  
+ 3rd Qu.: 4.712                          3rd Qu.: 4.952  
+ Max.   :15.550                          Max.   :15.677  
+ OUMS23_LARGE_INTESTINE   OV56_OVARY       OV7_OVARY        OV90_OVARY    
+ Min.   : 0.000         Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.293         1st Qu.: 1.195   1st Qu.: 0.757   1st Qu.: 1.000  
+ Median : 3.237         Median : 3.126   Median : 2.816   Median : 2.889  
+ Mean   : 3.254         Mean   : 3.190   Mean   : 3.015   Mean   : 3.053  
+ 3rd Qu.: 4.865         3rd Qu.: 4.758   3rd Qu.: 4.728   3rd Qu.: 4.629  
+ Max.   :15.877         Max.   :14.871   Max.   :15.060   Max.   :14.859  
+  OVCAR4_OVARY      OVCAR8_OVARY     OVISE_OVARY      OVK18_OVARY    
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.9928   1st Qu.: 1.118   1st Qu.: 1.108   1st Qu.: 0.903  
+ Median : 2.8339   Median : 3.043   Median : 2.958   Median : 3.217  
+ Mean   : 3.0064   Mean   : 3.190   Mean   : 3.055   Mean   : 3.254  
+ 3rd Qu.: 4.5500   3rd Qu.: 4.833   3rd Qu.: 4.556   3rd Qu.: 5.056  
+ Max.   :16.5073   Max.   :14.733   Max.   :16.738   Max.   :14.214  
+  OVKATE_OVARY     OVMANA_OVARY     OVSAHO_OVARY     OVTOKO_OVARY    
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 1.618   1st Qu.: 0.585   1st Qu.: 1.050   1st Qu.: 0.6229  
+ Median : 3.422   Median : 2.057   Median : 2.842   Median : 2.4222  
+ Mean   : 3.413   Mean   : 2.358   Mean   : 3.030   Mean   : 2.6883  
+ 3rd Qu.: 4.958   3rd Qu.: 3.624   3rd Qu.: 4.548   3rd Qu.: 4.1942  
+ Max.   :15.957   Max.   :16.812   Max.   :15.180   Max.   :16.5691  
+ P12ICHIKAWA_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                               
+ 1st Qu.: 0.6508                               
+ Median : 3.2001                               
+ Mean   : 3.1790                               
+ 3rd Qu.: 5.0459                               
+ Max.   :13.9298                               
+ P31FUJ_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                           
+ 1st Qu.: 1.007                           
+ Median : 3.500                           
+ Mean   : 3.367                           
+ 3rd Qu.: 5.201                           
+ Max.   :14.214                           
+ P3HR1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE PANC0203_PANCREAS PANC0213_PANCREAS
+ Min.   : 0.0000                          Min.   : 0.000    Min.   : 0.000   
+ 1st Qu.: 0.2869                          1st Qu.: 1.118    1st Qu.: 1.664   
+ Median : 2.7782                          Median : 2.860    Median : 3.453   
+ Mean   : 2.9345                          Mean   : 2.937    Mean   : 3.438   
+ 3rd Qu.: 4.8440                          3rd Qu.: 4.406    3rd Qu.: 4.980   
+ Max.   :15.1108                          Max.   :16.846    Max.   :16.115   
+ PANC0327_PANCREAS PANC0403_PANCREAS PANC0504_PANCREAS PANC0813_PANCREAS
+ Min.   : 0.0000   Min.   : 0.0000   Min.   : 0.000    Min.   : 0.0000  
+ 1st Qu.: 0.9411   1st Qu.: 0.9709   1st Qu.: 1.310    1st Qu.: 0.9561  
+ Median : 2.6758   Median : 2.8953   Median : 3.271    Median : 3.1243  
+ Mean   : 2.8650   Mean   : 3.0269   Mean   : 3.303    Mean   : 3.1852  
+ 3rd Qu.: 4.3395   3rd Qu.: 4.6285   3rd Qu.: 4.912    3rd Qu.: 4.9088  
+ Max.   :16.7810   Max.   :16.1928   Max.   :15.849    Max.   :14.8962  
+ PANC1005_PANCREAS PANC1_PANCREAS   PATU8902_PANCREAS PATU8988S_PANCREAS
+ Min.   : 0.000    Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000    
+ 1st Qu.: 1.151    1st Qu.: 1.007   1st Qu.: 0.6871   1st Qu.: 1.021    
+ Median : 3.195    Median : 3.167   Median : 2.7398   Median : 3.005    
+ Mean   : 3.247    Mean   : 3.242   Mean   : 2.9301   Mean   : 3.041    
+ 3rd Qu.: 4.933    3rd Qu.: 5.001   3rd Qu.: 4.6241   3rd Qu.: 4.647    
+ Max.   :15.399    Max.   :14.931   Max.   :16.3752   Max.   :16.513    
+ PATU8988T_PANCREAS   PC14_LUNG       PC3_PROSTATE        PC9_LUNG      
+ Min.   : 0.0000    Min.   : 0.000   Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 0.8718    1st Qu.: 1.183   1st Qu.: 0.9336   1st Qu.: 0.9336  
+ Median : 3.0374    Median : 3.108   Median : 2.6826   Median : 2.8440  
+ Mean   : 3.1424    Mean   : 3.165   Mean   : 2.8999   Mean   : 2.9966  
+ 3rd Qu.: 4.8887    3rd Qu.: 4.748   3rd Qu.: 4.4094   3rd Qu.: 4.5792  
+ Max.   :15.2898    Max.   :15.410   Max.   :16.6759   Max.   :15.3218  
+ PECAPJ15_UPPER_AERODIGESTIVE_TRACT PECAPJ34CLONEC12_UPPER_AERODIGESTIVE_TRACT
+ Min.   : 0.000                     Min.   : 0.000                            
+ 1st Qu.: 1.245                     1st Qu.: 0.856                            
+ Median : 3.043                     Median : 2.782                            
+ Mean   : 3.069                     Mean   : 2.977                            
+ 3rd Qu.: 4.539                     3rd Qu.: 4.542                            
+ Max.   :16.962                     Max.   :15.667                            
+ PECAPJ41CLONED2_UPPER_AERODIGESTIVE_TRACT PECAPJ49_UPPER_AERODIGESTIVE_TRACT
+ Min.   : 0.0000                           Min.   : 0.000                    
+ 1st Qu.: 0.6229                           1st Qu.: 1.050                    
+ Median : 2.2810                           Median : 2.918                    
+ Mean   : 2.5487                           Mean   : 3.076                    
+ 3rd Qu.: 3.9449                           3rd Qu.: 4.629                    
+ Max.   :16.5524                           Max.   :16.187                    
+ PEER_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                        
+ 1st Qu.: 0.5753                        
+ Median : 2.9505                        
+ Mean   : 3.0481                        
+ 3rd Qu.: 4.8723                        
+ Max.   :16.1128                        
+ PF382_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                          
+ 1st Qu.: 1.104                          
+ Median : 3.420                          
+ Mean   : 3.343                          
+ 3rd Qu.: 5.111                          
+ Max.   :14.665                          
+ PFEIFFER_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  PK1_PANCREAS    PK45H_PANCREAS  
+ Min.   : 0.0000                             Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.8237                             1st Qu.: 0.840   1st Qu.: 1.208  
+ Median : 3.0090                             Median : 3.004   Median : 3.230  
+ Mean   : 3.1180                             Mean   : 3.077   Mean   : 3.267  
+ 3rd Qu.: 4.8907                             3rd Qu.: 4.763   3rd Qu.: 4.926  
+ Max.   :14.9853                             Max.   :16.248   Max.   :15.485  
+ PK59_PANCREAS    PL21_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000   Min.   : 0.0000                        
+ 1st Qu.: 1.257   1st Qu.: 0.3674                        
+ Median : 3.189   Median : 2.7570                        
+ Mean   : 3.214   Mean   : 2.8484                        
+ 3rd Qu.: 4.784   3rd Qu.: 4.5960                        
+ Max.   :14.588   Max.   :14.9592                        
+ PLB985_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE PLCPRF5_LIVER    PRECLH_PROSTATE 
+ Min.   : 0.0000                           Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.2987                           1st Qu.: 1.138   1st Qu.: 1.239  
+ Median : 2.3391                           Median : 3.219   Median : 3.302  
+ Mean   : 2.5733                           Mean   : 3.240   Mean   : 3.255  
+ 3rd Qu.: 4.1530                           3rd Qu.: 4.881   3rd Qu.: 4.891  
+ Max.   :15.4334                           Max.   :15.759   Max.   :16.899  
+ PSN1_PANCREAS    QGP1_PANCREAS    RAJI_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000                        
+ 1st Qu.: 1.064   1st Qu.: 1.257   1st Qu.: 0.2869                        
+ Median : 3.111   Median : 3.312   Median : 2.6871                        
+ Mean   : 3.165   Mean   : 3.286   Mean   : 2.8813                        
+ 3rd Qu.: 4.798   3rd Qu.: 4.907   3rd Qu.: 4.7093                        
+ Max.   :14.474   Max.   :15.169   Max.   :14.9023                        
+ RCC10RGB_KIDNEY  RCHACV_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000   Min.   : 0.0000                          
+ 1st Qu.: 1.227   1st Qu.: 0.7655                          
+ Median : 3.155   Median : 2.9165                          
+ Mean   : 3.230   Mean   : 3.0289                          
+ 3rd Qu.: 4.841   3rd Qu.: 4.7241                          
+ Max.   :14.722   Max.   :15.3099                          
+ RCM1_LARGE_INTESTINE   RDES_BONE      RD_SOFT_TISSUE  
+ Min.   : 0.000       Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.220       1st Qu.: 1.395   1st Qu.: 1.511  
+ Median : 3.124       Median : 3.488   Median : 3.586  
+ Mean   : 3.127       Mean   : 3.429   Mean   : 3.510  
+ 3rd Qu.: 4.655       3rd Qu.: 5.138   3rd Qu.: 5.195  
+ Max.   :15.530       Max.   :15.350   Max.   :15.234  
+ REC1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE REH_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                          Min.   : 0.000                        
+ 1st Qu.: 0.840                          1st Qu.: 0.757                        
+ Median : 2.976                          Median : 3.160                        
+ Mean   : 3.060                          Mean   : 3.182                        
+ 3rd Qu.: 4.760                          3rd Qu.: 4.992                        
+ Max.   :15.409                          Max.   :14.882                        
+ RERFGC1B_STOMACH RERFLCAD1_LUNG   RERFLCAD2_LUNG   RERFLCAI_LUNG   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.683   1st Qu.: 1.526   1st Qu.: 1.118   1st Qu.: 1.269  
+ Median : 3.485   Median : 3.536   Median : 2.907   Median : 3.203  
+ Mean   : 3.503   Mean   : 3.511   Mean   : 3.002   Mean   : 3.289  
+ 3rd Qu.: 5.050   3rd Qu.: 5.191   3rd Qu.: 4.463   3rd Qu.: 4.907  
+ Max.   :15.686   Max.   :14.179   Max.   :16.603   Max.   :15.350  
+ RERFLCKJ_LUNG    RERFLCMS_LUNG    RERFLCSQ1_LUNG   RH18_SOFT_TISSUE
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.284   1st Qu.: 1.485   1st Qu.: 1.459   1st Qu.: 1.227  
+ Median : 3.426   Median : 3.297   Median : 3.413   Median : 3.233  
+ Mean   : 3.368   Mean   : 3.356   Mean   : 3.424   Mean   : 3.252  
+ 3rd Qu.: 5.043   3rd Qu.: 4.864   3rd Qu.: 5.062   3rd Qu.: 4.846  
+ Max.   :15.028   Max.   :15.612   Max.   :15.542   Max.   :15.807  
+ RH30_SOFT_TISSUE  RH41_SOFT_TISSUE RI1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.0000                       
+ 1st Qu.: 0.7312   1st Qu.: 1.091   1st Qu.: 0.6041                       
+ Median : 2.8777   Median : 3.202   Median : 2.8400                       
+ Mean   : 3.0251   Mean   : 3.206   Mean   : 2.9959                       
+ 3rd Qu.: 4.7315   3rd Qu.: 4.915   3rd Qu.: 4.7425                       
+ Max.   :15.1370   Max.   :16.101   Max.   :15.4448                       
+ RKN_SOFT_TISSUE  RKO_LARGE_INTESTINE RL952_ENDOMETRIUM
+ Min.   : 0.000   Min.   : 0.0000     Min.   : 0.000   
+ 1st Qu.: 1.057   1st Qu.: 0.5558     1st Qu.: 1.138   
+ Median : 3.205   Median : 2.7592     Median : 3.313   
+ Mean   : 3.218   Mean   : 2.8489     Mean   : 3.240   
+ 3rd Qu.: 4.909   3rd Qu.: 4.4699     3rd Qu.: 4.921   
+ Max.   :15.323   Max.   :16.0012     Max.   :16.150   
+ RL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE   RMGI_OVARY       RMUGS_OVARY     
+ Min.   : 0.000                        Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 0.263                        1st Qu.: 0.5361   1st Qu.: 0.9336  
+ Median : 2.585                        Median : 2.3190   Median : 2.9050  
+ Mean   : 2.861                        Mean   : 2.6933   Mean   : 3.0560  
+ 3rd Qu.: 4.765                        3rd Qu.: 4.2645   3rd Qu.: 4.6800  
+ Max.   :15.933                        Max.   :15.0468   Max.   :15.8026  
+ RPMI7951_SKIN    RPMI8226_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000   Min.   : 0.0000                            
+ 1st Qu.: 1.516   1st Qu.: 0.7655                            
+ Median : 3.505   Median : 2.7049                            
+ Mean   : 3.468   Mean   : 2.9039                            
+ 3rd Qu.: 5.097   3rd Qu.: 4.5251                            
+ Max.   :14.653   Max.   :16.0396                            
+ RPMI8402_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                            
+ 1st Qu.: 0.7991                            
+ Median : 3.1890                            
+ Mean   : 3.1755                            
+ 3rd Qu.: 4.9875                            
+ Max.   :15.1255                            
+ RS411_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE RS5_FIBROBLAST    RT112_URINARY_TRACT
+ Min.   : 0.0000                          Min.   : 0.0000   Min.   : 0.000     
+ 1st Qu.: 0.2987                          1st Qu.: 0.9184   1st Qu.: 1.151     
+ Median : 2.0286                          Median : 2.8895   Median : 3.231     
+ Mean   : 2.5537                          Mean   : 3.0317   Mean   : 3.253     
+ 3rd Qu.: 4.1194                          3rd Qu.: 4.6106   3rd Qu.: 4.931     
+ Max.   :13.7289                          Max.   :15.5568   Max.   :15.893     
+ RT4_URINARY_TRACT  RVH421_SKIN       S117_THYROID      SALE_LUNG     
+ Min.   : 0.0000   Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.9561   1st Qu.: 0.9782   1st Qu.: 1.029   1st Qu.: 1.263  
+ Median : 3.0807   Median : 3.2079   Median : 3.048   Median : 3.329  
+ Mean   : 3.1363   Mean   : 3.1949   Mean   : 3.152   Mean   : 3.325  
+ 3rd Qu.: 4.8014   3rd Qu.: 4.8691   3rd Qu.: 4.766   3rd Qu.: 5.016  
+ Max.   :15.6408   Max.   :15.7866   Max.   :14.899   Max.   :16.362  
+   SAOS2_BONE       SBC5_LUNG      SCABER_URINARY_TRACT
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000     
+ 1st Qu.: 1.227   1st Qu.: 1.205   1st Qu.: 0.7824     
+ Median : 3.417   Median : 3.213   Median : 2.4906     
+ Mean   : 3.391   Mean   : 3.195   Mean   : 2.6959     
+ 3rd Qu.: 5.136   3rd Qu.: 4.814   3rd Qu.: 4.1169     
+ Max.   :14.901   Max.   :15.712   Max.   :17.1045     
+ SCC15_UPPER_AERODIGESTIVE_TRACT SCC25_UPPER_AERODIGESTIVE_TRACT
+ Min.   : 0.000                  Min.   : 0.0000                
+ 1st Qu.: 1.227                  1st Qu.: 0.7225                
+ Median : 2.895                  Median : 2.3533                
+ Mean   : 3.029                  Mean   : 2.6024                
+ 3rd Qu.: 4.471                  3rd Qu.: 3.9900                
+ Max.   :16.653                  Max.   :17.2678                
+ SCC4_UPPER_AERODIGESTIVE_TRACT SCC9_UPPER_AERODIGESTIVE_TRACT  SCLC21H_LUNG   
+ Min.   : 0.000                 Min.   : 0.000                 Min.   : 0.000  
+ 1st Qu.: 1.316                 1st Qu.: 1.310                 1st Qu.: 1.566  
+ Median : 3.077                 Median : 3.141                 Median : 3.478  
+ Mean   : 3.185                 Mean   : 3.149                 Mean   : 3.442  
+ 3rd Qu.: 4.693                 3rd Qu.: 4.687                 3rd Qu.: 5.061  
+ Max.   :16.212                 Max.   :16.763                 Max.   :14.955  
+ SEM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE SET2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                        Min.   : 0.0000                        
+ 1st Qu.: 0.7824                        1st Qu.: 0.9855                        
+ Median : 3.1060                        Median : 3.2645                        
+ Mean   : 3.1262                        Mean   : 3.2485                        
+ 3rd Qu.: 4.9011                        3rd Qu.: 5.0221                        
+ Max.   :14.4830                        Max.   :15.7471                        
+ SF126_CENTRAL_NERVOUS_SYSTEM SF172_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000               Min.   : 0.0000             
+ 1st Qu.: 1.084               1st Qu.: 0.8718             
+ Median : 3.328               Median : 2.8115             
+ Mean   : 3.313               Mean   : 2.9721             
+ 3rd Qu.: 5.033               3rd Qu.: 4.5862             
+ Max.   :14.463               Max.   :17.0047             
+ SF268_CENTRAL_NERVOUS_SYSTEM SF295_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000               Min.   : 0.000              
+ 1st Qu.: 1.004               1st Qu.: 1.084              
+ Median : 3.039               Median : 3.167              
+ Mean   : 3.182               Mean   : 3.235              
+ 3rd Qu.: 4.871               3rd Qu.: 4.936              
+ Max.   :14.413               Max.   :16.069              
+ SF539_CENTRAL_NERVOUS_SYSTEM  SF767_CERVIX    SH10TC_STOMACH   
+ Min.   : 0.000               Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 1.077               1st Qu.: 1.104   1st Qu.: 0.8718  
+ Median : 3.119               Median : 2.978   Median : 2.9764  
+ Mean   : 3.201               Mean   : 3.072   Mean   : 3.1037  
+ 3rd Qu.: 4.828               3rd Qu.: 4.602   3rd Qu.: 4.8143  
+ Max.   :15.648               Max.   :16.756   Max.   :16.0755  
+    SH4_SKIN        SHP77_LUNG     SIGM5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000                         
+ 1st Qu.: 1.070   1st Qu.: 1.362   1st Qu.: 0.5753                         
+ Median : 3.269   Median : 3.370   Median : 2.6736                         
+ Mean   : 3.260   Mean   : 3.360   Mean   : 2.8762                         
+ 3rd Qu.: 4.999   3rd Qu.: 5.027   3rd Qu.: 4.5741                         
+ Max.   :15.644   Max.   :15.578   Max.   :15.2253                         
+  SIHA_CERVIX     SIMA_AUTONOMIC_GANGLIA   SJSA1_BONE      SKBR3_BREAST   
+ Min.   : 0.000   Min.   : 0.000         Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.214   1st Qu.: 1.214         1st Qu.: 1.111   1st Qu.: 0.774  
+ Median : 3.403   Median : 3.316         Median : 3.353   Median : 2.860  
+ Mean   : 3.380   Mean   : 3.237         Mean   : 3.339   Mean   : 3.008  
+ 3rd Qu.: 5.150   3rd Qu.: 4.829         3rd Qu.: 5.078   3rd Qu.: 4.689  
+ Max.   :15.293   Max.   :15.464         Max.   :14.274   Max.   :15.810  
+ SKCO1_LARGE_INTESTINE   SKES1_BONE      SKHEP1_LIVER     SKLMS1_SOFT_TISSUE
+ Min.   : 0.000        Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000    
+ 1st Qu.: 0.848        1st Qu.: 1.328   1st Qu.: 0.8797   1st Qu.: 1.316    
+ Median : 2.880        Median : 3.430   Median : 2.8992   Median : 3.367    
+ Mean   : 2.996        Mean   : 3.387   Mean   : 3.0188   Mean   : 3.346    
+ 3rd Qu.: 4.646        3rd Qu.: 5.057   3rd Qu.: 4.6337   3rd Qu.: 4.976    
+ Max.   :16.102        Max.   :15.171   Max.   :15.9818   Max.   :15.039    
+   SKLU1_LUNG      SKM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  SKMEL1_SKIN    
+ Min.   : 0.0000   Min.   : 0.000                          Min.   : 0.000  
+ 1st Qu.: 0.8237   1st Qu.: 1.202                          1st Qu.: 1.176  
+ Median : 2.4803   Median : 3.163                          Median : 3.306  
+ Mean   : 2.7111   Mean   : 3.185                          Mean   : 3.307  
+ 3rd Qu.: 4.1214   3rd Qu.: 4.813                          3rd Qu.: 5.030  
+ Max.   :15.3270   Max.   :15.070                          Max.   :15.782  
+  SKMEL24_SKIN     SKMEL28_SKIN     SKMEL30_SKIN      SKMEL31_SKIN   
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 1.057   1st Qu.: 1.050   1st Qu.: 0.9336   1st Qu.: 1.390  
+ Median : 3.146   Median : 3.062   Median : 3.1391   Median : 3.359  
+ Mean   : 3.216   Mean   : 3.136   Mean   : 3.1914   Mean   : 3.409  
+ 3rd Qu.: 4.879   3rd Qu.: 4.750   3rd Qu.: 4.9512   3rd Qu.: 5.045  
+ Max.   :14.753   Max.   :16.340   Max.   :15.4495   Max.   :14.868  
+  SKMEL3_SKIN      SKMEL5_SKIN       SKMES1_LUNG    
+ Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 1.043   1st Qu.: 0.9486   1st Qu.: 1.511  
+ Median : 3.134   Median : 3.0126   Median : 3.420  
+ Mean   : 3.198   Mean   : 3.0889   Mean   : 3.400  
+ 3rd Qu.: 4.895   3rd Qu.: 4.7216   3rd Qu.: 4.950  
+ Max.   :15.944   Max.   :16.7787   Max.   :15.510  
+ SKMM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE SKNAS_AUTONOMIC_GANGLIA
+ Min.   : 0.0000                          Min.   : 0.000         
+ 1st Qu.: 0.7181                          1st Qu.: 1.245         
+ Median : 2.8440                          Median : 3.312         
+ Mean   : 2.9427                          Mean   : 3.288         
+ 3rd Qu.: 4.6177                          3rd Qu.: 4.948         
+ Max.   :15.5923                          Max.   :16.239         
+ SKNBE2_AUTONOMIC_GANGLIA SKNDZ_AUTONOMIC_GANGLIA  SKNEP1_BONE    
+ Min.   : 0.000           Min.   : 0.000          Min.   : 0.000  
+ 1st Qu.: 1.251           1st Qu.: 1.245          1st Qu.: 1.064  
+ Median : 3.380           Median : 3.409          Median : 3.329  
+ Mean   : 3.325           Mean   : 3.353          Mean   : 3.296  
+ 3rd Qu.: 4.990           3rd Qu.: 5.050          3rd Qu.: 5.046  
+ Max.   :15.308           Max.   :13.953          Max.   :15.668  
+ SKNFI_AUTONOMIC_GANGLIA   SKNMC_BONE    
+ Min.   : 0.000          Min.   : 0.000  
+ 1st Qu.: 1.475          1st Qu.: 1.064  
+ Median : 3.759          Median : 3.303  
+ Mean   : 3.576          Mean   : 3.290  
+ 3rd Qu.: 5.346          3rd Qu.: 5.058  
+ Max.   :14.842          Max.   :14.816  
+ SKNO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE SKNSH_AUTONOMIC_GANGLIA
+ Min.   : 0.0000                          Min.   : 0.000         
+ 1st Qu.: 0.5261                          1st Qu.: 1.496         
+ Median : 2.9011                          Median : 3.520         
+ Mean   : 2.9807                          Mean   : 3.448         
+ 3rd Qu.: 4.7546                          3rd Qu.: 5.075         
+ Max.   :16.2998                          Max.   :15.300         
+  SKOV3_OVARY      SKPNDW_BONE      SKRC20_KIDNEY    SKUT1_SOFT_TISSUE
+ Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000   Min.   : 0.000   
+ 1st Qu.: 1.491   1st Qu.: 0.9855   1st Qu.: 1.208   1st Qu.: 1.227   
+ Median : 3.502   Median : 3.2898   Median : 3.184   Median : 3.421   
+ Mean   : 3.479   Mean   : 3.2431   Mean   : 3.249   Mean   : 3.386   
+ 3rd Qu.: 5.113   3rd Qu.: 5.0018   3rd Qu.: 4.880   3rd Qu.: 5.159   
+ Max.   :15.161   Max.   :16.0868   Max.   :16.305   Max.   :14.280   
+  SLR20_KIDNEY     SLR21_KIDNEY     SLR23_KIDNEY      SLR24_KIDNEY    
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 1.131   1st Qu.: 1.242   1st Qu.: 0.9891   1st Qu.: 0.7225  
+ Median : 3.240   Median : 3.103   Median : 2.8074   Median : 2.5361  
+ Mean   : 3.219   Mean   : 3.152   Mean   : 2.9789   Mean   : 2.7012  
+ 3rd Qu.: 4.873   3rd Qu.: 4.692   3rd Qu.: 4.5283   3rd Qu.: 4.1747  
+ Max.   :16.534   Max.   :16.413   Max.   :17.1645   Max.   :17.7842  
+  SLR25_KIDNEY     SLR26_KIDNEY    SNB75_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000              
+ 1st Qu.: 1.163   1st Qu.: 1.111   1st Qu.: 1.485              
+ Median : 3.154   Median : 3.123   Median : 3.546              
+ Mean   : 3.236   Mean   : 3.205   Mean   : 3.507              
+ 3rd Qu.: 4.893   3rd Qu.: 4.858   3rd Qu.: 5.128              
+ Max.   :16.109   Max.   :16.027   Max.   :14.891              
+ SNGM_ENDOMETRIUM SNU1033_LARGE_INTESTINE SNU1040_LARGE_INTESTINE
+ Min.   : 0.000   Min.   : 0.000          Min.   : 0.000         
+ 1st Qu.: 1.007   1st Qu.: 1.098          1st Qu.: 1.269         
+ Median : 3.129   Median : 2.850          Median : 3.384         
+ Mean   : 3.123   Mean   : 2.985          Mean   : 3.354         
+ 3rd Qu.: 4.743   3rd Qu.: 4.479          3rd Qu.: 5.007         
+ Max.   :15.898   Max.   :16.504          Max.   :14.762         
+ SNU1041_UPPER_AERODIGESTIVE_TRACT SNU1066_UPPER_AERODIGESTIVE_TRACT
+ Min.   : 0.000                    Min.   : 0.000                   
+ 1st Qu.: 1.094                    1st Qu.: 1.491                   
+ Median : 3.084                    Median : 3.290                   
+ Mean   : 3.169                    Mean   : 3.341                   
+ 3rd Qu.: 4.763                    3rd Qu.: 4.849                   
+ Max.   :14.931                    Max.   :15.867                   
+ SNU1076_UPPER_AERODIGESTIVE_TRACT SNU1077_ENDOMETRIUM SNU1079_BILIARY_TRACT
+ Min.   : 0.000                    Min.   : 0.000      Min.   : 0.000       
+ 1st Qu.: 1.208                    1st Qu.: 1.183      1st Qu.: 1.163       
+ Median : 3.064                    Median : 2.755      Median : 2.907       
+ Mean   : 3.126                    Mean   : 2.924      Mean   : 2.971       
+ 3rd Qu.: 4.655                    3rd Qu.: 4.296      3rd Qu.: 4.394       
+ Max.   :15.757                    Max.   :16.440      Max.   :17.097       
+ SNU1105_CENTRAL_NERVOUS_SYSTEM SNU1196_BILIARY_TRACT SNU1197_LARGE_INTESTINE
+ Min.   : 0.000                 Min.   : 0.000        Min.   : 0.000         
+ 1st Qu.: 1.220                 1st Qu.: 1.091        1st Qu.: 1.124         
+ Median : 3.320                 Median : 3.034        Median : 3.002         
+ Mean   : 3.334                 Mean   : 3.137        Mean   : 3.101         
+ 3rd Qu.: 5.023                 3rd Qu.: 4.757        3rd Qu.: 4.660         
+ Max.   :14.964                 Max.   :15.356        Max.   :16.587         
+  SNU119_OVARY    SNU1214_UPPER_AERODIGESTIVE_TRACT SNU1272_KIDNEY   
+ Min.   : 0.000   Min.   : 0.000                    Min.   : 0.0000  
+ 1st Qu.: 1.356   1st Qu.: 1.124                    1st Qu.: 0.9107  
+ Median : 3.245   Median : 3.141                    Median : 2.9050  
+ Mean   : 3.327   Mean   : 3.211                    Mean   : 3.0229  
+ 3rd Qu.: 4.946   3rd Qu.: 4.830                    3rd Qu.: 4.6023  
+ Max.   :15.878   Max.   :14.593                    Max.   :15.7511  
+ SNU16_STOMACH     SNU175_LARGE_INTESTINE  SNU182_LIVER     SNU1_STOMACH    
+ Min.   : 0.0000   Min.   : 0.000         Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 0.9298   1st Qu.: 1.029         1st Qu.: 1.345   1st Qu.: 0.4114  
+ Median : 3.1309   Median : 3.288         Median : 3.260   Median : 2.9107  
+ Mean   : 3.1257   Mean   : 3.208         Mean   : 3.340   Mean   : 2.9545  
+ 3rd Qu.: 4.7787   3rd Qu.: 4.923         3rd Qu.: 4.928   3rd Qu.: 4.7320  
+ Max.   :15.0848   Max.   :15.500         Max.   :14.849   Max.   :16.1245  
+ SNU201_CENTRAL_NERVOUS_SYSTEM SNU213_PANCREAS  SNU216_STOMACH  
+ Min.   : 0.000                Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.428                1st Qu.: 1.287   1st Qu.: 1.257  
+ Median : 3.395                Median : 3.173   Median : 3.349  
+ Mean   : 3.408                Mean   : 3.219   Mean   : 3.322  
+ 3rd Qu.: 5.019                3rd Qu.: 4.804   3rd Qu.: 4.998  
+ Max.   :15.495                Max.   :16.058   Max.   :14.990  
+ SNU245_BILIARY_TRACT SNU283_LARGE_INTESTINE SNU308_BILIARY_TRACT
+ Min.   : 0.0000      Min.   : 0.0000        Min.   : 0.000      
+ 1st Qu.: 0.9184      1st Qu.: 0.7824        1st Qu.: 1.485      
+ Median : 3.0090      Median : 2.9837        Median : 3.395      
+ Mean   : 3.0557      Mean   : 3.0465        Mean   : 3.398      
+ 3rd Qu.: 4.6710      3rd Qu.: 4.7334        3rd Qu.: 5.009      
+ Max.   :15.7588      Max.   :15.8459        Max.   :15.802      
+ SNU324_PANCREAS   SNU349_KIDNEY     SNU387_LIVER      SNU398_LIVER   
+ Min.   : 0.0000   Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 0.9635   1st Qu.: 1.189   1st Qu.: 0.9855   1st Qu.: 1.195  
+ Median : 3.0514   Median : 3.013   Median : 3.2048   Median : 3.309  
+ Mean   : 3.1046   Mean   : 3.138   Mean   : 3.2366   Mean   : 3.327  
+ 3rd Qu.: 4.7745   3rd Qu.: 4.650   3rd Qu.: 4.9722   3rd Qu.: 5.051  
+ Max.   :15.5133   Max.   :15.533   Max.   :15.1747   Max.   :14.476  
+ SNU407_LARGE_INTESTINE SNU410_PANCREAS   SNU423_LIVER     SNU449_LIVER   
+ Min.   : 0.000         Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.251         1st Qu.: 1.263   1st Qu.: 1.170   1st Qu.: 1.299  
+ Median : 3.345         Median : 3.180   Median : 3.181   Median : 3.341  
+ Mean   : 3.296         Mean   : 3.222   Mean   : 3.258   Mean   : 3.296  
+ 3rd Qu.: 4.934         3rd Qu.: 4.797   3rd Qu.: 4.925   3rd Qu.: 4.917  
+ Max.   :15.251         Max.   :15.698   Max.   :14.924   Max.   :15.422  
+ SNU466_CENTRAL_NERVOUS_SYSTEM SNU46_UPPER_AERODIGESTIVE_TRACT  SNU475_LIVER   
+ Min.   : 0.000                Min.   : 0.000                  Min.   : 0.000  
+ 1st Qu.: 1.000                1st Qu.: 1.621                  1st Qu.: 1.345  
+ Median : 2.993                Median : 3.458                  Median : 3.256  
+ Mean   : 3.115                Mean   : 3.477                  Mean   : 3.317  
+ 3rd Qu.: 4.742                3rd Qu.: 5.045                  3rd Qu.: 4.899  
+ Max.   :15.555                Max.   :14.598                  Max.   :15.599  
+ SNU478_BILIARY_TRACT SNU489_CENTRAL_NERVOUS_SYSTEM SNU503_LARGE_INTESTINE
+ Min.   : 0.000       Min.   : 0.000                Min.   : 0.000        
+ 1st Qu.: 1.091       1st Qu.: 1.257                1st Qu.: 1.339        
+ Median : 3.081       Median : 3.175                Median : 3.198        
+ Mean   : 3.175       Mean   : 3.245                Mean   : 3.251        
+ 3rd Qu.: 4.789       3rd Qu.: 4.823                3rd Qu.: 4.802        
+ Max.   :15.078       Max.   :15.667                Max.   :14.843        
+ SNU520_STOMACH    SNU5_STOMACH    SNU601_STOMACH    SNU61_LARGE_INTESTINE
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000   Min.   : 0.0000      
+ 1st Qu.: 0.585   1st Qu.: 0.840   1st Qu.: 0.8237   1st Qu.: 0.8797      
+ Median : 3.141   Median : 3.030   Median : 3.0635   Median : 2.8600      
+ Mean   : 3.121   Mean   : 3.122   Mean   : 3.1162   Mean   : 2.9867      
+ 3rd Qu.: 4.969   3rd Qu.: 4.880   3rd Qu.: 4.8390   3rd Qu.: 4.5907      
+ Max.   :14.945   Max.   :15.559   Max.   :15.7792   Max.   :15.6121      
+ SNU620_STOMACH    SNU626_CENTRAL_NERVOUS_SYSTEM SNU668_STOMACH   
+ Min.   : 0.0000   Min.   : 0.000                Min.   : 0.0000  
+ 1st Qu.: 0.9782   1st Qu.: 1.449                1st Qu.: 0.9782  
+ Median : 3.3089   Median : 3.472                Median : 3.0824  
+ Mean   : 3.2184   Mean   : 3.405                Mean   : 3.1204  
+ 3rd Qu.: 4.9253   3rd Qu.: 5.034                3rd Qu.: 4.7729  
+ Max.   :14.5376   Max.   :15.572                Max.   :15.7787  
+ SNU685_ENDOMETRIUM SNU719_STOMACH   SNU738_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000     Min.   : 0.000   Min.   : 0.000               
+ 1st Qu.: 1.077     1st Qu.: 1.077   1st Qu.: 1.021               
+ Median : 2.965     Median : 3.391   Median : 3.124               
+ Mean   : 3.051     Mean   : 3.255   Mean   : 3.199               
+ 3rd Qu.: 4.589     3rd Qu.: 4.950   3rd Qu.: 4.894               
+ Max.   :15.967     Max.   :15.704   Max.   :14.689               
+  SNU761_LIVER    SNU81_LARGE_INTESTINE  SNU840_OVARY    SNU869_BILIARY_TRACT
+ Min.   : 0.000   Min.   : 0.000        Min.   : 0.000   Min.   : 0.000      
+ 1st Qu.: 1.195   1st Qu.: 1.470        1st Qu.: 1.310   1st Qu.: 1.275      
+ Median : 3.104   Median : 3.672        Median : 3.236   Median : 3.275      
+ Mean   : 3.156   Mean   : 3.507        Mean   : 3.284   Mean   : 3.244      
+ 3rd Qu.: 4.728   3rd Qu.: 5.228        3rd Qu.: 4.866   3rd Qu.: 4.832      
+ Max.   :15.348   Max.   :14.763        Max.   :15.199   Max.   :15.986      
+  SNU878_LIVER     SNU886_LIVER    SNU899_UPPER_AERODIGESTIVE_TRACT
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000                  
+ 1st Qu.: 1.214   1st Qu.: 1.299   1st Qu.: 1.202                  
+ Median : 3.214   Median : 3.394   Median : 3.142                  
+ Mean   : 3.245   Mean   : 3.375   Mean   : 3.161                  
+ 3rd Qu.: 4.831   3rd Qu.: 5.039   3rd Qu.: 4.720                  
+ Max.   :15.571   Max.   :15.627   Max.   :16.116                  
+   SNU8_OVARY     SNUC1_LARGE_INTESTINE SNUC2A_LARGE_INTESTINE
+ Min.   : 0.000   Min.   : 0.0000       Min.   : 0.000        
+ 1st Qu.: 1.007   1st Qu.: 0.6871       1st Qu.: 1.506        
+ Median : 2.862   Median : 2.8639       Median : 3.705        
+ Mean   : 2.988   Mean   : 2.9804       Mean   : 3.563        
+ 3rd Qu.: 4.495   3rd Qu.: 4.6893       3rd Qu.: 5.283        
+ Max.   :16.557   Max.   :15.5874       Max.   :15.494        
+ SNUC4_LARGE_INTESTINE SNUC5_LARGE_INTESTINE    SQ1_LUNG      
+ Min.   : 0.000        Min.   : 0.000        Min.   : 0.0000  
+ 1st Qu.: 1.104        1st Qu.: 1.208        1st Qu.: 0.8797  
+ Median : 3.459        Median : 3.396        Median : 3.0018  
+ Mean   : 3.331        Mean   : 3.303        Mean   : 3.0813  
+ 3rd Qu.: 5.086        3rd Qu.: 4.968        3rd Qu.: 4.7918  
+ Max.   :15.813        Max.   :16.266        Max.   :15.7310  
+ SR786_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                          
+ 1st Qu.: 0.696                          
+ Median : 3.381                          
+ Mean   : 3.268                          
+ 3rd Qu.: 5.193                          
+ Max.   :15.226                          
+ ST486_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE STM9101_SOFT_TISSUE SU8686_PANCREAS 
+ Min.   : 0.000                           Min.   : 0.0000     Min.   : 0.000  
+ 1st Qu.: 0.511                           1st Qu.: 0.5656     1st Qu.: 1.587  
+ Median : 3.094                           Median : 2.9107     Median : 3.219  
+ Mean   : 3.107                           Mean   : 2.9213     Mean   : 3.297  
+ 3rd Qu.: 4.993                           3rd Qu.: 4.6250     3rd Qu.: 4.739  
+ Max.   :15.421                           Max.   :16.5208     Max.   :16.226  
+ SUDHL10_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                           
+ 1st Qu.: 0.2987                           
+ Median : 2.6112                           
+ Mean   : 2.7966                           
+ 3rd Qu.: 4.6050                           
+ Max.   :14.6431                           
+ SUDHL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                          
+ 1st Qu.: 0.5261                          
+ Median : 2.9635                          
+ Mean   : 3.0074                          
+ 3rd Qu.: 4.8112                          
+ Max.   :14.1017                          
+ SUDHL4_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                          
+ 1st Qu.: 0.3674                          
+ Median : 2.5753                          
+ Mean   : 2.7703                          
+ 3rd Qu.: 4.5030                          
+ Max.   :15.0639                          
+ SUDHL5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                          
+ 1st Qu.: 0.4854                          
+ Median : 2.9411                          
+ Mean   : 3.0442                          
+ 3rd Qu.: 4.9446                          
+ Max.   :15.3876                          
+ SUDHL6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                          
+ 1st Qu.: 0.4751                          
+ Median : 2.8659                          
+ Mean   : 2.9981                          
+ 3rd Qu.: 4.8824                          
+ Max.   :15.4055                          
+ SUDHL8_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE SUIT2_PANCREAS  
+ Min.   : 0.000                            Min.   : 0.000  
+ 1st Qu.: 0.263                            1st Qu.: 1.077  
+ Median : 2.642                            Median : 3.291  
+ Mean   : 2.827                            Mean   : 3.252  
+ 3rd Qu.: 4.635                            3rd Qu.: 4.947  
+ Max.   :15.049                            Max.   :14.956  
+ SUPB15_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                          
+ 1st Qu.: 0.7225                          
+ Median : 3.2141                          
+ Mean   : 3.1900                          
+ 3rd Qu.: 5.0492                          
+ Max.   :15.3786                          
+ SUPM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                          
+ 1st Qu.: 0.696                          
+ Median : 3.076                          
+ Mean   : 3.087                          
+ 3rd Qu.: 4.825                          
+ Max.   :14.977                          
+ SUPT11_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.0000                          
+ 1st Qu.: 0.8074                          
+ Median : 3.3089                          
+ Mean   : 3.2586                          
+ 3rd Qu.: 5.1125                          
+ Max.   :14.9132                          
+ SUPT1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE SW1088_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.0000                          Min.   : 0.000               
+ 1st Qu.: 0.6135                          1st Qu.: 1.333               
+ Median : 3.1795                          Median : 3.537               
+ Mean   : 3.1971                          Mean   : 3.450               
+ 3rd Qu.: 5.1332                          3rd Qu.: 5.163               
+ Max.   :14.9938                          Max.   :14.819               
+ SW1116_LARGE_INTESTINE  SW1271_LUNG      SW1353_BONE    
+ Min.   : 0.0000        Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.8797        1st Qu.: 1.170   1st Qu.: 1.541  
+ Median : 2.6713        Median : 3.263   Median : 3.546  
+ Mean   : 2.7736        Mean   : 3.316   Mean   : 3.489  
+ 3rd Qu.: 4.2373        3rd Qu.: 5.059   3rd Qu.: 5.092  
+ Max.   :17.0458        Max.   :14.668   Max.   :15.331  
+ SW1417_LARGE_INTESTINE SW1463_LARGE_INTESTINE  SW1573_LUNG    
+ Min.   : 0.000         Min.   : 0.0000        Min.   : 0.000  
+ 1st Qu.: 1.091         1st Qu.: 0.8639        1st Qu.: 1.195  
+ Median : 3.149         Median : 2.9430        Median : 3.415  
+ Mean   : 3.192         Mean   : 3.0203        Mean   : 3.371  
+ 3rd Qu.: 4.858         3rd Qu.: 4.6556        3rd Qu.: 5.111  
+ Max.   :16.144         Max.   :16.2602        Max.   :14.728  
+ SW1710_URINARY_TRACT SW1783_CENTRAL_NERVOUS_SYSTEM SW1990_PANCREAS  
+ Min.   : 0.000       Min.   : 0.000                Min.   : 0.0000  
+ 1st Qu.: 1.379       1st Qu.: 1.278                1st Qu.: 0.9486  
+ Median : 3.432       Median : 3.358                Median : 2.7824  
+ Mean   : 3.352       Mean   : 3.361                Mean   : 2.9848  
+ 3rd Qu.: 4.974       3rd Qu.: 5.027                3rd Qu.: 4.5248  
+ Max.   :15.683       Max.   :14.831                Max.   :14.3695  
+ SW403_LARGE_INTESTINE SW480_LARGE_INTESTINE SW48_LARGE_INTESTINE
+ Min.   : 0.000        Min.   : 0.000        Min.   : 0.000      
+ 1st Qu.: 1.014        1st Qu.: 0.696        1st Qu.: 1.014      
+ Median : 3.246        Median : 2.339        Median : 3.406      
+ Mean   : 3.221        Mean   : 2.672        Mean   : 3.274      
+ 3rd Qu.: 4.903        3rd Qu.: 4.090        3rd Qu.: 5.003      
+ Max.   :16.164        Max.   :16.544        Max.   :14.970      
+ SW579_THYROID    SW620_LARGE_INTESTINE SW780_URINARY_TRACT
+ Min.   : 0.000   Min.   : 0.000        Min.   : 0.000     
+ 1st Qu.: 1.202   1st Qu.: 1.021        1st Qu.: 1.449     
+ Median : 3.315   Median : 3.046        Median : 3.587     
+ Mean   : 3.339   Mean   : 3.132        Mean   : 3.470     
+ 3rd Qu.: 5.059   3rd Qu.: 4.805        3rd Qu.: 5.157     
+ Max.   :14.971   Max.   :15.901        Max.   :15.890     
+ SW837_LARGE_INTESTINE   SW900_LUNG     SW948_LARGE_INTESTINE T173_FIBROBLAST 
+ Min.   : 0.000        Min.   : 0.000   Min.   : 0.0000       Min.   : 0.000  
+ 1st Qu.: 1.526        1st Qu.: 1.454   1st Qu.: 0.9855       1st Qu.: 1.111  
+ Median : 3.566        Median : 3.243   Median : 3.1160       Median : 3.319  
+ Mean   : 3.494        Mean   : 3.329   Mean   : 3.0918       Mean   : 3.307  
+ 3rd Qu.: 5.158        3rd Qu.: 4.852   3rd Qu.: 4.7035       3rd Qu.: 5.001  
+ Max.   :15.675        Max.   :15.842   Max.   :16.4919       Max.   :14.421  
+ T24_URINARY_TRACT   T3M10_LUNG     T3M4_PANCREAS     T47D_BREAST    
+ Min.   : 0.000    Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.036    1st Qu.: 1.007   1st Qu.: 1.202   1st Qu.: 1.091  
+ Median : 3.254    Median : 3.225   Median : 3.116   Median : 3.144  
+ Mean   : 3.279    Mean   : 3.255   Mean   : 3.183   Mean   : 3.169  
+ 3rd Qu.: 5.046    3rd Qu.: 4.962   3rd Qu.: 4.757   3rd Qu.: 4.815  
+ Max.   :14.615    Max.   :14.103   Max.   :15.764   Max.   :16.637  
+ T84_LARGE_INTESTINE T98G_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.0000     Min.   : 0.000             
+ 1st Qu.: 0.9635     1st Qu.: 1.183             
+ Median : 3.0721     Median : 3.318             
+ Mean   : 3.0925     Mean   : 3.307             
+ 3rd Qu.: 4.7455     3rd Qu.: 5.022             
+ Max.   :16.4307     Max.   :15.436             
+ TALL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE   TC71_BONE       TCCPAN2_PANCREAS 
+ Min.   : 0.0000                          Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 0.4957                          1st Qu.: 0.9486   1st Qu.: 0.9635  
+ Median : 3.2296                          Median : 3.0391   Median : 3.0000  
+ Mean   : 3.1380                          Mean   : 3.1348   Mean   : 3.0921  
+ 3rd Qu.: 5.0319                          3rd Qu.: 4.8296   3rd Qu.: 4.7181  
+ Max.   :14.5342                          Max.   :15.1118   Max.   :15.2249  
+ TCCSUP_URINARY_TRACT TE10_OESOPHAGUS  TE11_OESOPHAGUS   TE125T_FIBROBLAST
+ Min.   : 0.000       Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000   
+ 1st Qu.: 1.449       1st Qu.: 1.000   1st Qu.: 0.7908   1st Qu.: 1.029   
+ Median : 3.508       Median : 2.816   Median : 2.7463   Median : 3.263   
+ Mean   : 3.433       Mean   : 2.963   Mean   : 2.9056   Mean   : 3.250   
+ 3rd Qu.: 5.070       3rd Qu.: 4.503   3rd Qu.: 4.5037   3rd Qu.: 4.914   
+ Max.   :15.888       Max.   :15.805   Max.   :16.5681   Max.   :13.853   
+ TE14_OESOPHAGUS  TE159T_FIBROBLAST TE15_OESOPHAGUS  TE1_OESOPHAGUS  
+ Min.   : 0.000   Min.   : 0.000    Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.367   1st Qu.: 1.104    1st Qu.: 1.151   1st Qu.: 1.459  
+ Median : 3.326   Median : 3.265    Median : 3.142   Median : 3.438  
+ Mean   : 3.327   Mean   : 3.275    Mean   : 3.179   Mean   : 3.421  
+ 3rd Qu.: 4.894   3rd Qu.: 4.948    3rd Qu.: 4.775   3rd Qu.: 5.063  
+ Max.   :15.541   Max.   :15.444    Max.   :16.040   Max.   :15.176  
+ TE441T_SOFT_TISSUE TE4_OESOPHAGUS   TE5_OESOPHAGUS   TE617T_SOFT_TISSUE
+ Min.   : 0.000     Min.   : 0.000   Min.   : 0.000   Min.   : 0.000    
+ 1st Qu.: 1.021     1st Qu.: 1.176   1st Qu.: 1.269   1st Qu.: 1.064    
+ Median : 3.428     Median : 3.163   Median : 3.086   Median : 3.369    
+ Mean   : 3.318     Mean   : 3.217   Mean   : 3.116   Mean   : 3.298    
+ 3rd Qu.: 5.112     3rd Qu.: 4.862   3rd Qu.: 4.634   3rd Qu.: 5.060    
+ Max.   :15.203     Max.   :15.963   Max.   :16.290   Max.   :15.721    
+ TE6_OESOPHAGUS   TE8_OESOPHAGUS   TE9_OESOPHAGUS   TEN_ENDOMETRIUM  
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 1.390   1st Qu.: 1.748   1st Qu.: 1.322   1st Qu.: 0.9298  
+ Median : 3.319   Median : 3.553   Median : 3.228   Median : 2.9727  
+ Mean   : 3.286   Mean   : 3.519   Mean   : 3.251   Mean   : 3.0892  
+ 3rd Qu.: 4.822   3rd Qu.: 5.054   3rd Qu.: 4.816   3rd Qu.: 4.7677  
+ Max.   :15.894   Max.   :15.856   Max.   :16.001   Max.   :15.7195  
+ TF1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE TGBC11TKB_STOMACH
+ Min.   : 0.000                         Min.   : 0.000   
+ 1st Qu.: 1.014                         1st Qu.: 1.036   
+ Median : 3.141                         Median : 3.438   
+ Mean   : 3.198                         Mean   : 3.309   
+ 3rd Qu.: 4.920                         3rd Qu.: 5.059   
+ Max.   :15.314                         Max.   :14.014   
+ THP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE TIG3TD_FIBROBLAST
+ Min.   : 0.000                          Min.   : 0.0000  
+ 1st Qu.: 1.111                          1st Qu.: 0.9486  
+ Median : 3.154                          Median : 3.0704  
+ Mean   : 3.226                          Mean   : 3.1353  
+ 3rd Qu.: 4.933                          3rd Qu.: 4.8097  
+ Max.   :14.430                          Max.   :15.3901  
+ TM31_CENTRAL_NERVOUS_SYSTEM TM87_SOFT_TISSUE TO175T_FIBROBLAST
+ Min.   : 0.000              Min.   : 0.000   Min.   : 0.000   
+ 1st Qu.: 1.189              1st Qu.: 0.903   1st Qu.: 1.170   
+ Median : 3.392              Median : 3.205   Median : 3.372   
+ Mean   : 3.363              Mean   : 3.186   Mean   : 3.334   
+ 3rd Qu.: 5.082              3rd Qu.: 4.947   3rd Qu.: 5.033   
+ Max.   :13.905              Max.   :16.155   Max.   :14.685   
+ TOLEDO_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE TOV112D_OVARY     TOV21G_OVARY   
+ Min.   : 0.0000                           Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.5945                           1st Qu.: 1.131   1st Qu.: 1.239  
+ Median : 3.0721                           Median : 3.197   Median : 3.350  
+ Mean   : 3.1271                           Mean   : 3.188   Mean   : 3.302  
+ 3rd Qu.: 5.0184                           3rd Qu.: 4.824   3rd Qu.: 4.907  
+ Max.   :14.5865                           Max.   :15.963   Max.   :15.603  
+ TT2609C02_THYROID TTC1240_SOFT_TISSUE TTC549_SOFT_TISSUE TTC642_SOFT_TISSUE
+ Min.   : 0.000    Min.   : 0.0000     Min.   : 0.000     Min.   : 0.0000   
+ 1st Qu.: 1.124    1st Qu.: 0.6599     1st Qu.: 1.111     1st Qu.: 0.8156   
+ Median : 3.254    Median : 3.0583     Median : 3.325     Median : 3.2280   
+ Mean   : 3.271    Mean   : 3.0682     Mean   : 3.270     Mean   : 3.1567   
+ 3rd Qu.: 4.977    3rd Qu.: 4.8447     3rd Qu.: 4.963     3rd Qu.: 4.9298   
+ Max.   :15.337    Max.   :15.6461     Max.   :15.048     Max.   :15.8415   
+ TTC709_SOFT_TISSUE TT_OESOPHAGUS      TT_THYROID     TUHR10TKB_KIDNEY
+ Min.   : 0.0000    Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.7991    1st Qu.: 1.257   1st Qu.: 1.795   1st Qu.: 1.157  
+ Median : 2.9928    Median : 3.216   Median : 3.732   Median : 3.331  
+ Mean   : 3.0638    Mean   : 3.227   Mean   : 3.606   Mean   : 3.333  
+ 3rd Qu.: 4.8058    3rd Qu.: 4.803   3rd Qu.: 5.199   3rd Qu.: 5.037  
+ Max.   :16.4736    Max.   :15.876   Max.   :15.563   Max.   :14.376  
+ TUHR14TKB_KIDNEY TUHR4TKB_KIDNEY   TYKNU_OVARY     
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 1.350   1st Qu.: 1.131   1st Qu.: 0.6041  
+ Median : 3.180   Median : 3.216   Median : 2.9069  
+ Mean   : 3.250   Mean   : 3.220   Mean   : 3.0171  
+ 3rd Qu.: 4.811   3rd Qu.: 4.852   3rd Qu.: 4.7986  
+ Max.   :16.156   Max.   :15.317   Max.   :15.6319  
+ U118MG_CENTRAL_NERVOUS_SYSTEM U178_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000                Min.   : 0.000             
+ 1st Qu.: 1.208                1st Qu.: 1.007             
+ Median : 3.569                Median : 3.319             
+ Mean   : 3.452                Mean   : 3.285             
+ 3rd Qu.: 5.262                3rd Qu.: 5.071             
+ Max.   :15.007                Max.   :15.905             
+ U251MG_CENTRAL_NERVOUS_SYSTEM U266B1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+ Min.   : 0.000                Min.   : 0.0000                          
+ 1st Qu.: 1.138                1st Qu.: 0.8797                          
+ Median : 3.246                Median : 3.1522                          
+ Mean   : 3.246                Mean   : 3.1873                          
+ 3rd Qu.: 4.897                3rd Qu.: 4.9362                          
+ Max.   :15.921                Max.   :14.7720                          
+   U2OS_BONE      U343_CENTRAL_NERVOUS_SYSTEM U87MG_CENTRAL_NERVOUS_SYSTEM
+ Min.   : 0.000   Min.   : 0.000              Min.   : 0.000              
+ 1st Qu.: 1.599   1st Qu.: 1.014              1st Qu.: 1.144              
+ Median : 3.484   Median : 3.037              Median : 3.315              
+ Mean   : 3.462   Mean   : 3.123              Mean   : 3.312              
+ 3rd Qu.: 5.040   3rd Qu.: 4.747              3rd Qu.: 5.039              
+ Max.   :15.532   Max.   :16.325              Max.   :15.089              
+ U937_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE  UACC257_SKIN     UACC62_SKIN    
+ Min.   : 0.0000                         Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.5945                         1st Qu.: 1.091   1st Qu.: 1.202  
+ Median : 2.9069                         Median : 3.197   Median : 3.206  
+ Mean   : 2.9946                         Mean   : 3.258   Mean   : 3.262  
+ 3rd Qu.: 4.7568                         3rd Qu.: 4.968   3rd Qu.: 4.886  
+ Max.   :15.5420                         Max.   :14.486   Max.   :15.565  
+ UACC812_BREAST   UACC893_BREAST   UBLC1_URINARY_TRACT UMUC1_URINARY_TRACT
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000      Min.   : 0.0000    
+ 1st Qu.: 1.084   1st Qu.: 0.856   1st Qu.: 1.176      1st Qu.: 0.8319    
+ Median : 2.934   Median : 3.096   Median : 3.021      Median : 2.7908    
+ Mean   : 3.007   Mean   : 3.114   Mean   : 3.100      Mean   : 2.9248    
+ 3rd Qu.: 4.501   3rd Qu.: 4.817   3rd Qu.: 4.616      3rd Qu.: 4.5166    
+ Max.   :16.710   Max.   :16.345   Max.   :15.520      Max.   :16.3437    
+ UMUC3_URINARY_TRACT  UO31_KIDNEY     UOK101_KIDNEY     VCAP_PROSTATE   
+ Min.   : 0.0000     Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 0.9336     1st Qu.: 1.208   1st Qu.: 0.9855   1st Qu.: 1.050  
+ Median : 3.1859     Median : 3.240   Median : 3.0841   Median : 3.032  
+ Mean   : 3.1856     Mean   : 3.267   Mean   : 3.1413   Mean   : 3.101  
+ 3rd Qu.: 4.9181     3rd Qu.: 4.889   3rd Qu.: 4.7968   3rd Qu.: 4.717  
+ Max.   :15.0344     Max.   :15.740   Max.   :16.5160   Max.   :16.329  
+ VMCUB1_URINARY_TRACT VMRCRCW_KIDNEY   VMRCRCZ_KIDNEY     WM115_SKIN    
+ Min.   : 0.000       Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.208       1st Qu.: 1.245   1st Qu.: 1.239   1st Qu.: 1.316  
+ Median : 3.430       Median : 3.236   Median : 3.202   Median : 3.541  
+ Mean   : 3.320       Mean   : 3.253   Mean   : 3.237   Mean   : 3.446  
+ 3rd Qu.: 5.002       3rd Qu.: 4.901   3rd Qu.: 4.873   3rd Qu.: 5.148  
+ Max.   :15.986       Max.   :15.720   Max.   :16.050   Max.   :14.959  
+  WM1799_SKIN      WM2664_SKIN       WM793_SKIN       WM88_SKIN     
+ Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 1.214   1st Qu.: 1.251   1st Qu.: 1.233   1st Qu.: 1.220  
+ Median : 3.472   Median : 3.461   Median : 3.367   Median : 3.487  
+ Mean   : 3.415   Mean   : 3.355   Mean   : 3.360   Mean   : 3.399  
+ 3rd Qu.: 5.169   3rd Qu.: 5.025   3rd Qu.: 5.059   3rd Qu.: 5.157  
+ Max.   :14.822   Max.   :15.748   Max.   :14.632   Max.   :15.175  
+  WM983B_SKIN     WSUDLCL2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE YAPC_PANCREAS   
+ Min.   : 0.000   Min.   : 0.0000                             Min.   : 0.000  
+ 1st Qu.: 1.144   1st Qu.: 0.4005                             1st Qu.: 1.531  
+ Median : 3.390   Median : 2.8012                             Median : 3.453  
+ Mean   : 3.353   Mean   : 2.8985                             Mean   : 3.443  
+ 3rd Qu.: 5.112   3rd Qu.: 4.7054                             3rd Qu.: 5.054  
+ Max.   :14.925   Max.   :14.9059                             Max.   :14.164  
+ YD10B_UPPER_AERODIGESTIVE_TRACT YD15_SALIVARY_GLAND
+ Min.   : 0.0000                 Min.   : 0.0000    
+ 1st Qu.: 0.9336                 1st Qu.: 0.8074    
+ Median : 2.8115                 Median : 2.9891    
+ Mean   : 2.8874                 Mean   : 3.0410    
+ 3rd Qu.: 4.4009                 3rd Qu.: 4.7096    
+ Max.   :16.3167                 Max.   :16.0082    
+ YD38_UPPER_AERODIGESTIVE_TRACT YD8_UPPER_AERODIGESTIVE_TRACT
+ Min.   : 0.000                 Min.   : 0.000               
+ 1st Qu.: 0.757                 1st Qu.: 1.491               
+ Median : 3.030                 Median : 3.633               
+ Mean   : 3.062                 Mean   : 3.524               
+ 3rd Qu.: 4.733                 3rd Qu.: 5.202               
+ Max.   :15.984                 Max.   :15.169               
+ YH13_CENTRAL_NERVOUS_SYSTEM YKG1_CENTRAL_NERVOUS_SYSTEM  ZR751_BREAST   
+ Min.   : 0.000              Min.   : 0.000              Min.   : 0.000  
+ 1st Qu.: 1.506              1st Qu.: 1.485              1st Qu.: 1.417  
+ Median : 3.618              Median : 3.525              Median : 3.388  
+ Mean   : 3.530              Mean   : 3.473              Mean   : 3.374  
+ 3rd Qu.: 5.188              3rd Qu.: 5.111              3rd Qu.: 4.976  
+ Max.   :14.480              Max.   :15.969              Max.   :14.370  
+ ZR7530_BREAST    
+ Min.   : 0.0000  
+ 1st Qu.: 0.8319  
+ Median : 2.9030  
+ Mean   : 3.0003  
+ 3rd Qu.: 4.6424  
+ Max.   :16.1170  
