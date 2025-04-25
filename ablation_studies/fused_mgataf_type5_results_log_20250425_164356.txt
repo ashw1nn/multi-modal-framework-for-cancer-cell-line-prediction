@@ -1,0 +1,9 @@
+Seed 42: RMSE = 0.0255, PCC = 0.9277
+Seed 52: RMSE = 0.0260, PCC = 0.9292
+Seed 62: RMSE = 0.0254, PCC = 0.9296
+Seed 72: RMSE = 0.0250, PCC = 0.9291
+Seed 82: RMSE = 0.0248, PCC = 0.9306
+
+==== Summary ====
+RMSE: 0.0254 ± 0.0004
+PCC : 0.9292 ± 0.0009
