@@ -95,12 +95,14 @@ def modified_mgataf_collate_fn(batch):
 
 
 class ModifiedMGATAFDataset(Dataset):
-    def __init__(self, gdsc_df, fingerprint_dict, cell_feature_matrix, gsva_matrix, graph_dict):
+    def __init__(self, gdsc_df, fingerprint_dict, cell_feature_matrix, gsva_matrix, graph_dict, min_ic50=None, max_ic50=None):
         self.df = gdsc_df
         self.fingerprint_dict = fingerprint_dict  # drug_id -> np.array or list
         self.cell_features = cell_feature_matrix  # DataFrame: index=cell_line_name, values=mutation+cnv
         self.gsva_matrix = gsva_matrix            # DataFrame: index=cell_line_name, values=gsva scores
         self.graphs = graph_dict                  # drug_id -> graph object (PyG or DGL)
+        self.min_ic50 = min_ic50
+        self.max_ic50 = max_ic50
 
     def __len__(self):
         return len(self.df)
@@ -125,7 +127,14 @@ class ModifiedMGATAFDataset(Dataset):
         gsva_feat = torch.tensor(self.gsva_matrix.loc[cell_line].values, dtype=torch.float)
 
         # Target IC50
-        ic50 = torch.tensor([row["LN_IC50"]], dtype=torch.float)
+        # ic50 = torch.tensor([row["LN_IC50"]], dtype=torch.float)
+        ln_ic50 = row["LN_IC50"]
+        if self.min_ic50 is not None and self.max_ic50 is not None:
+            normalized_ic50 = (ln_ic50 - self.min_ic50) / (self.max_ic50 - self.min_ic50)
+        else:
+            normalized_ic50 = ln_ic50  # unnormalized fallback
+        ic50 = torch.tensor([normalized_ic50], dtype=torch.float)
+        
 
         return graph_data, fingerprint, ccl_feat, gsva_feat, ic50
 
@@ -283,6 +292,7 @@ class ModifiedMGATAFModel(nn.Module):
         self.ccl_encoder = CellLineEncoder(in_dim=ccl_dim, out_dim=hidden_dim)
         self.gsva_encoder = GSVAEncoder(in_dim=gsva_dim, out_dim=hidden_dim)
         
+        self.drug_fusion = AdaptiveFusion(input_dim=hidden_dim, hidden_dim=hidden_dim)
         self.cellline_fusion = AdaptiveFusion(input_dim=hidden_dim, hidden_dim=hidden_dim)  # new!
         self.fusion = AdaptiveFusion(input_dim=hidden_dim, hidden_dim=hidden_dim)
 
@@ -292,7 +302,8 @@ class ModifiedMGATAFModel(nn.Module):
         # Drug branch
         drug_repr = self.drug_encoder(graph_data)
         fp_repr = self.fp_encoder(fingerprint)
-        drug_combined = drug_repr + fp_repr
+        # drug_combined = drug_repr + fp_repr
+        drug_combined = self.drug_fusion(drug_repr, fp_repr)
 
         # Cell line branch
         ccl_repr = self.ccl_encoder(ccl_feat)
@@ -351,21 +362,65 @@ def evaluate_on_test_set(model, test_loader):
 
 
 
-def train_and_evaluate(seed):
+def train_and_evaluate(seed, gdsc_df):
     set_seed(seed)
 
-    indices = list(range(len(dataset)))
+    # Define dataset initially just to get correct length for indexing
+    full_dataset = ModifiedMGATAFDataset(
+        gdsc_df=gdsc_df,
+        fingerprint_dict=fingerprint_dict,
+        cell_feature_matrix=binary_feature_matrix,
+        gsva_matrix=gsva_matrix,
+        graph_dict=precomputed_graphs
+    )
+
+    indices = list(range(len(full_dataset)))
     train_idx, test_idx = train_test_split(indices, test_size=0.1, random_state=seed)
     train_idx, val_idx = train_test_split(train_idx, test_size=0.1, random_state=seed)
 
-    train_set = Subset(dataset, train_idx)
-    val_set = Subset(dataset, val_idx)
-    test_set = Subset(dataset, test_idx)
+    # train_set = Subset(dataset, train_idx)
+    # val_set = Subset(dataset, val_idx)
+    # test_set = Subset(dataset, test_idx)
+
+    # Create temporary subset DataFrame to extract training LN_IC50 stats
+    train_df = gdsc_df.iloc[train_idx]
+    min_ic50 = train_df["LN_IC50"].min()
+    max_ic50 = train_df["LN_IC50"].max()
+
+    # Rebuild dataset objects with normalized LN_IC50 using only training min/max
+    train_set = Subset(ModifiedMGATAFDataset(
+        gdsc_df=gdsc_df.iloc[train_idx].reset_index(drop=True),
+        fingerprint_dict=fingerprint_dict,
+        cell_feature_matrix=binary_feature_matrix,
+        gsva_matrix=gsva_matrix,
+        graph_dict=precomputed_graphs,
+        min_ic50=min_ic50,
+        max_ic50=max_ic50
+    ), list(range(len(train_idx))))
+
+    val_set = Subset(ModifiedMGATAFDataset(
+        gdsc_df=gdsc_df.iloc[val_idx].reset_index(drop=True),
+        fingerprint_dict=fingerprint_dict,
+        cell_feature_matrix=binary_feature_matrix,
+        gsva_matrix=gsva_matrix,
+        graph_dict=precomputed_graphs,
+        min_ic50=min_ic50,
+        max_ic50=max_ic50
+    ), list(range(len(val_idx))))
+
+    test_set = Subset(ModifiedMGATAFDataset(
+        gdsc_df=gdsc_df.iloc[test_idx].reset_index(drop=True),
+        fingerprint_dict=fingerprint_dict,
+        cell_feature_matrix=binary_feature_matrix,
+        gsva_matrix=gsva_matrix,
+        graph_dict=precomputed_graphs,
+        min_ic50=min_ic50,
+        max_ic50=max_ic50
+    ), list(range(len(test_idx))))
 
     train_loader = DataLoader(train_set, batch_size=64, shuffle=True, collate_fn=modified_mgataf_collate_fn)
     val_loader = DataLoader(val_set, batch_size=64, shuffle=False, collate_fn=modified_mgataf_collate_fn)
     test_loader = DataLoader(test_set, batch_size=64, shuffle=False, collate_fn=modified_mgataf_collate_fn)
-
 
     model = ModifiedMGATAFModel().to(device)
     optimizer = optim.Adam(model.parameters(), lr=1e-3)
@@ -601,26 +656,26 @@ for _, row in drug_smiles.iterrows():
 gsva_matrix = gsva_df.T  # Now cell lines are rows
 
 
-dataset = ModifiedMGATAFDataset(
-    gdsc_df=gdsc_df,
-    fingerprint_dict=fingerprint_dict,
-    cell_feature_matrix=binary_feature_matrix,
-    gsva_matrix=gsva_matrix,
-    graph_dict=precomputed_graphs
-)
+# dataset = ModifiedMGATAFDataset(
+#     gdsc_df=gdsc_df,
+#     fingerprint_dict=fingerprint_dict,
+#     cell_feature_matrix=binary_feature_matrix,
+#     gsva_matrix=gsva_matrix,
+#     graph_dict=precomputed_graphs
+# )
 
-sample = dataset[0]
-graph, fingerprint, cell_feat, gsva_feat, label = sample
+# sample = dataset[0]
+# graph, fingerprint, cell_feat, gsva_feat, label = sample
 
-print("Graph:")
-print(graph)
-print("Graph node features shape:", graph.x.shape)
-print("Graph edge_index shape:", graph.edge_index.shape)
-print()
-print("Fingerprint shape:", fingerprint.shape)
-print("Cell line features shape:", cell_feat.shape)
-print("GSVA features shape:", gsva_feat.shape)
-print("Label (ln_IC50):", label)
+# print("Graph:")
+# print(graph)
+# print("Graph node features shape:", graph.x.shape)
+# print("Graph edge_index shape:", graph.edge_index.shape)
+# print()
+# print("Fingerprint shape:", fingerprint.shape)
+# print("Cell line features shape:", cell_feat.shape)
+# print("GSVA features shape:", gsva_feat.shape)
+# print("Label (ln_IC50):", label)
 
 print("CUDA Available:", torch.cuda.is_available())
 print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "No GPU")
@@ -635,7 +690,7 @@ all_rmse, all_pcc = [], []
 
 for seed in seeds:
     print(f"Running for seed {seed}")
-    rmse, pcc = train_and_evaluate(seed)
+    rmse, pcc = train_and_evaluate(seed=seed, gdsc_df=gdsc_df)
     all_rmse.append(rmse)
     all_pcc.append(pcc)
     log_results(output_file, f"Seed {seed}: RMSE = {rmse:.4f}, PCC = {pcc:.4f}")
