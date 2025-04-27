@@ -97,11 +97,11 @@ def modified_mgataf_collate_fn(batch):
 
 
 class ModifiedMGATAFDataset(Dataset):
-    def __init__(self, gdsc_df, fingerprint_dict, cell_feature_matrix, gsva_matrix, graph_dict):
+    def __init__(self, gdsc_df, fingerprint_dict, cell_feature_matrix, graph_dict):
         self.df = gdsc_df
         self.fingerprint_dict = fingerprint_dict  # drug_id -> np.array or list
         self.cell_features = cell_feature_matrix  # DataFrame: index=cell_line_name, values=mutation+cnv
-        self.gsva_matrix = gsva_matrix            # DataFrame: index=cell_line_name, values=gsva scores
+        # self.gsva_matrix = gsva_matrix            # DataFrame: index=cell_line_name, values=gsva scores
         self.graphs = graph_dict                  # drug_id -> graph object (PyG or DGL)
 
     def __len__(self):
@@ -122,14 +122,14 @@ class ModifiedMGATAFDataset(Dataset):
         ccl_feat = torch.tensor(self.cell_features.loc[cell_line].values, dtype=torch.float)
 
         # GSVA pathway scores
-        if cell_line not in gsva_matrix.index:
-            raise ValueError(f"{cell_line} not found in GSVA matrix.")
-        gsva_feat = torch.tensor(self.gsva_matrix.loc[cell_line].values, dtype=torch.float)
+        # if cell_line not in gsva_matrix.index:
+        #     raise ValueError(f"{cell_line} not found in GSVA matrix.")
+        # gsva_feat = torch.tensor(self.gsva_matrix.loc[cell_line].values, dtype=torch.float)
 
         # Target IC50
         ic50 = torch.tensor([row["LN_IC50"]], dtype=torch.float)
 
-        return graph_data, fingerprint, ccl_feat, gsva_feat, ic50
+        return graph_data, fingerprint, ccl_feat, ic50
 
 
 class DrugGraphEncoder(nn.Module):
@@ -276,35 +276,24 @@ class IC50Predictor(nn.Module):
         return self.fc(x)
 
 
-class ModifiedMGATAFModel(nn.Module):
-    def __init__(self, atom_feat_dim=55, fingerprint_dim=2048, ccl_dim=735, gsva_dim=658, hidden_dim=128):
+class MGATAFModel(nn.Module):
+    def __init__(self, atom_feat_dim=55, fingerprint_dim=2048, ccl_dim=735, hidden_dim=128):
         super().__init__()
         self.drug_encoder = DrugGraphEncoder(in_dim=atom_feat_dim, hidden_dim=hidden_dim)
         self.fp_encoder = FingerprintEncoder(in_dim=fingerprint_dim, out_dim=hidden_dim)
-
         self.ccl_encoder = CellLineEncoder(in_dim=ccl_dim, out_dim=hidden_dim)
-        self.gsva_encoder = GSVAEncoder(in_dim=gsva_dim, out_dim=hidden_dim)
-        
         self.drug_fusion = AdaptiveFusion(input_dim=hidden_dim, hidden_dim=hidden_dim)
-        self.cellline_fusion = AdaptiveFusion(input_dim=hidden_dim, hidden_dim=hidden_dim)  # new!
         self.fusion = AdaptiveFusion(input_dim=hidden_dim, hidden_dim=hidden_dim)
-
         self.regressor = IC50Predictor(input_dim=hidden_dim)
 
-    def forward(self, graph_data, fingerprint, ccl_feat, gsva_feat):
-        # Drug branch
+    def forward(self, graph_data, fingerprint, ccl_feat):
         drug_repr = self.drug_encoder(graph_data)
         fp_repr = self.fp_encoder(fingerprint)
         # drug_combined = drug_repr + fp_repr
         drug_combined = self.drug_fusion(drug_repr, fp_repr)
 
-        # Cell line branch
         ccl_repr = self.ccl_encoder(ccl_feat)
-        gsva_repr = self.gsva_encoder(gsva_feat)
-        final_ccl_repr = self.cellline_fusion(ccl_repr, gsva_repr)
-
-        # Final fusion
-        fused = self.fusion(drug_combined, final_ccl_repr)
+        fused = self.fusion(drug_combined, ccl_repr)
 
         return self.regressor(fused)
 
@@ -329,14 +318,14 @@ def evaluate_on_test_set(model, test_loader):
     all_labels = []
 
     with torch.no_grad():
-        for graph_data, fingerprint, ccl_feat, gsva_feat, label in test_loader:
+        for graph_data, fingerprint, ccl_feat, label in test_loader:
             graph_data = graph_data.to(device)
             fingerprint = fingerprint.to(device)
             ccl_feat = ccl_feat.to(device)
-            gsva_feat = gsva_feat.to(device)
+            # gsva_feat = gsva_feat.to(device)
             label = label.to(device)
 
-            preds = model(graph_data, fingerprint, ccl_feat, gsva_feat)
+            preds = model(graph_data, fingerprint, ccl_feat)
             all_preds.append(preds.cpu().numpy())
             all_labels.append(label.cpu().numpy())
 
@@ -366,12 +355,12 @@ def train_and_evaluate(seed):
     # val_set = Subset(dataset, val_idx)
     # test_set = Subset(dataset, test_idx)
 
-    print(f"Total {len(common_cell_lines)} common cell lines")
+    print(f"Total {len(valid_cell_lines)} common cell lines")
     # common_cell_lines = np.array(common_cell_lines)
-    np.random.shuffle(common_cell_lines)
-    cell_lines_train = common_cell_lines[: int(0.8*common_cell_lines.shape[0])]
-    cell_lines_test = common_cell_lines[int(0.8*common_cell_lines.shape[0]) : int(0.9*common_cell_lines.shape[0])]
-    cell_lines_val = common_cell_lines[int(0.9*common_cell_lines.shape[0]):]
+    np.random.shuffle(valid_cell_lines)
+    cell_lines_train = valid_cell_lines[: int(0.8*valid_cell_lines.shape[0])]
+    cell_lines_test = valid_cell_lines[int(0.8*valid_cell_lines.shape[0]) : int(0.9*valid_cell_lines.shape[0])]
+    cell_lines_val = valid_cell_lines[int(0.9*valid_cell_lines.shape[0]):]
     print(f"Train: {cell_lines_train.shape[0]} cell lines")
     print(f"Test: {cell_lines_test.shape[0]} cell lines")
     print(f"Val: {cell_lines_val.shape[0]} cell lines")
@@ -380,21 +369,21 @@ def train_and_evaluate(seed):
         gdsc_df=gdsc_df[gdsc_df["CLEAN_CELL_LINE"].isin(cell_lines_train)].reset_index(drop=True),
         fingerprint_dict=fingerprint_dict,
         cell_feature_matrix=binary_feature_matrix,
-        gsva_matrix=gsva_matrix,
+        # gsva_matrix=gsva_matrix,
         graph_dict=precomputed_graphs
     )
     val_set = ModifiedMGATAFDataset(
         gdsc_df=gdsc_df[gdsc_df["CLEAN_CELL_LINE"].isin(cell_lines_val)].reset_index(drop=True),
         fingerprint_dict=fingerprint_dict,
         cell_feature_matrix=binary_feature_matrix,
-        gsva_matrix=gsva_matrix,
+        # gsva_matrix=gsva_matrix,
         graph_dict=precomputed_graphs
     )
     test_set = ModifiedMGATAFDataset(
         gdsc_df=gdsc_df[gdsc_df["CLEAN_CELL_LINE"].isin(cell_lines_test)].reset_index(drop=True),
         fingerprint_dict=fingerprint_dict,
         cell_feature_matrix=binary_feature_matrix,
-        gsva_matrix=gsva_matrix,
+        # gsva_matrix=gsva_matrix,
         graph_dict=precomputed_graphs
     )
 
@@ -407,7 +396,7 @@ def train_and_evaluate(seed):
     test_loader = DataLoader(test_set, batch_size=64, shuffle=False, collate_fn=modified_mgataf_collate_fn)
 
 
-    model = ModifiedMGATAFModel().to(device)
+    model = MGATAFModel().to(device)
     optimizer = optim.Adam(model.parameters(), lr=1e-3)
     loss_fn = nn.MSELoss()
 
@@ -418,9 +407,8 @@ def train_and_evaluate(seed):
     warmup_epochs = 10
     t_max = num_epochs - warmup_epochs
 
-    warmup_scheduler = LinearLR(optimizer, start_factor=0.1, end_factor=1.0, total_iters=warmup_epochs)
-    cosine_scheduler = CosineAnnealingLR(optimizer, T_max=t_max, eta_min=1e-6)
-    scheduler = SequentialLR(optimizer, schedulers=[warmup_scheduler, cosine_scheduler], milestones=[warmup_epochs])
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=5)
+
 
     # Trackers
     train_rmse_list = []
@@ -429,11 +417,11 @@ def train_and_evaluate(seed):
 
 
     # Paths
-    checkpoint_model_path = f"models/checkpoints/modified_mgataf_ablation/modified_mgataf_checkpoint_model_{ablation_study_id}.pt"
-    checkpoint_opt_path = f"models/checkpoints/modified_mgataf_ablation/mgataf_checkpoint_optim_{ablation_study_id}.pt"
-    checkpoint_meta_path = f"models/checkpoints/modified_mgataf_ablation/mgataf_checkpoint_meta_{ablation_study_id}.pt"
+    # checkpoint_model_path = f"models/checkpoints/modified_mgataf_ablation/modified_mgataf_checkpoint_model_{ablation_study_id}.pt"
+    # checkpoint_opt_path = f"models/checkpoints/modified_mgataf_ablation/mgataf_checkpoint_optim_{ablation_study_id}.pt"
+    # checkpoint_meta_path = f"models/checkpoints/modified_mgataf_ablation/mgataf_checkpoint_meta_{ablation_study_id}.pt"
 
-    model_save_path = f"models/modified_mgataf_type{ablation_study_id}_best_model"
+    model_save_path = "models/mgataf_oldDS_best_model"
 
     # Defaults
     start_epoch = 0
@@ -460,15 +448,14 @@ def train_and_evaluate(seed):
         train_preds, train_labels = [], []
 
         loop = tqdm(train_loader, desc=f"Epoch {epoch+1}", leave=True)
-        for batch_idx, (graph_data, fingerprint, ccl_feat, gsva_feat, label) in enumerate(loop):
+        for batch_idx, (graph_data, fingerprint, ccl_feat, label) in enumerate(loop):
             graph_data = graph_data.to(device)
             fingerprint = fingerprint.to(device)
             ccl_feat = ccl_feat.to(device)
-            gsva_feat = gsva_feat.to(device)
             label = label.to(device)
 
             optimizer.zero_grad()
-            output = model(graph_data, fingerprint, ccl_feat, gsva_feat)
+            output = model(graph_data, fingerprint, ccl_feat)
             loss = loss_fn(output, label)
             loss.backward()
             optimizer.step()
@@ -497,14 +484,13 @@ def train_and_evaluate(seed):
         model.eval()
         val_preds, val_labels = [], []
         with torch.no_grad():
-            for graph_data, fingerprint, ccl_feat, gsva_feat, label in val_loader:
+            for graph_data, fingerprint, ccl_feat, label in val_loader:
                 graph_data = graph_data.to(device)
                 fingerprint = fingerprint.to(device)
                 ccl_feat = ccl_feat.to(device)
-                gsva_feat = gsva_feat.to(device)
                 label = label.to(device)
 
-                output = model(graph_data, fingerprint, ccl_feat, gsva_feat)
+                output = model(graph_data, fingerprint, ccl_feat)
                 val_preds.append(output.cpu().numpy())
                 val_labels.append(label.cpu().numpy())
 
@@ -519,7 +505,7 @@ def train_and_evaluate(seed):
         current_lr = optimizer.param_groups[0]['lr']
         print(f"[Epoch {epoch+1}] Train RMSE: {train_rmse:.4f} | Val RMSE: {val_rmse:.4f} | Val PCC: {val_pcc:.4f} | LR = {current_lr:.6f}")
 
-        scheduler.step()
+        scheduler.step(val_rmse)
 
         if val_rmse < best_val_loss:
             best_val_loss = val_rmse
@@ -553,7 +539,7 @@ torch.cuda.empty_cache()
 
 gdsc_df = pd.read_csv("dataset/GDSC_SMILES_merged.csv", index_col=0)
 ccl_rep_df = pd.read_csv("dataset/PANCANCER_Genetic_feature.csv")
-gsva_df = pd.read_csv("dataset/ccle_gsva_scores.csv", index_col=0)
+# gsva_df = pd.read_csv("dataset/ccle_gsva_scores.csv", index_col=0)
 
 
 # Pivot to get binary matrix: rows = cell lines, columns = features
@@ -575,15 +561,15 @@ fingerprint_dict = dict(zip(unique_drugs["DRUG_ID"], unique_drugs["FINGERPRINT"]
 gdsc_df["CELL_LINE_NAME"] = gdsc_df["CELL_LINE_NAME"].str.strip().str.upper()
 cell_lines_obs = set(gdsc_df["CELL_LINE_NAME"].unique())
 
-gsva_df.columns = gsva_df.columns.str.strip().str.upper()
-cell_lines_available = sorted(set(gsva_df.columns.str.split("_").str[0].str.upper()))
-cell_lines_available = {clean_name(name) for name in cell_lines_available}
-cell_lines_obs = {clean_name(name) for name in cell_lines_obs}
-common_cell_lines = cell_lines_obs.intersection(cell_lines_available)
-print("Now common cell lines:", len(common_cell_lines))
+# gsva_df.columns = gsva_df.columns.str.strip().str.upper()
+# cell_lines_available = sorted(set(gsva_df.columns.str.split("_").str[0].str.upper()))
+# cell_lines_available = {clean_name(name) for name in cell_lines_available}
+# cell_lines_obs = {clean_name(name) for name in cell_lines_obs}
+# common_cell_lines = cell_lines_obs.intersection(cell_lines_available)
+# print("Now common cell lines:", len(common_cell_lines))
 
-gsva_df.columns = gsva_df.columns.str.split("_").str[0].str.upper().to_series().apply(clean_name)
-gsva_df = gsva_df.loc[:, ~gsva_df.columns.duplicated()]
+# gsva_df.columns = gsva_df.columns.str.split("_").str[0].str.upper().to_series().apply(clean_name)
+# gsva_df = gsva_df.loc[:, ~gsva_df.columns.duplicated()]
 
 
 # Define categorical vocabularies
@@ -607,21 +593,22 @@ binary_feature_matrix.index = binary_feature_matrix.index.to_series().apply(clea
 binary_feature_matrix = binary_feature_matrix[~binary_feature_matrix.index.duplicated(keep='first')]
 
 # Step 3: Clean GSVA matrix columns
-gsva_df.columns = gsva_df.columns.to_series().apply(clean_name)
-gsva_df = gsva_df.loc[:, ~gsva_df.columns.duplicated(keep='first')]
+# gsva_df.columns = gsva_df.columns.to_series().apply(clean_name)
+# gsva_df = gsva_df.loc[:, ~gsva_df.columns.duplicated(keep='first')]
 
 # Step 4: Determine valid IDs
 valid_drugs = set(fingerprint_dict.keys())
-valid_mutcnv_cells = set(binary_feature_matrix.index)
-valid_gsva_cells = set(gsva_df.columns)
+# valid_mutcnv_cells = set(binary_feature_matrix.index)
+valid_cell_lines = set(binary_feature_matrix.index)
+# valid_gsva_cells = set(gsva_df.columns)
 
 # Step 5: Get cell lines common to all three
-common_cell_lines = valid_mutcnv_cells & valid_gsva_cells & set(gdsc_df["CLEAN_CELL_LINE"])
-common_cell_lines = np.array(list(common_cell_lines))
+# common_cell_lines = valid_mutcnv_cells & valid_gsva_cells & set(gdsc_df["CLEAN_CELL_LINE"])
+valid_cell_lines = np.array(list(valid_cell_lines))
 # Step 6: Filter gdsc_df to keep only rows with common cell lines and valid drugs/SMILES
 gdsc_df = gdsc_df[
     gdsc_df["DRUG_ID"].isin(valid_drugs) &
-    gdsc_df["CLEAN_CELL_LINE"].isin(common_cell_lines) &
+    gdsc_df["CLEAN_CELL_LINE"].isin(valid_cell_lines) &
     gdsc_df["SMILES"].notna()
 ].reset_index(drop=True)
 
@@ -629,8 +616,8 @@ gdsc_df = gdsc_df[
 gdsc_df['LN_IC50'] = 1 / (np.exp(-0.1 * gdsc_df['LN_IC50']) + 1)
 
 # Step 7: Filter binary_feature_matrix and gsva_matrix to keep only common cell lines
-binary_feature_matrix = binary_feature_matrix.loc[common_cell_lines]
-gsva_df = gsva_df.loc[:, list(common_cell_lines)]  # since cell lines are columns
+# binary_feature_matrix = binary_feature_matrix.loc[common_cell_lines]
+# gsva_df = gsva_df.loc[:, list(common_cell_lines)]  # since cell lines are columns
 
 drug_smiles = gdsc_df.drop_duplicates(subset="DRUG_ID")[["DRUG_ID", "SMILES"]]
 
@@ -642,7 +629,7 @@ for _, row in drug_smiles.iterrows():
     if graph is not None:
         precomputed_graphs[drug_id] = graph
 
-gsva_matrix = gsva_df.T  # Now cell lines are rows
+# gsva_matrix = gsva_df.T  # Now cell lines are rows
 
 
 # dataset = ModifiedMGATAFDataset(
@@ -673,7 +660,7 @@ torch.backends.cudnn.benchmark = True
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Main loop over seeds
-output_file = f"fused_mgataf_type{ablation_study_id}_results_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+output_file = f"mgataf_oldDS_results_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
 seeds = [42, 52, 62, 72, 82]
 all_rmse, all_pcc = [], []
 

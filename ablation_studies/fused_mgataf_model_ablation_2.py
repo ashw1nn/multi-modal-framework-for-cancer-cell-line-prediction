@@ -358,13 +358,49 @@ def evaluate_on_test_set(model, test_loader):
 def train_and_evaluate(seed):
     set_seed(seed)
 
-    indices = list(range(len(dataset)))
-    train_idx, test_idx = train_test_split(indices, test_size=0.1, random_state=seed)
-    train_idx, val_idx = train_test_split(train_idx, test_size=0.1, random_state=seed)
+    # indices = list(range(len(dataset)))
+    # train_idx, test_idx = train_test_split(indices, test_size=0.1, random_state=seed)
+    # train_idx, val_idx = train_test_split(train_idx, test_size=0.1, random_state=seed)
 
-    train_set = Subset(dataset, train_idx)
-    val_set = Subset(dataset, val_idx)
-    test_set = Subset(dataset, test_idx)
+    # train_set = Subset(dataset, train_idx)
+    # val_set = Subset(dataset, val_idx)
+    # test_set = Subset(dataset, test_idx)
+
+    print(f"Total {len(common_cell_lines)} common cell lines")
+    # common_cell_lines = np.array(common_cell_lines)
+    np.random.shuffle(common_cell_lines)
+    cell_lines_train = common_cell_lines[: int(0.8*common_cell_lines.shape[0])]
+    cell_lines_test = common_cell_lines[int(0.8*common_cell_lines.shape[0]) : int(0.9*common_cell_lines.shape[0])]
+    cell_lines_val = common_cell_lines[int(0.9*common_cell_lines.shape[0]):]
+    print(f"Train: {cell_lines_train.shape[0]} cell lines")
+    print(f"Test: {cell_lines_test.shape[0]} cell lines")
+    print(f"Val: {cell_lines_val.shape[0]} cell lines")
+
+    train_set = ModifiedMGATAFDataset(
+        gdsc_df=gdsc_df[gdsc_df["CLEAN_CELL_LINE"].isin(cell_lines_train)].reset_index(drop=True),
+        fingerprint_dict=fingerprint_dict,
+        cell_feature_matrix=binary_feature_matrix,
+        gsva_matrix=gsva_matrix,
+        graph_dict=precomputed_graphs
+    )
+    val_set = ModifiedMGATAFDataset(
+        gdsc_df=gdsc_df[gdsc_df["CLEAN_CELL_LINE"].isin(cell_lines_val)].reset_index(drop=True),
+        fingerprint_dict=fingerprint_dict,
+        cell_feature_matrix=binary_feature_matrix,
+        gsva_matrix=gsva_matrix,
+        graph_dict=precomputed_graphs
+    )
+    test_set = ModifiedMGATAFDataset(
+        gdsc_df=gdsc_df[gdsc_df["CLEAN_CELL_LINE"].isin(cell_lines_test)].reset_index(drop=True),
+        fingerprint_dict=fingerprint_dict,
+        cell_feature_matrix=binary_feature_matrix,
+        gsva_matrix=gsva_matrix,
+        graph_dict=precomputed_graphs
+    )
+
+    print(f"Train: {len(train_set)} pairs")
+    print(f"Val: {len(val_set)} pairs")
+    print(f"Val: {len(test_set)} pairs")
 
     train_loader = DataLoader(train_set, batch_size=64, shuffle=True, collate_fn=modified_mgataf_collate_fn)
     val_loader = DataLoader(val_set, batch_size=64, shuffle=False, collate_fn=modified_mgataf_collate_fn)
@@ -581,7 +617,7 @@ valid_gsva_cells = set(gsva_df.columns)
 
 # Step 5: Get cell lines common to all three
 common_cell_lines = valid_mutcnv_cells & valid_gsva_cells & set(gdsc_df["CLEAN_CELL_LINE"])
-common_cell_lines = list(common_cell_lines)
+common_cell_lines = np.array(list(common_cell_lines))
 # Step 6: Filter gdsc_df to keep only rows with common cell lines and valid drugs/SMILES
 gdsc_df = gdsc_df[
     gdsc_df["DRUG_ID"].isin(valid_drugs) &
@@ -609,26 +645,26 @@ for _, row in drug_smiles.iterrows():
 gsva_matrix = gsva_df.T  # Now cell lines are rows
 
 
-dataset = ModifiedMGATAFDataset(
-    gdsc_df=gdsc_df,
-    fingerprint_dict=fingerprint_dict,
-    cell_feature_matrix=binary_feature_matrix,
-    gsva_matrix=gsva_matrix,
-    graph_dict=precomputed_graphs
-)
+# dataset = ModifiedMGATAFDataset(
+#     gdsc_df=gdsc_df,
+#     fingerprint_dict=fingerprint_dict,
+#     cell_feature_matrix=binary_feature_matrix,
+#     gsva_matrix=gsva_matrix,
+#     graph_dict=precomputed_graphs
+# )
 
-sample = dataset[0]
-graph, fingerprint, cell_feat, gsva_feat, label = sample
+# sample = dataset[0]
+# graph, fingerprint, cell_feat, gsva_feat, label = sample
 
-print("Graph:")
-print(graph)
-print("Graph node features shape:", graph.x.shape)
-print("Graph edge_index shape:", graph.edge_index.shape)
-print()
-print("Fingerprint shape:", fingerprint.shape)
-print("Cell line features shape:", cell_feat.shape)
-print("GSVA features shape:", gsva_feat.shape)
-print("Label (ln_IC50):", label)
+# print("Graph:")
+# print(graph)
+# print("Graph node features shape:", graph.x.shape)
+# print("Graph edge_index shape:", graph.edge_index.shape)
+# print()
+# print("Fingerprint shape:", fingerprint.shape)
+# print("Cell line features shape:", cell_feat.shape)
+# print("GSVA features shape:", gsva_feat.shape)
+# print("Label (ln_IC50):", label)
 
 print("CUDA Available:", torch.cuda.is_available())
 print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "No GPU")
